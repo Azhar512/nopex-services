@@ -182,40 +182,68 @@ const Navbar = () => {
           font-weight: 700;
           font-size: 1.75rem;
           letter-spacing: 0.02em;
-          color: hsl(var(--foreground));
         }
 
         .broken-n {
           position: relative;
           display: inline-block;
           font-weight: 800;
-          color: hsl(var(--primary));
+          background: linear-gradient(135deg, #00B4DB 0%, #00D4AA 30%, #FF6B35 70%, #F7931E 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
         }
 
         .broken-n::before {
           content: '';
           position: absolute;
-          top: 50%;
-          left: 0;
-          right: 0;
-          height: 2px;
-          background: hsl(var(--background));
-          transform: translateY(-50%);
+          top: 0;
+          right: -8px;
+          width: 12px;
+          height: 100%;
+          background: linear-gradient(135deg, #FF6B35 0%, #F7931E 50%, #FFD700 100%);
+          clip-path: polygon(0 0, 100% 20%, 100% 80%, 0 100%);
+          transform: skew(-15deg);
+        }
+
+        .broken-n::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: -20px;
+          width: 8px;
+          height: 60%;
+          background: linear-gradient(135deg, #F7931E 0%, #FFD700 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+          transform: skew(-15deg);
         }
 
         .logo-rest {
           font-weight: 600;
-          color: hsl(var(--foreground));
-          margin-left: 2px;
+          color: #2C3E50;
+          margin-left: 8px;
         }
 
         .nopex-logo:hover .broken-n {
-          color: hsl(var(--primary));
-          transition: color 0.3s ease;
+          background: linear-gradient(135deg, #00A8CC 0%, #00C4A0 30%, #FF5722 70%, #FF9800 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          transition: all 0.3s ease;
+        }
+
+        .nopex-logo:hover .broken-n::before {
+          background: linear-gradient(135deg, #FF5722 0%, #FF9800 50%, #FFC107 100%);
+          transition: all 0.3s ease;
+        }
+
+        .nopex-logo:hover .broken-n::after {
+          background: linear-gradient(135deg, #FF9800 0%, #FFC107 100%);
+          transition: all 0.3s ease;
         }
 
         .nopex-logo:hover .logo-rest {
-          color: hsl(var(--primary));
+          color: #34495E;
           transition: color 0.3s ease;
         }
       `}</style>

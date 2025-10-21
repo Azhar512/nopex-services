@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Youtube, Instagram, Facebook } from "lucide-react";
+import { Linkedin, Twitter, Instagram, Facebook } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -36,12 +36,12 @@ const Footer = () => {
           <div className="col-span-12 md:col-span-6 lg:col-span-2">
             <ul className="space-y-3">
               <li>
-                <Link to="/contact" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/careers" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Careers
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/offices" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Offices
                 </Link>
               </li>
@@ -51,9 +51,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/sitemap" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Site Map
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -62,24 +62,24 @@ const Footer = () => {
           <div className="col-span-12 md:col-span-6 lg:col-span-2">
             <ul className="space-y-3">
               <li>
-                <Link to="/" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/without-limits" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Without Limits
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/news" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   News
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/blog" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Blog
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/social-media" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Social Media
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -88,29 +88,29 @@ const Footer = () => {
           <div className="col-span-12 md:col-span-6 lg:col-span-2">
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/contract-vehicles" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Contract Vehicles
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/supply-chain" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Our Supply Chain
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/anti-human-trafficking" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Anti-Human Trafficking Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/modern-slavery" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Modern slavery statement
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                <Link to="/recruitment-privacy" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Recruitment Privacy Notice
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -123,39 +123,40 @@ const Footer = () => {
             </p>
             <div className="flex space-x-3">
               <a
-                href="#"
+                href="https://www.facebook.com/nopexservices"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-[#a8d96e] transition-colors group"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5 text-[#1a4d4d]" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/nopexservices/?hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-[#a8d96e] transition-colors group"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5 text-[#1a4d4d]" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/nopexservices/posts/?feedView=all"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-[#a8d96e] transition-colors group"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5 text-[#1a4d4d]" />
               </a>
               <a
-                href="#"
+                href="https://twitter.com/nopexservices"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-[#a8d96e] transition-colors group"
                 aria-label="Twitter"
               >
                 <Twitter className="w-5 h-5 text-[#1a4d4d]" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-[#a8d96e] transition-colors group"
-                aria-label="YouTube"
-              >
-                <Youtube className="w-5 h-5 text-[#1a4d4d]" />
               </a>
             </div>
           </div>
@@ -166,23 +167,35 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white text-sm">© 2025 NOPEX. All Rights Reserved.</p>
             <div className="flex flex-wrap gap-4 text-sm">
-              <a href="#" className="text-white hover:text-[#a8d96e] transition-colors">
+              <Link to="/terms-of-use" className="text-white hover:text-[#a8d96e] transition-colors">
                 Terms of Use
-              </a>
+              </Link>
               <span className="text-white/40">|</span>
-              <a href="#" className="text-white hover:text-[#a8d96e] transition-colors">
+              <Link to="/privacy-policy" className="text-white hover:text-[#a8d96e] transition-colors">
                 Privacy Policy
-              </a>
+              </Link>
               <span className="text-white/40">|</span>
-              <a href="#" className="text-white hover:text-[#a8d96e] transition-colors">
+              <button 
+                onClick={() => window.location.reload()} 
+                className="text-white hover:text-[#a8d96e] transition-colors"
+              >
                 Reset my location
-              </a>
+              </button>
               <span className="text-white/40">|</span>
-              <a href="#" className="text-white hover:text-[#a8d96e] transition-colors">
+              <Link to="/cookies-policy" className="text-white hover:text-[#a8d96e] transition-colors">
                 Cookies Policy
-              </a>
+              </Link>
               <span className="text-white/40">|</span>
-              <button className="text-white hover:text-[#a8d96e] transition-colors">
+              <button 
+                onClick={() => {
+                  // Simple cookie settings toggle
+                  const current = localStorage.getItem('cookieSettings') || 'accepted';
+                  const newSetting = current === 'accepted' ? 'declined' : 'accepted';
+                  localStorage.setItem('cookieSettings', newSetting);
+                  alert(`Cookie settings ${newSetting}`);
+                }}
+                className="text-white hover:text-[#a8d96e] transition-colors"
+              >
                 Cookie settings
               </button>
             </div>

@@ -22,6 +22,21 @@ import Articles from "./pages/Articles";
 import Publications from "./pages/Publications";
 import LatestPosts from "./pages/LatestPosts";
 import CaseStudies from "./pages/CaseStudies";
+import Careers from "./pages/Careers";
+import Offices from "./pages/Offices";
+import Sitemap from "./pages/Sitemap";
+import WithoutLimits from "./pages/WithoutLimits";
+import News from "./pages/News";
+import Blog from "./pages/Blog";
+import SocialMedia from "./pages/SocialMedia";
+import ContractVehicles from "./pages/ContractVehicles";
+import SupplyChain from "./pages/SupplyChain";
+import AntiHumanTrafficking from "./pages/AntiHumanTrafficking";
+import ModernSlavery from "./pages/ModernSlavery";
+import RecruitmentPrivacy from "./pages/RecruitmentPrivacy";
+import TermsOfUse from "./pages/TermsOfUse";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import CookiesPolicy from "./pages/CookiesPolicy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -52,6 +67,21 @@ const App = () => (
             <Route path="/publications" element={<Publications />} />
             <Route path="/latest-posts" element={<LatestPosts />} />
             <Route path="/case-studies" element={<CaseStudies />} />
+            <Route path="/careers" element={<Careers />} />
+            <Route path="/offices" element={<Offices />} />
+            <Route path="/sitemap" element={<Sitemap />} />
+            <Route path="/without-limits" element={<WithoutLimits />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/social-media" element={<SocialMedia />} />
+            <Route path="/contract-vehicles" element={<ContractVehicles />} />
+            <Route path="/supply-chain" element={<SupplyChain />} />
+            <Route path="/anti-human-trafficking" element={<AntiHumanTrafficking />} />
+            <Route path="/modern-slavery" element={<ModernSlavery />} />
+            <Route path="/recruitment-privacy" element={<RecruitmentPrivacy />} />
+            <Route path="/terms-of-use" element={<TermsOfUse />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/cookies-policy" element={<CookiesPolicy />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

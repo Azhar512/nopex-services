@@ -174,66 +174,67 @@ const Navbar = () => {
   return (
     <>
       <style>{`
-        .broken-logo {
+        .nopex-logo {
           position: relative;
-          display: inline-block;
-          font-family: 'Inter', sans-serif;
-          letter-spacing: 0.1em;
-        }
-
-        .broken-letter {
-          display: inline-block;
-          position: relative;
-          font-weight: 900;
+          display: inline-flex;
+          align-items: center;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+          font-weight: 700;
           font-size: 1.75rem;
-          line-height: 1;
+          letter-spacing: 0.02em;
+          color: hsl(var(--foreground));
         }
 
-        .broken-letter:nth-child(1) {
-          color: #00d4ff;
-          transform: translateY(-2px) rotate(-1deg);
-          text-shadow: 2px 2px 0px rgba(255, 107, 0, 0.3);
+        .broken-n {
+          position: relative;
+          display: inline-block;
+          font-weight: 800;
         }
 
-        .broken-letter:nth-child(2) {
-          color: #ff6b00;
-          transform: translateY(2px) rotate(1deg);
-          text-shadow: -2px -2px 0px rgba(0, 212, 255, 0.3);
+        .broken-n::before {
+          content: 'N';
+          position: absolute;
+          top: 0;
+          left: 0;
+          color: hsl(var(--primary));
+          clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+          transform: translateY(-1px);
         }
 
-        .broken-letter:nth-child(3) {
-          color: #00ff88;
-          transform: translateY(-1px) rotate(2deg);
-          text-shadow: 2px 2px 0px rgba(255, 0, 127, 0.3);
+        .broken-n::after {
+          content: 'N';
+          position: relative;
+          display: inline-block;
+          color: hsl(var(--primary));
+          clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
+          transform: translateY(1px);
         }
 
-        .broken-letter:nth-child(4) {
-          color: #ff007f;
-          transform: translateY(1px) rotate(-2deg);
-          text-shadow: -2px -2px 0px rgba(0, 255, 136, 0.3);
+        .logo-rest {
+          font-weight: 600;
+          color: hsl(var(--foreground));
         }
 
-        .broken-letter:nth-child(5) {
-          color: #ffd700;
-          transform: translateY(-2px) rotate(1deg);
-          text-shadow: 2px 2px 0px rgba(138, 43, 226, 0.3);
+        .nopex-logo:hover .broken-n::before {
+          transform: translateY(-2px) translateX(-1px);
+          transition: transform 0.3s ease;
         }
 
-        .broken-logo:hover .broken-letter {
-          animation: jitter 0.3s infinite;
+        .nopex-logo:hover .broken-n::after {
+          transform: translateY(2px) translateX(1px);
+          transition: transform 0.3s ease;
         }
 
-        @keyframes jitter {
-          0%, 100% { transform: translate(0, 0) rotate(0deg); }
-          25% { transform: translate(-1px, -1px) rotate(-1deg); }
-          50% { transform: translate(1px, 1px) rotate(1deg); }
-          75% { transform: translate(-1px, 1px) rotate(-0.5deg); }
+        .nopex-logo:hover .logo-rest {
+          color: hsl(var(--primary));
+          transition: color 0.3s ease;
         }
 
-        .broken-letter:hover {
-          filter: brightness(1.3);
-          transform: scale(1.1) !important;
-          transition: all 0.2s ease;
+        @media (prefers-reduced-motion: reduce) {
+          .nopex-logo:hover .broken-n::before,
+          .nopex-logo:hover .broken-n::after {
+            transform: none;
+          }
         }
       `}</style>
     <nav
@@ -247,15 +248,12 @@ const Navbar = () => {
             {/* Logo */}
             <Link
               to="/"
-              className="flex items-center gap-3"
+              className="flex items-center gap-3 group"
             >
-              <img src="/logo.svg" alt="Nopex Logo" className="h-10 w-10" />
-              <div className="broken-logo">
-                <span className="broken-letter">N</span>
-                <span className="broken-letter">O</span>
-                <span className="broken-letter">P</span>
-                <span className="broken-letter">E</span>
-                <span className="broken-letter">X</span>
+              <img src="/logo.svg" alt="Nopex Logo" className="h-10 w-10 transition-transform group-hover:rotate-12" />
+              <div className="nopex-logo">
+                <span className="broken-n">N</span>
+                <span className="logo-rest">OPEX</span>
               </div>
             </Link>
 

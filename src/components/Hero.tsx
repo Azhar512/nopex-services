@@ -60,27 +60,23 @@ const Hero = () => {
         <div className="max-w-[1400px] mx-auto px-6">
           <div className="flex overflow-x-auto">
             {[
-              "OUR SERVICES",
-              "MARKETS",
-              "CASE STUDIES",
-              "BIM & DIGITAL",
-              "CONTACT US",
+              { label: "OUR SERVICES", link: "/services" },
+              { label: "MARKETS", link: "/markets" },
+              { label: "CASE STUDIES", link: "/case-studies" },
+              { label: "BIM & DIGITAL", link: "/bim-digital" },
+              { label: "CONTACT US", link: "/contact" },
             ].map((tab, index) => (
-              <button
-                key={tab}
-                onClick={() =>
-                  scrollToSection(
-                    `#${tab.toLowerCase().replace(/\s+/g, "-")}`
-                  )
-                }
+              <Link
+                key={tab.label}
+                to={tab.link}
                 className={`px-6 py-4 text-xs font-bold whitespace-nowrap border-b-2 transition-colors ${
                   index === 0
                     ? "border-primary text-primary"
-                    : "border-transparent text-muted-foreground hover:text-foreground"
+                    : "border-transparent text-muted-foreground hover:text-foreground hover:border-primary/50"
                 }`}
               >
-                {tab}
-              </button>
+                {tab.label}
+              </Link>
             ))}
           </div>
         </div>

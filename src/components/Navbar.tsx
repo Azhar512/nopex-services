@@ -189,52 +189,34 @@ const Navbar = () => {
           position: relative;
           display: inline-block;
           font-weight: 800;
+          color: hsl(var(--primary));
         }
 
         .broken-n::before {
-          content: 'N';
+          content: '';
           position: absolute;
-          top: 0;
+          top: 50%;
           left: 0;
-          color: hsl(var(--primary));
-          clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-          transform: translateY(-1px);
-        }
-
-        .broken-n::after {
-          content: 'N';
-          position: relative;
-          display: inline-block;
-          color: hsl(var(--primary));
-          clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
-          transform: translateY(1px);
+          right: 0;
+          height: 2px;
+          background: hsl(var(--background));
+          transform: translateY(-50%);
         }
 
         .logo-rest {
           font-weight: 600;
           color: hsl(var(--foreground));
+          margin-left: 2px;
         }
 
-        .nopex-logo:hover .broken-n::before {
-          transform: translateY(-2px) translateX(-1px);
-          transition: transform 0.3s ease;
-        }
-
-        .nopex-logo:hover .broken-n::after {
-          transform: translateY(2px) translateX(1px);
-          transition: transform 0.3s ease;
+        .nopex-logo:hover .broken-n {
+          color: hsl(var(--primary));
+          transition: color 0.3s ease;
         }
 
         .nopex-logo:hover .logo-rest {
           color: hsl(var(--primary));
           transition: color 0.3s ease;
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-          .nopex-logo:hover .broken-n::before,
-          .nopex-logo:hover .broken-n::after {
-            transform: none;
-          }
         }
       `}</style>
     <nav

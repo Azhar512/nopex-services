@@ -198,8 +198,8 @@ const Navbar = () => {
           content: '';
           position: absolute;
           top: 20%;
-          right: -4px;
-          width: 6px;
+          right: -2px;
+          width: 4px;
           height: 30%;
           background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
@@ -210,8 +210,8 @@ const Navbar = () => {
           content: '';
           position: absolute;
           top: 60%;
-          right: -8px;
-          width: 4px;
+          right: -4px;
+          width: 3px;
           height: 25%;
           background: linear-gradient(135deg, #F7931E 0%, #FFD700 100%);
           clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
@@ -221,7 +221,7 @@ const Navbar = () => {
         .logo-rest {
           font-weight: 600;
           color: #2C3E50;
-          margin-left: 8px;
+          margin-left: 2px;
         }
 
         .nopex-logo:hover .broken-n {

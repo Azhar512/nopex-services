@@ -197,25 +197,25 @@ const Navbar = () => {
         .broken-n::before {
           content: '';
           position: absolute;
-          top: 0;
-          right: -8px;
-          width: 12px;
-          height: 100%;
-          background: linear-gradient(135deg, #FF6B35 0%, #F7931E 50%, #FFD700 100%);
-          clip-path: polygon(0 0, 100% 20%, 100% 80%, 0 100%);
-          transform: skew(-15deg);
+          top: 20%;
+          right: -4px;
+          width: 6px;
+          height: 30%;
+          background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+          transform: skew(-10deg);
         }
 
         .broken-n::after {
           content: '';
           position: absolute;
-          top: 0;
-          right: -20px;
-          width: 8px;
-          height: 60%;
+          top: 60%;
+          right: -8px;
+          width: 4px;
+          height: 25%;
           background: linear-gradient(135deg, #F7931E 0%, #FFD700 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
-          transform: skew(-15deg);
+          clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+          transform: skew(-10deg);
         }
 
         .logo-rest {

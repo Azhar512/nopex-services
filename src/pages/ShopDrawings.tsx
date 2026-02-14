@@ -107,27 +107,27 @@ const ShopDrawings = () => {
                         alt="Architectural Blueprints and Technical Drawings"
                         className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-r from-[#1a4d4d]/95 via-[#1a4d4d]/85 to-[#1a4d4d]/70" />
+                    <div className="absolute inset-0 bg-[#0d2e2e]/90" />
                 </div>
-                <div className="max-w-[1400px] mx-auto px-6 relative z-10">
+                <div className="max-w-[1400px] mx-auto px-6 relative z-10" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.5)' }}>
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                         className="text-center max-w-5xl mx-auto"
                     >
-                        <div className="inline-flex items-center gap-3 mb-8 px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full">
+                        <div className="inline-flex items-center gap-3 mb-8 px-6 py-3 bg-white/15 backdrop-blur-md rounded-full border border-white/20" style={{ textShadow: 'none' }}>
                             <Layout className="w-5 h-5 text-[#a8d96e]" />
-                            <span className="text-sm font-semibold tracking-wider">SHOP DRAWING SERVICES</span>
+                            <span className="text-sm font-semibold tracking-wider text-white">SHOP DRAWING SERVICES</span>
                         </div>
-                        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+                        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-tight text-white">
                             Precision Drafting.<br />Fabrication Ready.
                         </h1>
-                        <p className="text-xl md:text-2xl leading-relaxed font-light opacity-90 max-w-3xl mx-auto mb-10">
+                        <p className="text-xl md:text-2xl leading-relaxed font-light text-white/95 max-w-3xl mx-auto mb-10">
                             Bridge the gap between design intent and on-site reality with technical shop drawings that ensure accuracy,
                             reduce rework, and accelerate your fabrication timeline.
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center" style={{ textShadow: 'none' }}>
                             <Link
                                 to="/contact"
                                 className="px-8 py-4 bg-[#a8d96e] text-[#1a4d4d] font-semibold rounded-md hover:bg-[#96c75c] transition-all inline-flex items-center gap-2"

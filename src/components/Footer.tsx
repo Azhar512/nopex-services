@@ -25,6 +25,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/shop-drawings" className="text-white hover:text-[#a8d96e] transition-colors text-base">
+                  Shop Drawings
+                </Link>
+              </li>
+              <li>
                 <Link to="/projects" className="text-white hover:text-[#a8d96e] transition-colors text-base">
                   Projects
                 </Link>
@@ -175,8 +180,8 @@ const Footer = () => {
                 Privacy Policy
               </Link>
               <span className="text-white/40">|</span>
-              <button 
-                onClick={() => window.location.reload()} 
+              <button
+                onClick={() => window.location.reload()}
                 className="text-white hover:text-[#a8d96e] transition-colors"
               >
                 Reset my location
@@ -186,7 +191,7 @@ const Footer = () => {
                 Cookies Policy
               </Link>
               <span className="text-white/40">|</span>
-              <button 
+              <button
                 onClick={() => {
                   // Simple cookie settings toggle
                   const current = localStorage.getItem('cookieSettings') || 'accepted';

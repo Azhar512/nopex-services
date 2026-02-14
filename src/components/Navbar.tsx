@@ -113,8 +113,17 @@ const Navbar = () => {
             { name: "Civil Engineering", link: "/services" },
             { name: "Structural Engineering", link: "/services" },
             { name: "MEP Engineering", link: "/services" },
-            { name: "BIM & Digital Engineering", link: "/services" },
-            { name: "Shop Drawing Services", link: "/shop-drawings" }
+            { name: "BIM & Digital Engineering", link: "/services" }
+          ]
+        },
+        {
+          title: "Shop Drawings",
+          description: "Precision fabrication drawings for millwork, stone, tile, and metal — fabrication-ready and code-compliant.",
+          links: [
+            { name: "Millwork & Joinery Drawings", link: "/shop-drawings" },
+            { name: "Stone & Tile Drawings", link: "/shop-drawings" },
+            { name: "Metal Fabrication Drawings", link: "/shop-drawings" },
+            { name: "View All Shop Drawing Services", link: "/shop-drawings" }
           ]
         },
         {
@@ -341,8 +350,8 @@ const Navbar = () => {
                                     <div className="flex-shrink-0">
                                       <img
                                         src={`https://images.unsplash.com/photo-${idx === 0 ? '1486406146926-c627a92ad1ab' :
-                                            idx === 1 ? '1581094271901-8022df4466f9' :
-                                              '1541888946425-d81bb19240f5'
+                                          idx === 1 ? '1581094271901-8022df4466f9' :
+                                            '1541888946425-d81bb19240f5'
                                           }?w=120&h=80&q=80&fit=crop`}
                                         alt={section.title}
                                         className="w-[100px] h-[70px] object-cover rounded"

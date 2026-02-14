@@ -99,11 +99,15 @@ const ShopDrawings = () => {
             <Navbar />
 
             {/* ═══════════ HERO ═══════════ */}
-            <section className="relative pt-32 pb-24 bg-gradient-to-br from-[#1a4d4d] via-[#2a5d5d] to-[#1a4d4d] text-white overflow-hidden">
-                <div className="absolute inset-0 opacity-10">
-                    <div className="absolute inset-0" style={{
-                        backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'40\' height=\'40\' viewBox=\'0 0 40 40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.3\' fill-rule=\'evenodd\'%3E%3Cpath d=\'M0 20L20 0h20v20L20 40H0z\'/%3E%3C/g%3E%3C/svg%3E")'
-                    }} />
+            <section className="relative pt-32 pb-24 text-white overflow-hidden min-h-[600px] flex items-center">
+                {/* Background Image */}
+                <div className="absolute inset-0">
+                    <img
+                        src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80"
+                        alt="Architectural Blueprints and Technical Drawings"
+                        className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-r from-[#1a4d4d]/95 via-[#1a4d4d]/85 to-[#1a4d4d]/70" />
                 </div>
                 <div className="max-w-[1400px] mx-auto px-6 relative z-10">
                     <motion.div

@@ -101,13 +101,13 @@ const Markets = () => {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white overflow-hidden">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
               Designing for Every Sector — Globally
             </h1>
             <p className="text-xl opacity-90 max-w-3xl">
@@ -120,7 +120,7 @@ const Markets = () => {
       {/* Markets Sections */}
       {markets.map((market, index) => (
         <section key={market.title} className={index % 2 === 0 ? "py-20 bg-background" : "py-20 bg-muted"}>
-          <div className="max-w-[1400px] mx-auto px-6">
+          <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <motion.div
                 initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
@@ -140,7 +140,7 @@ const Markets = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <h2 className="text-4xl font-bold mb-6">{market.title}</h2>
+                <h2 className="text-2xl sm:text-4xl font-bold mb-6">{market.title}</h2>
                 <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                   {market.description}
                 </p>
@@ -162,14 +162,14 @@ const Markets = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Transforming Design, Delivering Impact.
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
             Explore how Nopex Services supports diverse markets through integrated design and BIM innovation.
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/projects"
               className="inline-flex items-center px-8 py-4 bg-white text-primary font-semibold rounded-md hover:bg-gray-100 transition-all"

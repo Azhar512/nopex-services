@@ -20,13 +20,13 @@ const About = () => {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white overflow-hidden">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
               Engineering Excellence. Delivered Globally.
             </h1>
           </motion.div>
@@ -35,7 +35,7 @@ const About = () => {
 
       {/* Who We Are */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="max-w-4xl">
             <h2 className="text-xs font-bold text-primary uppercase tracking-wider mb-4">
               WHO WE ARE
@@ -52,7 +52,7 @@ const About = () => {
 
       {/* Mission & Vision */}
       <section className="py-20 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
@@ -72,8 +72,8 @@ const About = () => {
 
       {/* Core Values */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-12 text-center">Our Core Values</h2>
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-12 text-center">Our Core Values</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
@@ -114,8 +114,8 @@ const About = () => {
 
       {/* Leadership */}
       <section className="py-20 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-6">Leadership & Expertise</h2>
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">Leadership & Expertise</h2>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-4xl">
             With a global network of engineers, architects, and BIM specialists, Nopex Services combines technical expertise with localized understanding. Our leaders bring decades of multidisciplinary experience across commercial, residential, industrial, and infrastructure projects — managing design documentation and coordination for clients in the U.S., Canada, the Middle East, Europe, and Asia-Pacific.
           </p>
@@ -127,8 +127,8 @@ const About = () => {
 
       {/* Digital Engineering & BIM */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-6">Digital Engineering & BIM Services</h2>
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">Digital Engineering & BIM Services</h2>
           <p className="text-lg text-muted-foreground mb-12 leading-relaxed max-w-4xl">
             At Nopex Services, BIM and digital design are at the heart of how we deliver projects. We model, coordinate, and simulate every element to ensure alignment between disciplines and eliminate design conflicts before construction begins.
           </p>
@@ -173,9 +173,9 @@ const About = () => {
 
       {/* Sustainability */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="max-w-4xl">
-            <h2 className="text-4xl font-bold mb-6">Global Sustainability Commitment</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Global Sustainability Commitment</h2>
             <p className="text-lg mb-6 leading-relaxed opacity-90">
               We are committed to designing responsibly and sustainably. Our engineers integrate energy modeling, water reuse strategies, and low-carbon materials to achieve performance-driven designs that align with LEED, BREEAM, WELL, and ASHRAE standards.
             </p>
@@ -188,14 +188,14 @@ const About = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             We Design, Model, and Deliver Worldwide.
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
             Partner with Nopex Services for globally coordinated engineering and BIM design solutions that turn complex challenges into simple, constructable outcomes.
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
               className="inline-flex items-center px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-md hover:bg-primary/90 transition-all"

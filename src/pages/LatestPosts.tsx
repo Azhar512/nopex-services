@@ -64,7 +64,7 @@ const LatestPosts = () => {
       
       {/* Hero */}
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-[#1a4d4d] via-[#2a5d5d] to-[#1a4d4d] text-white overflow-hidden">
-        <div className="max-w-[1400px] mx-auto px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -87,7 +87,7 @@ const LatestPosts = () => {
 
       {/* Featured Post */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -110,7 +110,7 @@ const LatestPosts = () => {
                   {posts[0].category}
                 </span>
               </div>
-              <h2 className="text-4xl font-bold mb-4">{posts[0].title}</h2>
+              <h2 className="text-2xl sm:text-4xl font-bold mb-4">{posts[0].title}</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 {posts[0].excerpt}
               </p>
@@ -134,7 +134,7 @@ const LatestPosts = () => {
 
       {/* All Posts */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <h2 className="text-3xl font-bold mb-12">Recent Posts</h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -183,9 +183,9 @@ const LatestPosts = () => {
 
       {/* Newsletter */}
       <section className="py-20 bg-gradient-to-br from-[#1a4d4d] to-[#0d3333] text-white">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
           <TrendingUp className="w-16 h-16 mx-auto mb-6 text-[#a8d96e]" />
-          <h2 className="text-4xl font-bold mb-6">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Get the Latest Updates
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">

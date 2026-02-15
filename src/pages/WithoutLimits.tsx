@@ -10,13 +10,13 @@ const WithoutLimits = () => {
       <Navbar />
 
       <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
               Without Limits
             </h1>
             <p className="text-xl opacity-90 max-w-3xl">
@@ -27,14 +27,14 @@ const WithoutLimits = () => {
       </section>
 
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-4xl font-bold mb-6">Our Philosophy</h2>
+              <h2 className="text-2xl sm:text-4xl font-bold mb-6">Our Philosophy</h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 'Without Limits' isn't just a tagline; it's the operational standard at Nopex Services. It represents our commitment to solving the most complex engineering challenges through a culture of unconstrained innovation and digital transformation.
               </p>
@@ -97,7 +97,7 @@ const WithoutLimits = () => {
           </div>
 
           <div className="mt-24 text-center p-12 bg-[#1a4d4d] text-white rounded-lg shadow-2xl">
-            <h2 className="text-4xl font-bold mb-6">Ready to work without limits?</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Ready to work without limits?</h2>
             <p className="text-xl opacity-90 mb-10 max-w-2xl mx-auto">
               Bring your most complex challenges to us. We have the technical depth and the creative vision to turn them into reality.
             </p>

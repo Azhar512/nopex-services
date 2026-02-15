@@ -75,13 +75,13 @@ const Careers = () => {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
               Join Our Global Team
             </h1>
             <p className="text-xl opacity-90 max-w-3xl">
@@ -94,9 +94,9 @@ const Careers = () => {
 
       {/* Why Work With Us */}
       <section className="py-20 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Why Choose Nopex Services?</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Why Choose Nopex Services?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               We offer more than just a job – we provide opportunities for growth, innovation, and global impact.
             </p>
@@ -147,9 +147,9 @@ const Careers = () => {
 
       {/* Job Openings */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Current Openings</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Current Openings</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Explore our current job opportunities and find your next career move.
             </p>
@@ -211,8 +211,8 @@ const Careers = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Don't See Your Perfect Role?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">

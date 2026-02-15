@@ -109,7 +109,7 @@ const ShopDrawings = () => {
                     />
                     <div className="absolute inset-0 bg-[#0d2e2e]/90" />
                 </div>
-                <div className="max-w-[1400px] mx-auto px-6 relative z-10" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.5)' }}>
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative z-10" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.5)' }}>
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -120,10 +120,10 @@ const ShopDrawings = () => {
                             <Layout className="w-5 h-5 text-[#a8d96e]" />
                             <span className="text-sm font-semibold tracking-wider text-white">SHOP DRAWING SERVICES</span>
                         </div>
-                        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-tight text-white">
+                        <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 sm:mb-8 leading-tight text-white">
                             Precision Drafting.<br />Fabrication Ready.
                         </h1>
-                        <p className="text-xl md:text-2xl leading-relaxed font-light text-white/95 max-w-3xl mx-auto mb-10">
+                        <p className="text-lg md:text-2xl leading-relaxed font-light text-white/95 max-w-3xl mx-auto mb-8 sm:mb-10">
                             Bridge the gap between design intent and on-site reality with technical shop drawings that ensure accuracy,
                             reduce rework, and accelerate your fabrication timeline.
                         </p>
@@ -147,7 +147,7 @@ const ShopDrawings = () => {
 
             {/* ═══════════ WHAT ARE SHOP DRAWINGS ═══════════ */}
             <section className="py-20 bg-background">
-                <div className="max-w-[1400px] mx-auto px-6">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
                         <motion.div
                             initial={{ opacity: 0, x: -30 }}
@@ -155,7 +155,7 @@ const ShopDrawings = () => {
                             transition={{ duration: 0.6 }}
                         >
                             <div className="text-xs font-bold text-primary uppercase tracking-wider mb-4">ABOUT SHOP DRAWINGS</div>
-                            <h2 className="text-4xl lg:text-5xl font-bold mb-8">What Are Shop Drawings?</h2>
+                            <h2 className="text-3xl lg:text-5xl font-bold mb-8">What Are Shop Drawings?</h2>
                             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                                 Shop drawings are detailed fabrication-level documents that translate architectural and engineering
                                 designs into precise instructions for manufacturers, fabricators, and installers. They include exact
@@ -193,7 +193,7 @@ const ShopDrawings = () => {
 
             {/* ═══════════ MILLWORK & JOINERY ═══════════ */}
             <section className="py-20 bg-muted">
-                <div className="max-w-[1400px] mx-auto px-6">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
                     <div className="grid lg:grid-cols-2 gap-16 items-start">
                         <motion.div
                             initial={{ opacity: 0, x: -30 }}
@@ -220,7 +220,7 @@ const ShopDrawings = () => {
                             <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-100 text-amber-800 rounded-full text-sm font-semibold mb-6">
                                 <Ruler className="w-4 h-4" /> MILLWORK, WOODWORK & JOINERY
                             </div>
-                            <h2 className="text-4xl font-bold mb-6">Millwork & Joinery Shop Drawings</h2>
+                            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Millwork & Joinery Shop Drawings</h2>
                             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                                 Our shop drawing services provide precise detailing for cabinetry, casework, doors, stairs, and
                                 custom woodwork. Used by millwork manufacturers, joiners, and interior contractors, they ensure
@@ -251,7 +251,7 @@ const ShopDrawings = () => {
 
             {/* ═══════════ STONE, TILE & SURFACE ═══════════ */}
             <section className="py-20 bg-background">
-                <div className="max-w-[1400px] mx-auto px-6">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
                     <div className="grid lg:grid-cols-2 gap-16 items-start">
                         <motion.div
                             initial={{ opacity: 0, x: -30 }}
@@ -261,7 +261,7 @@ const ShopDrawings = () => {
                             <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-6">
                                 <Layers className="w-4 h-4" /> STONE, TILE & SURFACE FINISHES
                             </div>
-                            <h2 className="text-4xl font-bold mb-6">Stone & Tile Shop Drawings</h2>
+                            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Stone & Tile Shop Drawings</h2>
                             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                                 These architectural shop drawings guide the accurate placement of tiles, stone surfaces,
                                 countertops, and flooring. Tile installers, surface finish contractors, shop fitters, and interior
@@ -309,7 +309,7 @@ const ShopDrawings = () => {
 
             {/* ═══════════ METAL & FABRICATION ═══════════ */}
             <section className="py-20 bg-muted">
-                <div className="max-w-[1400px] mx-auto px-6">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
                     <div className="grid lg:grid-cols-2 gap-16 items-start">
                         <motion.div
                             initial={{ opacity: 0, x: -30 }}
@@ -336,7 +336,7 @@ const ShopDrawings = () => {
                             <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-semibold mb-6">
                                 <Hammer className="w-4 h-4" /> METAL & FABRICATION
                             </div>
-                            <h2 className="text-4xl font-bold mb-6">Metal & Fabrication Shop Drawings</h2>
+                            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Metal & Fabrication Shop Drawings</h2>
                             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                                 Our engineering shop drawings offer detailed instructions for manufacturing metal components
                                 like railings, frames, and custom steelwork. Fabricators and structural contractors rely on these
@@ -367,9 +367,9 @@ const ShopDrawings = () => {
 
             {/* ═══════════ TECHNICAL COMPONENTS ═══════════ */}
             <section className="py-20 bg-background">
-                <div className="max-w-[1400px] mx-auto px-6">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl lg:text-5xl font-bold mb-6">What's Included in Every Shop Drawing</h2>
+                        <h2 className="text-3xl lg:text-5xl font-bold mb-6">What's Included in Every Shop Drawing</h2>
                         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                             Every shop drawing package we deliver is fabrication-ready and includes these critical technical details.
                         </p>
@@ -396,9 +396,9 @@ const ShopDrawings = () => {
 
             {/* ═══════════ SECTORS WE SERVE ═══════════ */}
             <section className="py-20 bg-gradient-to-br from-[#1a4d4d] to-[#0d3333] text-white">
-                <div className="max-w-[1400px] mx-auto px-6">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl lg:text-5xl font-bold mb-6">Industries We Serve</h2>
+                        <h2 className="text-3xl lg:text-5xl font-bold mb-6">Industries We Serve</h2>
                         <p className="text-xl opacity-90 max-w-3xl mx-auto">
                             Tailored shop drawing services for the unique demands of every sector.
                         </p>
@@ -423,11 +423,11 @@ const ShopDrawings = () => {
 
             {/* ═══════════ OUR PROCESS ═══════════ */}
             <section id="our-process" className="py-20 bg-background">
-                <div className="max-w-[1400px] mx-auto px-6">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
                         <div>
                             <div className="text-xs font-bold text-primary uppercase tracking-wider mb-4">HOW WE WORK</div>
-                            <h2 className="text-4xl lg:text-5xl font-bold mb-8">Our 4-Step Shop Drawing Process</h2>
+                            <h2 className="text-3xl lg:text-5xl font-bold mb-8">Our 4-Step Shop Drawing Process</h2>
                             <p className="text-lg text-muted-foreground leading-relaxed mb-10">
                                 From initial brief to final fabrication-ready drawings, our streamlined process ensures quality,
                                 speed, and zero surprises.
@@ -469,9 +469,9 @@ const ShopDrawings = () => {
 
             {/* ═══════════ SOFTWARE STACK ═══════════ */}
             <section className="py-20 bg-muted">
-                <div className="max-w-[1400px] mx-auto px-6">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl font-bold mb-6">Software Proficiency</h2>
+                        <h2 className="text-2xl sm:text-4xl font-bold mb-6">Software Proficiency</h2>
                         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                             Industry-leading tools powering every shop drawing we deliver.
                         </p>
@@ -495,7 +495,7 @@ const ShopDrawings = () => {
 
             {/* ═══════════ PROFESSIONALS WE SERVE ═══════════ */}
             <section className="py-20 bg-background">
-                <div className="max-w-[1400px] mx-auto px-6">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
                         <motion.div
                             initial={{ opacity: 0, x: -30 }}
@@ -513,7 +513,7 @@ const ShopDrawings = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.6 }}
                         >
-                            <h2 className="text-4xl font-bold mb-8">Professionals We Serve</h2>
+                            <h2 className="text-2xl sm:text-4xl font-bold mb-8">Professionals We Serve</h2>
                             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                                 Trusted by industry leaders across the AEC sector, Nopex collaborates with a wide range
                                 of professionals who rely on accurate shop drawings to bring their designs, components,
@@ -538,9 +538,9 @@ const ShopDrawings = () => {
 
             {/* ═══════════ WHY CHOOSE NOPEX ═══════════ */}
             <section className="py-20 bg-muted">
-                <div className="max-w-[1400px] mx-auto px-6">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl lg:text-5xl font-bold mb-6">Why Choose Nopex for Shop Drawings?</h2>
+                        <h2 className="text-3xl lg:text-5xl font-bold mb-6">Why Choose Nopex for Shop Drawings?</h2>
                         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                             We understand the challenges in the AEC industry and offer solutions that cater to every stage
                             of your project — from concept to construction.
@@ -555,7 +555,7 @@ const ShopDrawings = () => {
                                 transition={{ duration: 0.5, delay: i * 0.1 }}
                                 className="text-center p-8 bg-background rounded-xl shadow-md"
                             >
-                                <div className="text-4xl font-bold text-primary mb-3">{w.stat}</div>
+                                <div className="text-2xl sm:text-4xl font-bold text-primary mb-3">{w.stat}</div>
                                 <h3 className="text-lg font-semibold mb-2">{w.label}</h3>
                                 <p className="text-sm text-muted-foreground">{w.desc}</p>
                             </motion.div>
@@ -590,8 +590,8 @@ const ShopDrawings = () => {
 
             {/* ═══════════ CTA ═══════════ */}
             <section className="py-24 bg-primary text-primary-foreground">
-                <div className="max-w-[1400px] mx-auto px-6 text-center">
-                    <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+                    <h2 className="text-3xl lg:text-5xl font-bold mb-6">
                         Ready to Streamline Your Fabrication Process?
                     </h2>
                     <p className="text-xl mb-10 max-w-3xl mx-auto opacity-90">

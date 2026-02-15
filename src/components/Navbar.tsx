@@ -1,13 +1,32 @@
 import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
-import { ChevronDown, Search, ArrowRight } from "lucide-react";
-import { Link, useNavigate } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
+import { ChevronDown, Search, ArrowRight, Menu, X } from "lucide-react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [closeTimeout, setCloseTimeout] = useState<NodeJS.Timeout | null>(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileExpandedSection, setMobileExpandedSection] = useState<string | null>(null);
   const navigate = useNavigate();
+  const location = useLocation();
+
+  // Close mobile menu on route change
+  useEffect(() => {
+    setMobileMenuOpen(false);
+    setMobileExpandedSection(null);
+  }, [location.pathname]);
+
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => { document.body.style.overflow = ''; };
+  }, [mobileMenuOpen]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,14 +56,6 @@ const Navbar = () => {
     setCloseTimeout(timeout);
   };
 
-  const scrollToSection = (section: string) => {
-    const id = `#${section.toLowerCase().replace(/\s+/g, "-")}`;
-    const element = document.querySelector(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   const megaMenuContent: Record<string, any> = {
     "ABOUT US": {
       featured: {
@@ -55,32 +66,32 @@ const Navbar = () => {
       },
       sections: [
         {
-          title: "About us",
-          description: "At NOPEX Services, we believe integrated engineering design creates opportunity for everyone.",
+          title: "Our Story",
+          description: "Discover our mission, values, and the global vision that drives our engineering excellence.",
           links: [
+            { name: "About Us", link: "/about" },
             { name: "Who We Are", link: "/who-we-are" },
             { name: "Our Mission", link: "/our-mission" },
             { name: "Our Vision", link: "/our-vision" },
-            { name: "Core Values", link: "/core-values" },
-            { name: "Leadership & Expertise", link: "/leadership" },
+            { name: "Core Values", link: "/core-values" }
+          ]
+        },
+        {
+          title: "People & Culture",
+          description: "Our team of global engineers and BIM specialists combine local insight with worldwide expertise.",
+          links: [
+            { name: "Leadership", link: "/leadership" },
+            { name: "Without Limits", link: "/without-limits" },
             { name: "Sustainability", link: "/sustainability" }
           ]
         },
         {
-          title: "Digital Engineering",
-          description: "BIM and digital design are at the heart of how we deliver projects with precision and coordination.",
+          title: "Connect",
+          description: "Reach out, explore career opportunities, or visit one of our global offices.",
           links: [
-            { name: "BIM Services", link: "/services" },
-            { name: "Technical Excellence", link: "/services" },
-            { name: "Software Ecosystem", link: "/services" }
-          ]
-        },
-        {
-          title: "Our Commitment",
-          description: "We are committed to designing responsibly, sustainably, and with global standards in mind.",
-          links: [
-            { name: "Sustainability", link: "/sustainability" },
-            { name: "Our Purpose", link: "/about" }
+            { name: "Careers", link: "/careers" },
+            { name: "Offices", link: "/offices" },
+            { name: "Contact Us", link: "/contact" }
           ]
         }
       ]
@@ -179,19 +190,18 @@ const Navbar = () => {
     }
   };
 
-  const navItems = ["ABOUT US", "OUR WORK", "INSIGHTS", "CAREERS", "NEWS", "CONTACT"];
+  const navItems = ["ABOUT US", "OUR WORK", "INSIGHTS", "CAREERS", "CONTACT"];
 
   return (
     <>
       <style>{`
         .nopex-logo {
-          position: relative;
-          display: inline-flex;
+          display: flex;
           align-items: center;
-          font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-          font-weight: 700;
-          font-size: 1.75rem;
-          letter-spacing: 0.02em;
+          font-size: 1.6rem;
+          line-height: 1;
+          text-decoration: none;
+          letter-spacing: 1.5px;
         }
 
         .broken-n {
@@ -262,14 +272,14 @@ const Navbar = () => {
           }`}
       >
         <div className="border-b border-border">
-          <div className="max-w-[1400px] mx-auto px-6">
+          <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
             <div className="flex items-center justify-between h-16">
               {/* Logo */}
               <Link
                 to="/"
-                className="flex items-center gap-3 group"
+                className="flex items-center gap-2 sm:gap-3 group"
               >
-                <img src="/logo.svg" alt="Nopex Logo" className="h-10 w-10 transition-transform group-hover:rotate-12" />
+                <img src="/logo.svg" alt="Nopex Logo" className="h-8 w-8 sm:h-10 sm:w-10 transition-transform group-hover:rotate-12" />
                 <div className="nopex-logo">
                   <span className="broken-n">N</span>
                   <span className="logo-rest">OPEX</span>
@@ -296,14 +306,14 @@ const Navbar = () => {
                         </button>
                       ) : (
                         <Link
-                          to={item === "CAREERS" ? "/" : item === "NEWS" ? "/" : "/contact"}
+                          to={item === "CAREERS" ? "/careers" : item === "CONTACT" ? "/contact" : "/"}
                           className="text-xs font-semibold text-foreground hover:text-primary transition-colors flex items-center gap-1 py-2"
                         >
                           {item}
                         </Link>
                       )}
 
-                      {/* Mega Menu Dropdown - AECOM Style */}
+                      {/* Mega Menu Dropdown - Desktop */}
                       {hasMegaMenu && activeDropdown === item && (
                         <motion.div
                           initial={{ opacity: 0, y: -10 }}
@@ -346,7 +356,6 @@ const Navbar = () => {
                               <div className="col-span-5 space-y-8">
                                 {megaMenuContent[item].sections.slice(0, 3).map((section: any, idx: number) => (
                                   <div key={idx} className="flex gap-4">
-                                    {/* Thumbnail Image */}
                                     <div className="flex-shrink-0">
                                       <img
                                         src={`https://images.unsplash.com/photo-${idx === 0 ? '1486406146926-c627a92ad1ab' :
@@ -357,7 +366,6 @@ const Navbar = () => {
                                         className="w-[100px] h-[70px] object-cover rounded"
                                       />
                                     </div>
-                                    {/* Content */}
                                     <div className="flex-1">
                                       <Link
                                         to={section.links[0]?.link || '/'}
@@ -402,10 +410,136 @@ const Navbar = () => {
                   <Search className="w-5 h-5" />
                 </button>
               </div>
+
+              {/* Mobile Hamburger Button */}
+              <button
+                className="lg:hidden p-2 text-foreground hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                aria-label="Toggle mobile menu"
+              >
+                {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              </button>
             </div>
           </div>
         </div>
       </nav>
+
+      {/* Mobile Menu Overlay */}
+      <AnimatePresence>
+        {mobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 z-40 bg-black/50 lg:hidden"
+            onClick={() => setMobileMenuOpen(false)}
+          />
+        )}
+      </AnimatePresence>
+
+      {/* Mobile Menu Panel */}
+      <AnimatePresence>
+        {mobileMenuOpen && (
+          <motion.div
+            initial={{ x: '100%' }}
+            animate={{ x: 0 }}
+            exit={{ x: '100%' }}
+            transition={{ type: 'tween', duration: 0.3 }}
+            className="fixed top-0 right-0 bottom-0 w-[85%] max-w-[380px] z-50 bg-background shadow-2xl overflow-y-auto lg:hidden"
+          >
+            {/* Mobile Menu Header */}
+            <div className="flex items-center justify-between p-4 border-b border-border">
+              <Link to="/" className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
+                <img src="/logo.svg" alt="Nopex Logo" className="h-8 w-8" />
+                <div className="nopex-logo" style={{ fontSize: '1.2rem' }}>
+                  <span className="broken-n">N</span>
+                  <span className="logo-rest">OPEX</span>
+                </div>
+              </Link>
+              <button
+                onClick={() => setMobileMenuOpen(false)}
+                className="p-2 text-foreground hover:text-primary transition-colors"
+                aria-label="Close menu"
+              >
+                <X className="w-6 h-6" />
+              </button>
+            </div>
+
+            {/* Mobile Nav Items */}
+            <div className="py-4">
+              {navItems.map((item) => {
+                const hasMegaMenu = megaMenuContent[item];
+                const isExpanded = mobileExpandedSection === item;
+
+                if (!hasMegaMenu) {
+                  return (
+                    <Link
+                      key={item}
+                      to={item === "CAREERS" ? "/careers" : item === "CONTACT" ? "/contact" : "/"}
+                      className="block px-6 py-4 text-sm font-semibold text-foreground hover:text-primary hover:bg-muted transition-colors border-b border-border/50"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {item}
+                    </Link>
+                  );
+                }
+
+                return (
+                  <div key={item} className="border-b border-border/50">
+                    <button
+                      onClick={() => setMobileExpandedSection(isExpanded ? null : item)}
+                      className="flex items-center justify-between w-full px-6 py-4 text-sm font-semibold text-foreground hover:text-primary hover:bg-muted transition-colors"
+                    >
+                      {item}
+                      <ChevronDown className={`w-4 h-4 transition-transform ${isExpanded ? 'rotate-180' : ''}`} />
+                    </button>
+
+                    <AnimatePresence>
+                      {isExpanded && (
+                        <motion.div
+                          initial={{ height: 0, opacity: 0 }}
+                          animate={{ height: 'auto', opacity: 1 }}
+                          exit={{ height: 0, opacity: 0 }}
+                          transition={{ duration: 0.2 }}
+                          className="overflow-hidden bg-muted"
+                        >
+                          {megaMenuContent[item].sections.map((section: any, sIdx: number) => (
+                            <div key={sIdx} className="px-6 py-3">
+                              <p className="text-xs font-bold text-primary uppercase tracking-wider mb-2">{section.title}</p>
+                              {section.links.map((link: any, lIdx: number) => (
+                                <Link
+                                  key={lIdx}
+                                  to={link.link}
+                                  className="block py-2 pl-3 text-sm text-muted-foreground hover:text-primary transition-colors"
+                                  onClick={() => setMobileMenuOpen(false)}
+                                >
+                                  {link.name}
+                                </Link>
+                              ))}
+                            </div>
+                          ))}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Mobile CTA */}
+            <div className="p-6 border-t border-border">
+              <Link
+                to="/contact"
+                className="block w-full text-center px-6 py-3 bg-primary text-primary-foreground font-semibold text-sm rounded-md hover:bg-primary/90 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Get in Touch
+              </Link>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 };

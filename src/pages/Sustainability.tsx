@@ -85,7 +85,7 @@ const Sustainability = () => {
           />
         </div>
 
-        <div className="max-w-[1400px] mx-auto px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -108,14 +108,14 @@ const Sustainability = () => {
 
       {/* Introduction */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-5xl font-bold mb-8">
+              <h2 className="text-3xl sm:text-5xl font-bold mb-8">
                 Sustainability at the Core
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed mb-6">
@@ -147,9 +147,9 @@ const Sustainability = () => {
 
       {/* Six Commitments */}
       <section className="py-20 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Our Sustainability Commitments</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Our Sustainability Commitments</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Six pillars that guide our approach to sustainable engineering and design.
             </p>
@@ -179,9 +179,9 @@ const Sustainability = () => {
 
       {/* Impact Metrics */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Measurable Impact</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Measurable Impact</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Our commitment to sustainability translates into real, quantifiable results.
             </p>
@@ -201,7 +201,7 @@ const Sustainability = () => {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="text-center"
               >
-                <div className="text-5xl font-bold text-green-600 mb-3">{stat.number}</div>
+                <div className="text-3xl sm:text-5xl font-bold text-green-600 mb-3">{stat.number}</div>
                 <div className="text-xl font-semibold mb-2">{stat.label}</div>
                 <p className="text-sm text-muted-foreground">{stat.description}</p>
               </motion.div>
@@ -212,9 +212,9 @@ const Sustainability = () => {
 
       {/* 2030 Goals Timeline */}
       <section className="py-20 bg-gradient-to-br from-[#1a4d4d] to-[#0d3333] text-white">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Our 2030 Sustainability Goals</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Our 2030 Sustainability Goals</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
               Ambitious targets driving our journey toward a more sustainable future.
             </p>
@@ -244,7 +244,7 @@ const Sustainability = () => {
 
       {/* BIM for Sustainability */}
       <section className="py-20 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -265,7 +265,7 @@ const Sustainability = () => {
               transition={{ duration: 0.6 }}
               className="order-1 lg:order-2"
             >
-              <h2 className="text-4xl font-bold mb-6">BIM-Enabled Sustainability Analysis</h2>
+              <h2 className="text-2xl sm:text-4xl font-bold mb-6">BIM-Enabled Sustainability Analysis</h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 Our BIM workflows enable real-time sustainability analysis, allowing us to test and optimize designs for energy performance, daylighting, thermal comfort, and carbon footprint before construction begins.
               </p>
@@ -296,9 +296,9 @@ const Sustainability = () => {
 
       {/* Certifications */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Supporting Green Building Certifications</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Supporting Green Building Certifications</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               We design to meet the requirements of leading sustainability frameworks worldwide.
             </p>
@@ -325,8 +325,8 @@ const Sustainability = () => {
 
       {/* CTA */}
       <section className="py-20 bg-green-600 text-white">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Ready to Build Sustainably?
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">

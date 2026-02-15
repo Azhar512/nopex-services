@@ -43,13 +43,13 @@ const Offices = () => {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
               Our Global Presence
             </h1>
             <p className="text-xl opacity-90 max-w-3xl">
@@ -62,14 +62,14 @@ const Offices = () => {
 
       {/* Stats Section */}
       <section className="py-16 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <div className="text-4xl font-bold text-primary mb-2">2</div>
+              <div className="text-2xl sm:text-4xl font-bold text-primary mb-2">2</div>
               <div className="text-muted-foreground">Global Offices</div>
             </motion.div>
             <motion.div
@@ -77,7 +77,7 @@ const Offices = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              <div className="text-4xl font-bold text-primary mb-2">25+</div>
+              <div className="text-2xl sm:text-4xl font-bold text-primary mb-2">25+</div>
               <div className="text-muted-foreground">Countries Served</div>
             </motion.div>
             <motion.div
@@ -85,7 +85,7 @@ const Offices = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
+              <div className="text-2xl sm:text-4xl font-bold text-primary mb-2">500+</div>
               <div className="text-muted-foreground">Global Team Members</div>
             </motion.div>
             <motion.div
@@ -93,7 +93,7 @@ const Offices = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              <div className="text-4xl font-bold text-primary mb-2">24/7</div>
+              <div className="text-2xl sm:text-4xl font-bold text-primary mb-2">24/7</div>
               <div className="text-muted-foreground">Project Support</div>
             </motion.div>
           </div>
@@ -102,9 +102,9 @@ const Offices = () => {
 
       {/* Offices Grid */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Our Office Locations</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Our Office Locations</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Find the Nopex Services office nearest to you and connect with our local team.
             </p>
@@ -189,8 +189,8 @@ const Offices = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Ready to Work With Us?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">

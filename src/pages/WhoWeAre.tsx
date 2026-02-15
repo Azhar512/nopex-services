@@ -24,7 +24,7 @@ const WhoWeAre = () => {
             backgroundSize: '40px 40px'
           }} />
         </div>
-        <div className="max-w-[1400px] mx-auto px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ const WhoWeAre = () => {
 
       {/* Main Content */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -62,7 +62,7 @@ const WhoWeAre = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-4xl font-bold mb-6">Engineering Excellence Across Borders</h2>
+              <h2 className="text-2xl sm:text-4xl font-bold mb-6">Engineering Excellence Across Borders</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 Nopex Services is a global engineering design and BIM consultancy dedicated to transforming ideas into intelligent, buildable solutions. We deliver complete Civil, Structural, Architectural, MEP, and Industrial design services — seamlessly integrated through Building Information Modeling (BIM) for enhanced collaboration, coordination, and constructability.
               </p>
@@ -76,7 +76,7 @@ const WhoWeAre = () => {
 
       {/* Stats Section */}
       <section className="py-20 bg-[#1a4d4d] text-white">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <motion.div
@@ -87,7 +87,7 @@ const WhoWeAre = () => {
                 className="text-center p-8 bg-white/10 rounded-lg backdrop-blur-sm"
               >
                 <stat.icon className="w-12 h-12 mx-auto mb-4 text-[#a8d96e]" />
-                <div className="text-5xl font-bold mb-2">{stat.number}</div>
+                <div className="text-3xl sm:text-5xl font-bold mb-2">{stat.number}</div>
                 <div className="text-lg opacity-90">{stat.label}</div>
               </motion.div>
             ))}
@@ -97,9 +97,9 @@ const WhoWeAre = () => {
 
       {/* What Sets Us Apart */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">What Sets Us Apart</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">What Sets Us Apart</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               We combine technical expertise with digital innovation to deliver outcomes that exceed expectations.
             </p>
@@ -148,14 +148,14 @@ const WhoWeAre = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Ready to Work with a Global Leader?
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
             Let's discuss how our multidisciplinary expertise can bring precision and innovation to your next project.
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
               className="px-8 py-4 bg-white text-primary font-semibold rounded-md hover:bg-gray-100 transition-all"

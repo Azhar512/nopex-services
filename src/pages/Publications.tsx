@@ -68,7 +68,7 @@ const Publications = () => {
       
       {/* Hero */}
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-[#1a4d4d] via-[#2a5d5d] to-[#1a4d4d] text-white overflow-hidden">
-        <div className="max-w-[1400px] mx-auto px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -91,7 +91,7 @@ const Publications = () => {
 
       {/* Publications Grid */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {publications.map((pub, index) => (
               <motion.div
@@ -147,8 +147,8 @@ const Publications = () => {
 
       {/* CTA */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Need Custom Research or Training Materials?
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">

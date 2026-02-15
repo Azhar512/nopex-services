@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1a4d4d] text-white py-12">
-      <div className="max-w-[1400px] mx-auto px-6">
-        <div className="grid grid-cols-12 gap-8 mb-12">
+    <footer className="bg-[#1a4d4d] text-white py-8 sm:py-12">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
+        <div className="grid grid-cols-2 sm:grid-cols-12 gap-6 sm:gap-8 mb-8 sm:mb-12">
           {/* Column 1 */}
-          <div className="col-span-12 md:col-span-6 lg:col-span-2">
+          <div className="col-span-1 sm:col-span-12 md:col-span-6 lg:col-span-2">
             <ul className="space-y-3">
               <li>
                 <Link to="/about" className="text-white hover:text-[#a8d96e] transition-colors text-base">
@@ -121,7 +121,7 @@ const Footer = () => {
           </div>
 
           {/* Logo and Social Media - Right Side */}
-          <div className="col-span-12 lg:col-span-4 flex flex-col items-start lg:items-end">
+          <div className="col-span-2 sm:col-span-12 lg:col-span-4 flex flex-col items-start lg:items-end">
             <img src="/logo.svg" alt="Nopex Logo" className="h-12 w-auto mb-4 brightness-0 invert" />
             <p className="text-white/70 text-sm leading-relaxed mb-6 lg:text-right">
               Designing a better world through integrated engineering, BIM, and sustainable design solutions.

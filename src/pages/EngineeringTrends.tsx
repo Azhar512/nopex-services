@@ -117,7 +117,7 @@ const EngineeringTrends = () => {
           }} />
         </div>
         
-        <div className="max-w-[1400px] mx-auto px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -140,7 +140,7 @@ const EngineeringTrends = () => {
 
       {/* Statistics Bar */}
       <section className="py-12 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid md:grid-cols-4 gap-8">
             {statistics.map((stat, index) => (
               <motion.div
@@ -150,7 +150,7 @@ const EngineeringTrends = () => {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="text-center"
               >
-                <div className="text-4xl font-bold text-primary mb-2">{stat.number}</div>
+                <div className="text-2xl sm:text-4xl font-bold text-primary mb-2">{stat.number}</div>
                 <div className="font-semibold mb-1">{stat.label}</div>
                 <div className="text-xs text-muted-foreground">{stat.source}</div>
               </motion.div>
@@ -161,9 +161,9 @@ const EngineeringTrends = () => {
 
       {/* Introduction */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-5xl font-bold mb-8">
+            <h2 className="text-3xl sm:text-5xl font-bold mb-8">
               Engineering at an Inflection Point
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
@@ -175,7 +175,7 @@ const EngineeringTrends = () => {
 
       {/* Trends Detail */}
       <section className="py-20 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="space-y-20">
             {trends.map((trend, index) => (
               <motion.div
@@ -205,7 +205,7 @@ const EngineeringTrends = () => {
                     </div>
                   </div>
                   
-                  <h2 className="text-4xl font-bold mb-4">{trend.title}</h2>
+                  <h2 className="text-2xl sm:text-4xl font-bold mb-4">{trend.title}</h2>
                   <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                     {trend.description}
                   </p>
@@ -243,9 +243,9 @@ const EngineeringTrends = () => {
 
       {/* What This Means for You */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">What This Means for Your Projects</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">What This Means for Your Projects</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               At Nopex Services, we're not just following trends — we're implementing them.
             </p>
@@ -283,8 +283,8 @@ const EngineeringTrends = () => {
 
       {/* Newsletter CTA */}
       <section className="py-20 bg-gradient-to-br from-[#1a4d4d] to-[#0d3333] text-white">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Stay Ahead of Industry Trends
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
@@ -305,7 +305,7 @@ const EngineeringTrends = () => {
 
       {/* Related Content */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <h2 className="text-3xl font-bold mb-12 text-center">Explore More Insights</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[

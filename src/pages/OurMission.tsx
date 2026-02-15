@@ -41,7 +41,7 @@ const OurMission = () => {
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="max-w-[1400px] mx-auto px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -60,14 +60,14 @@ const OurMission = () => {
 
       {/* Mission Statement Detail */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-4xl font-bold mb-6">
+              <h2 className="text-2xl sm:text-4xl font-bold mb-6">
                 Engineering a Better Built Environment
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed">
@@ -119,9 +119,9 @@ const OurMission = () => {
 
       {/* Four Pillars */}
       <section className="py-20 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">The Four Pillars of Our Mission</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">The Four Pillars of Our Mission</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               These core principles guide everything we do — from initial design to final deliverables.
             </p>
@@ -149,14 +149,14 @@ const OurMission = () => {
 
       {/* How We Deliver */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-4xl font-bold mb-6">How We Deliver on Our Mission</h2>
+              <h2 className="text-2xl sm:text-4xl font-bold mb-6">How We Deliver on Our Mission</h2>
               <div className="space-y-6">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-2 h-2 bg-primary rounded-full mt-2" />
@@ -210,8 +210,8 @@ const OurMission = () => {
 
       {/* CTA */}
       <section className="py-20 bg-[#1a4d4d] text-white">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Let's Turn Your Vision Into Reality
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">

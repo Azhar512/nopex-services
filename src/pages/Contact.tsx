@@ -58,13 +58,13 @@ const Contact = () => {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white overflow-hidden">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
               Let's Design Something Extraordinary Together
             </h1>
             <p className="text-xl opacity-90 max-w-3xl">
@@ -76,7 +76,7 @@ const Contact = () => {
 
       {/* Contact Form & Info */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <motion.div
@@ -300,14 +300,14 @@ const Contact = () => {
 
       {/* Map or Additional CTA */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Ready to Start Your Project?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
             Partner with Nopex Services for globally coordinated engineering and BIM design solutions.
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="mailto:info@nopexservices.com"
               className="inline-flex items-center px-8 py-4 bg-white text-primary font-semibold rounded-md hover:bg-gray-100 transition-all"

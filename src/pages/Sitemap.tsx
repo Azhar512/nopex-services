@@ -76,13 +76,13 @@ const Sitemap = () => {
       
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
               Site Map
             </h1>
             <p className="text-xl opacity-90 max-w-3xl">
@@ -94,7 +94,7 @@ const Sitemap = () => {
 
       {/* Site Map */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {Object.entries(siteMap).map(([category, links], index) => (
               <motion.div
@@ -125,7 +125,7 @@ const Sitemap = () => {
 
       {/* Quick Links */}
       <section className="py-20 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Quick Links</h2>
             <p className="text-muted-foreground">Most visited pages on our website</p>

@@ -126,7 +126,7 @@ const Articles = () => {
           }} />
         </div>
         
-        <div className="max-w-[1400px] mx-auto px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -149,7 +149,7 @@ const Articles = () => {
 
       {/* Search and Filter */}
       <section className="py-12 bg-muted sticky top-16 z-40 border-b border-border">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
             {/* Search */}
             <div className="relative flex-1 max-w-md w-full">
@@ -186,7 +186,7 @@ const Articles = () => {
       {/* Featured Articles */}
       {selectedCategory === "All" && !searchTerm && (
         <section className="py-20 bg-background">
-          <div className="max-w-[1400px] mx-auto px-6">
+          <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
             <h2 className="text-3xl font-bold mb-12">Featured Articles</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {articles.filter(a => a.featured).map((article, index) => (
@@ -241,7 +241,7 @@ const Articles = () => {
 
       {/* All Articles Grid */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="flex items-center justify-between mb-12">
             <h2 className="text-3xl font-bold">
               {searchTerm ? `Search Results (${filteredArticles.length})` : 
@@ -306,8 +306,8 @@ const Articles = () => {
 
       {/* Newsletter CTA */}
       <section className="py-20 bg-gradient-to-br from-[#1a4d4d] to-[#0d3333] text-white">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Never Miss an Article
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">

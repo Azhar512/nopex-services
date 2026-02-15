@@ -110,16 +110,16 @@ const Services = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white overflow-hidden">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
               Comprehensive Engineering Design, Drafting & BIM Solutions
             </h1>
             <p className="text-xl opacity-90 max-w-3xl">
@@ -132,7 +132,7 @@ const Services = () => {
       {/* Services Sections */}
       {services.map((service, index) => (
         <section key={service.title} className={index % 2 === 0 ? "py-20 bg-background" : "py-20 bg-muted"}>
-          <div className="max-w-[1400px] mx-auto px-6">
+          <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {service.image && (
                 <motion.div
@@ -148,19 +148,19 @@ const Services = () => {
                   />
                 </motion.div>
               )}
-              
+
               <motion.div
                 initial={{ opacity: 0, x: index % 2 === 0 ? 30 : -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
                 className={!service.image ? "lg:col-span-2 max-w-4xl mx-auto" : ""}
               >
-                <h2 className="text-4xl font-bold mb-3">{service.title}</h2>
+                <h2 className="text-2xl sm:text-4xl font-bold mb-3">{service.title}</h2>
                 <p className="text-xl text-primary font-semibold mb-6">{service.subtitle}</p>
                 <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                   {service.description}
                 </p>
-                
+
                 <h3 className="text-xl font-bold mb-4">Core Capabilities:</h3>
                 <ul className="space-y-3 mb-6">
                   {service.capabilities.map((item, idx) => (
@@ -192,11 +192,11 @@ const Services = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             From Design to Digital Delivery — We Lead with Precision.
           </h2>
-          <div className="flex gap-4 justify-center mt-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link
               to="/contact"
               className="inline-flex items-center px-8 py-4 bg-white text-primary font-semibold rounded-md hover:bg-gray-100 transition-all"

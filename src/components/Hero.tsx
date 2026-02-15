@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="relative h-[600px] flex items-center overflow-hidden mt-16">
+      <section className="relative h-[400px] sm:h-[500px] lg:h-[600px] flex items-center overflow-hidden mt-16">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
@@ -38,10 +38,10 @@ const Hero = () => {
             <div className="text-xs font-bold text-secondary uppercase tracking-wider mb-4">
               ENGINEERING EXCELLENCE
             </div>
-            <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
               Designing a Better World
             </h1>
-            <p className="text-lg text-white/90 mb-8">
+            <p className="text-base sm:text-lg text-white/90 mb-6 sm:mb-8">
               Nopex Services delivers integrated engineering design, drafting, and project documentation that shape resilient, efficient, and sustainable environments.
             </p>
             <Link
@@ -69,11 +69,10 @@ const Hero = () => {
               <Link
                 key={tab.label}
                 to={tab.link}
-                className={`px-6 py-4 text-xs font-bold whitespace-nowrap border-b-2 transition-colors ${
-                  index === 0
+                className={`px-6 py-4 text-xs font-bold whitespace-nowrap border-b-2 transition-colors ${index === 0
                     ? "border-primary text-primary"
                     : "border-transparent text-muted-foreground hover:text-foreground hover:border-primary/50"
-                }`}
+                  }`}
               >
                 {tab.label}
               </Link>

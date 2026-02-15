@@ -139,7 +139,7 @@ const IndustryAnalysis = () => {
           }} />
         </div>
         
-        <div className="max-w-[1400px] mx-auto px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -162,9 +162,9 @@ const IndustryAnalysis = () => {
 
       {/* Market Overview Cards */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-6">Global Market Overview</h2>
+            <h2 className="text-3xl sm:text-5xl font-bold mb-6">Global Market Overview</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Key market segments and growth projections shaping the AEC industry.
             </p>
@@ -186,7 +186,7 @@ const IndustryAnalysis = () => {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold mb-2">{market.title}</h3>
                     <div className="flex items-baseline gap-3 mb-3">
-                      <span className="text-4xl font-bold text-primary">{market.value}</span>
+                      <span className="text-2xl sm:text-4xl font-bold text-primary">{market.value}</span>
                       <span className="text-green-600 font-semibold">{market.growth}</span>
                       <span className="text-sm text-muted-foreground">{market.year}</span>
                     </div>
@@ -201,9 +201,9 @@ const IndustryAnalysis = () => {
 
       {/* Regional Analysis */}
       <section className="py-20 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Regional Market Analysis</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Regional Market Analysis</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Deep-dive into key regional markets and growth opportunities.
             </p>
@@ -263,9 +263,9 @@ const IndustryAnalysis = () => {
 
       {/* Sector Analysis */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Sector-by-Sector Analysis</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Sector-by-Sector Analysis</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Market size, key drivers, and outlook for major AEC sectors.
             </p>
@@ -305,9 +305,9 @@ const IndustryAnalysis = () => {
 
       {/* Insights & Recommendations */}
       <section className="py-20 bg-gradient-to-br from-[#1a4d4d] to-[#0d3333] text-white">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Strategic Recommendations</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Strategic Recommendations</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
               Actionable insights for navigating the evolving AEC landscape.
             </p>
@@ -345,8 +345,8 @@ const IndustryAnalysis = () => {
 
       {/* CTA */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Need Custom Market Research?
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">

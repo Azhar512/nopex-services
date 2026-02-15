@@ -76,7 +76,7 @@ const BIMDigital = () => {
           }} />
         </div>
 
-        <div className="max-w-[1400px] mx-auto px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -99,14 +99,14 @@ const BIMDigital = () => {
 
       {/* Introduction */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-5xl font-bold mb-8">
+              <h2 className="text-3xl sm:text-5xl font-bold mb-8">
                 What is Building Information Modeling (BIM)?
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed mb-6">
@@ -135,9 +135,9 @@ const BIMDigital = () => {
 
       {/* BIM Services Grid */}
       <section className="py-20 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-6">Our BIM & Digital Engineering Services</h2>
+            <h2 className="text-3xl sm:text-5xl font-bold mb-6">Our BIM & Digital Engineering Services</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               End-to-end BIM solutions that transform how you design, build, and operate.
             </p>
@@ -173,9 +173,9 @@ const BIMDigital = () => {
 
       {/* Benefits Section */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Why Choose BIM?</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Why Choose BIM?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Proven benefits that directly impact your bottom line.
             </p>
@@ -195,7 +195,7 @@ const BIMDigital = () => {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="text-center p-8 bg-muted rounded-lg"
               >
-                <div className="text-5xl font-bold text-primary mb-3">{benefit.stat}</div>
+                <div className="text-3xl sm:text-5xl font-bold text-primary mb-3">{benefit.stat}</div>
                 <h3 className="text-xl font-semibold mb-2">{benefit.label}</h3>
                 <p className="text-sm text-muted-foreground">{benefit.description}</p>
               </motion.div>
@@ -206,9 +206,9 @@ const BIMDigital = () => {
 
       {/* Technology Stack */}
       <section className="py-20 bg-gradient-to-br from-[#1a4d4d] to-[#0d3333] text-white">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Our Technology Stack</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Our Technology Stack</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
               Industry-leading software and platforms powering our BIM services.
             </p>
@@ -233,7 +233,7 @@ const BIMDigital = () => {
 
       {/* Case Study Highlight */}
       <section className="py-20 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -255,7 +255,7 @@ const BIMDigital = () => {
               <div className="text-xs font-bold text-primary uppercase tracking-wider mb-4">
                 CASE STUDY
               </div>
-              <h2 className="text-4xl font-bold mb-6">
+              <h2 className="text-2xl sm:text-4xl font-bold mb-6">
                 Midtown Complex: 40% Reduction in RFIs Through BIM
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -291,8 +291,8 @@ const BIMDigital = () => {
 
       {/* CTA */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Ready to Leverage BIM for Your Next Project?
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">

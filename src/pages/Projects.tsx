@@ -64,13 +64,13 @@ const Projects = () => {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white overflow-hidden">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
               Delivering Global Engineering Solutions — One Project at a Time
             </h1>
             <p className="text-xl opacity-90 max-w-3xl">
@@ -83,7 +83,7 @@ const Projects = () => {
       {/* Featured Projects */}
       {projects.map((project, index) => (
         <section key={project.title} className={index % 2 === 0 ? "py-20 bg-background" : "py-20 bg-muted"}>
-          <div className="max-w-[1400px] mx-auto px-6">
+          <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <motion.div
                 initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
@@ -142,8 +142,8 @@ const Projects = () => {
 
       {/* Additional Projects Grid */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-12 text-center">More Projects</h2>
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-12 text-center">More Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               { title: "Highway Interchange Design", location: "Arizona, USA", category: "Transportation" },
@@ -183,14 +183,14 @@ const Projects = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Explore the Impact of Precision.
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
             Discover how our global engineering and BIM expertise turns design concepts into constructable realities.
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
               className="inline-flex items-center px-8 py-4 bg-white text-primary font-semibold rounded-md hover:bg-gray-100 transition-all"

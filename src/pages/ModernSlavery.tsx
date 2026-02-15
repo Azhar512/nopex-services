@@ -8,9 +8,9 @@ const ModernSlavery = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">Modern Slavery Statement</h1>
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">Modern Slavery Statement</h1>
             <p className="text-xl opacity-90 max-w-3xl">Our commitment to preventing modern slavery.</p>
           </motion.div>
         </div>

@@ -70,13 +70,13 @@ const News = () => {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
               Latest News & Updates
             </h1>
             <p className="text-xl opacity-90 max-w-3xl">
@@ -89,7 +89,7 @@ const News = () => {
 
       {/* Category Filter */}
       <section className="py-8 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="flex flex-wrap gap-4 justify-center">
             {categories.map((category, index) => (
               <button
@@ -108,7 +108,7 @@ const News = () => {
 
       {/* News Grid */}
       <section className="py-20 bg-background">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {newsItems.map((item, index) => (
               <motion.article
@@ -171,8 +171,8 @@ const News = () => {
 
       {/* Newsletter Signup */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-4xl font-bold mb-6">
             Stay Updated
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">

@@ -137,7 +137,7 @@ const CaseStudies = () => {
 
       {/* Hero Section */}
       <section className="relative bg-primary pt-32 pb-20">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -146,7 +146,7 @@ const CaseStudies = () => {
             <div className="text-xs font-bold text-secondary uppercase tracking-wider mb-4">
               PROVEN EXCELLENCE
             </div>
-            <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-6">
               Case Studies
             </h1>
             <p className="text-xl text-white/90 max-w-3xl">
@@ -160,7 +160,7 @@ const CaseStudies = () => {
 
       {/* Stats Section */}
       <section className="py-16 bg-muted">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -169,7 +169,7 @@ const CaseStudies = () => {
               className="text-center"
             >
               <Award className="w-12 h-12 text-primary mx-auto mb-4" />
-              <div className="text-4xl font-bold text-foreground mb-2">150+</div>
+              <div className="text-2xl sm:text-4xl font-bold text-foreground mb-2">150+</div>
               <div className="text-muted-foreground">Projects Delivered</div>
             </motion.div>
             <motion.div
@@ -179,7 +179,7 @@ const CaseStudies = () => {
               className="text-center"
             >
               <Target className="w-12 h-12 text-primary mx-auto mb-4" />
-              <div className="text-4xl font-bold text-foreground mb-2">25+</div>
+              <div className="text-2xl sm:text-4xl font-bold text-foreground mb-2">25+</div>
               <div className="text-muted-foreground">Countries</div>
             </motion.div>
             <motion.div
@@ -189,7 +189,7 @@ const CaseStudies = () => {
               className="text-center"
             >
               <TrendingUp className="w-12 h-12 text-primary mx-auto mb-4" />
-              <div className="text-4xl font-bold text-foreground mb-2">98%</div>
+              <div className="text-2xl sm:text-4xl font-bold text-foreground mb-2">98%</div>
               <div className="text-muted-foreground">Client Satisfaction</div>
             </motion.div>
           </div>
@@ -198,7 +198,7 @@ const CaseStudies = () => {
 
       {/* Case Studies Grid */}
       <section className="py-20">
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="space-y-16">
             {caseStudies.map((study, index) => (
               <motion.div
@@ -296,13 +296,13 @@ const CaseStudies = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl font-bold text-white mb-6">
+            <h2 className="text-2xl sm:text-4xl font-bold text-white mb-6">
               Ready to Start Your Project?
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">

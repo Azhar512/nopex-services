@@ -118,6 +118,7 @@ const Navbar = () => {
         },
         {
           title: "Services",
+          link: "/services",
           description: "Comprehensive engineering design, drafting, and BIM solutions across all disciplines.",
           links: [
             { name: "Architecture & Design", link: "/services/architecture" },
@@ -125,6 +126,11 @@ const Navbar = () => {
             { name: "Structural Engineering", link: "/services/structural" },
             { name: "MEP Engineering", link: "/services/mep" },
             { name: "Industrial & Fabrication", link: "/services/industrial" },
+            { name: "Transportation", link: "/services/transportation" },
+            { name: "Water", link: "/services/water" },
+            { name: "Environment", link: "/services/environment" },
+            { name: "Energy", link: "/services/energy" },
+            { name: "Program Management", link: "/services/program-management" },
             { name: "BIM & Digital Engineering", link: "/bim-digital" }
           ]
         },
@@ -369,7 +375,7 @@ const Navbar = () => {
                                     </div>
                                     <div className="flex-1">
                                       <Link
-                                        to={section.links[0]?.link || '/'}
+                                        to={section.link || section.links[0]?.link || '/'}
                                         onClick={() => setActiveDropdown(null)}
                                         className="inline-flex items-center text-[#a8d96e] font-semibold text-base mb-2 hover:text-[#96c75c] transition-colors gap-1"
                                       >
@@ -387,7 +393,7 @@ const Navbar = () => {
                               {/* Right Pill Buttons Section */}
                               <div className="col-span-4 flex items-center">
                                 <div className="w-full space-y-3">
-                                  {megaMenuContent[item].sections.flatMap((s: any) => s.links).slice(0, 6).map((link: any, idx: number) => (
+                                  {megaMenuContent[item].sections.flatMap((s: any) => s.links).slice(0, 15).map((link: any, idx: number) => (
                                     <Link
                                       key={idx}
                                       to={link.link}

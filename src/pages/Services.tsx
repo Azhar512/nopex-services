@@ -18,7 +18,7 @@ const Services = () => {
     { title: "Finance", link: "/services/program-management", image: "https://images.unsplash.com/photo-1554224155-98406858d056?w=800&q=80" },
     { title: "Cost Management", link: "/services/program-management", image: "https://images.unsplash.com/photo-1554224155-1696413565d3?w=800&q=80" },
     { title: "Transportation", link: "/services/transportation", image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80" },
-    { title: "Water", link: "/services/water", image: "https://images.unsplash.com/photo-1581093588402-4857416d9339?w=800&q=80" },
+    { title: "Water", link: "/services/water", image: "https://images.unsplash.com/photo-1563823251941-b29eb933fa76?w=800&q=80" },
     { title: "Energy", link: "/services/energy", image: "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=800&q=80" },
     { title: "Industrial", link: "/services/industrial", image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80" }
   ];

@@ -80,7 +80,7 @@ const Navbar = () => {
           title: "People & Culture",
           description: "Our team of global engineers and BIM specialists combine local insight with worldwide expertise.",
           links: [
-            { name: "Leadership", link: "/leadership" },
+
             { name: "Without Limits", link: "/without-limits" },
             { name: "Sustainability", link: "/sustainability" }
           ]

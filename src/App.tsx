@@ -17,6 +17,11 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import BIMDigital from "./pages/BIMDigital";
 import ShopDrawings from "./pages/ShopDrawings";
+import Architecture from "./pages/Architecture";
+import Civil from "./pages/Civil";
+import Structural from "./pages/Structural";
+import MEP from "./pages/MEP";
+import Industrial from "./pages/Industrial";
 import EngineeringTrends from "./pages/EngineeringTrends";
 import IndustryAnalysis from "./pages/IndustryAnalysis";
 import Articles from "./pages/Articles";
@@ -59,6 +64,11 @@ const App = () => (
           <Route path="/sustainability" element={<Sustainability />} />
           <Route path="/markets" element={<Markets />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/architecture" element={<Architecture />} />
+          <Route path="/services/civil" element={<Civil />} />
+          <Route path="/services/structural" element={<Structural />} />
+          <Route path="/services/mep" element={<MEP />} />
+          <Route path="/services/industrial" element={<Industrial />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/bim-digital" element={<BIMDigital />} />

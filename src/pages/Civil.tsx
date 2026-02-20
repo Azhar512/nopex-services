@@ -45,7 +45,7 @@ const Civil = () => {
             <section className="relative h-[80vh] min-h-[600px] flex items-center overflow-hidden">
                 <motion.div style={{ y }} className="absolute inset-0 z-0">
                     <img
-                        src="https://images.unsplash.com/photo-1541888946425-d81bb19240f4?w=1600&q=80"
+                        src="https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?w=1600&q=80"
                         alt="Civil Engineering"
                         className="w-full h-full object-cover"
                     />

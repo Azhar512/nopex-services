@@ -10,7 +10,7 @@ const Services = () => {
 
   const services = [
     { title: "Construction Management", link: "/services/program-management", image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80" },
-    { title: "Engineering", link: "/services/civil", image: "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80" },
+    { title: "Civil Engineering", link: "/services/civil", image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f4?w=800&q=80" },
     { title: "Environmental Services", link: "/services/environment", image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&q=80" },
     { title: "IT and Cybersecurity", link: "/bim-digital", image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80" },
     { title: "Planning and Consulting", link: "/services/program-management", image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80" },

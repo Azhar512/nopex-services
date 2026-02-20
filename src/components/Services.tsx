@@ -8,7 +8,7 @@ const Services = () => {
 
   const services = [
     {
-      image: "https://images.unsplash.com/photo-1590486803033-148108661603?w=800&q=80",
+      image: "https://images.unsplash.com/photo-1586864387917-f58a4b8298ed?w=800&q=80",
       title: "Civil Engineering",
       description:
         "Site grading, drainage, stormwater, and utility design focused on real-world constructability and code compliance.",

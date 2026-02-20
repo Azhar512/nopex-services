@@ -458,8 +458,8 @@ const ShopDrawings = () => {
                             transition={{ duration: 0.6 }}
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80"
-                                alt="Engineering Team Reviewing Drawings"
+                                src="https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?w=800&q=80"
+                                alt="Technical Drafting and Review"
                                 className="w-full h-[600px] object-cover rounded-2xl shadow-2xl"
                             />
                         </motion.div>

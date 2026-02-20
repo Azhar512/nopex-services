@@ -170,6 +170,7 @@ const Contact = () => {
                       }`}
                   >
                     <option value="">Select a service</option>
+                    <option value="shop-drawings">Shop Drawings</option>
                     <option value="civil">Civil Engineering</option>
                     <option value="structural">Structural Engineering</option>
                     <option value="architecture">Architecture & Design</option>

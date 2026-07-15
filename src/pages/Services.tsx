@@ -9,12 +9,12 @@ const Services = () => {
   const [visibleCount, setVisibleCount] = useState(8);
 
   const services = [
-    { title: "Civil Engineering", link: "/services/civil/site-civil-engineering", image: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?w=800&q=80" },
-    { title: "Structural Engineering", link: "/services/structural/building-design", image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80" },
-    { title: "Architectural Services", link: "/services/architectural/design-development", image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80" },
-    { title: "MEP Engineering", link: "/services/mep/mechanical", image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=800&q=80" },
-    { title: "Industrial Engineering", link: "/services/industrial/facility-design", image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80" },
-    { title: "BIM & Revit Modeling", link: "/services/bim/3d-modeling", image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80" }
+    { title: "Civil Engineering", link: "/services/civil", image: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?w=800&q=80" },
+    { title: "Structural Engineering", link: "/services/structural", image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80" },
+    { title: "Architectural Services", link: "/services/architectural", image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80" },
+    { title: "MEP Engineering", link: "/services/mep", image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=800&q=80" },
+    { title: "Industrial Engineering", link: "/services/industrial", image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80" },
+    { title: "BIM & Revit Modeling", link: "/services/bim", image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80" }
   ];
 
   const handleShowMore = () => {

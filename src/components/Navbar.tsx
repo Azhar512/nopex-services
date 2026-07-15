@@ -121,12 +121,12 @@ const Navbar = () => {
           link: "/services",
           description: "Comprehensive engineering design, drafting, and BIM solutions across all disciplines.",
           links: [
-            { name: "Civil Engineering", link: "/services/civil/site-civil-engineering" },
-            { name: "Structural Engineering", link: "/services/structural/building-design" },
-            { name: "Architectural Services", link: "/services/architectural/design-development" },
-            { name: "MEP Engineering", link: "/services/mep/mechanical" },
-            { name: "Industrial Engineering", link: "/services/industrial/facility-design" },
-            { name: "BIM & Revit Modeling", link: "/services/bim/3d-modeling" }
+            { name: "Civil Engineering", link: "/services/civil" },
+            { name: "Structural Engineering", link: "/services/structural" },
+            { name: "Architectural Services", link: "/services/architectural" },
+            { name: "MEP Engineering", link: "/services/mep" },
+            { name: "Industrial Engineering", link: "/services/industrial" },
+            { name: "BIM & Revit Modeling", link: "/services/bim" }
           ]
         },
         {

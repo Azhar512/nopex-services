@@ -18,16 +18,7 @@ import Contact from "./pages/Contact";
 import BIMDigital from "./pages/BIMDigital";
 import ShopDrawings from "./pages/ShopDrawings";
 import ServiceDetailTemplate from "./pages/ServiceDetailTemplate";
-import Architecture from "./pages/Architecture";
-import Civil from "./pages/Civil";
-import Structural from "./pages/Structural";
-import MEP from "./pages/MEP";
-import Industrial from "./pages/Industrial";
-import Transportation from "./pages/Transportation";
-import Water from "./pages/Water";
-import Environment from "./pages/Environment";
-import Energy from "./pages/Energy";
-import ProgramManagement from "./pages/ProgramManagement";
+import DisciplineTemplate from "./pages/DisciplineTemplate";
 import EngineeringTrends from "./pages/EngineeringTrends";
 import IndustryAnalysis from "./pages/IndustryAnalysis";
 import Articles from "./pages/Articles";
@@ -71,16 +62,7 @@ const App = () => (
           <Route path="/markets" element={<Markets />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services/:discipline/:subservice" element={<ServiceDetailTemplate />} />
-          <Route path="/services/architecture" element={<Architecture />} />
-          <Route path="/services/civil" element={<Civil />} />
-          <Route path="/services/structural" element={<Structural />} />
-          <Route path="/services/mep" element={<MEP />} />
-          <Route path="/services/industrial" element={<Industrial />} />
-          <Route path="/services/transportation" element={<Transportation />} />
-          <Route path="/services/water" element={<Water />} />
-          <Route path="/services/environment" element={<Environment />} />
-          <Route path="/services/energy" element={<Energy />} />
-          <Route path="/services/program-management" element={<ProgramManagement />} />
+          <Route path="/services/:discipline" element={<DisciplineTemplate />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/bim-digital" element={<BIMDigital />} />

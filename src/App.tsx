@@ -5,13 +5,16 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import About from "./pages/About";
+import HowWeWork from "./pages/HowWeWork";
+import QualitySafety from "./pages/QualitySafety";
+import StampingLicensure from "./pages/StampingLicensure";
 import WhoWeAre from "./pages/WhoWeAre";
 import OurMission from "./pages/OurMission";
 import OurVision from "./pages/OurVision";
 import CoreValues from "./pages/CoreValues";
 
 import Sustainability from "./pages/Sustainability";
-import Markets from "./pages/Markets";
+import Industries from "./pages/Industries";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
@@ -53,13 +56,16 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
+          <Route path="/about/how-we-work" element={<HowWeWork />} />
+          <Route path="/about/quality-safety" element={<QualitySafety />} />
+          <Route path="/services/stamping-licensure" element={<StampingLicensure />} />
           <Route path="/who-we-are" element={<WhoWeAre />} />
           <Route path="/our-mission" element={<OurMission />} />
           <Route path="/our-vision" element={<OurVision />} />
           <Route path="/core-values" element={<CoreValues />} />
 
           <Route path="/sustainability" element={<Sustainability />} />
-          <Route path="/markets" element={<Markets />} />
+          <Route path="/industries" element={<Industries />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services/:discipline/:subservice" element={<ServiceDetailTemplate />} />
           <Route path="/services/:discipline" element={<DisciplineTemplate />} />

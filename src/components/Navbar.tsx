@@ -57,141 +57,99 @@ const Navbar = () => {
   };
 
   const megaMenuContent: Record<string, any> = {
-    "ABOUT US": {
+    "SERVICES": {
       featured: {
-        title: "Engineering Excellence. Delivered Globally.",
-        description: "A collaborative workplace is core to our vision — designing a better world through precision engineering and digital integration.",
-        cta: "Learn More About Us",
-        link: "/about"
-      },
-      sections: [
-        {
-          title: "Our Story",
-          description: "Discover our mission, values, and the global vision that drives our engineering excellence.",
-          links: [
-            { name: "About Us", link: "/about" },
-            { name: "Who We Are", link: "/who-we-are" },
-            { name: "Our Mission", link: "/our-mission" },
-            { name: "Our Vision", link: "/our-vision" },
-            { name: "Core Values", link: "/core-values" }
-          ]
-        },
-        {
-          title: "People & Culture",
-          description: "Our team of global engineers and BIM specialists combine local insight with worldwide expertise.",
-          links: [
-
-            { name: "Without Limits", link: "/without-limits" },
-            { name: "Sustainability", link: "/sustainability" }
-          ]
-        },
-        {
-          title: "Connect",
-          description: "Reach out, explore career opportunities, or visit one of our global offices.",
-          links: [
-            { name: "Careers", link: "/careers" },
-            { name: "Offices", link: "/offices" },
-            { name: "Contact Us", link: "/contact" }
-          ]
-        }
-      ]
-    },
-    "OUR WORK": {
-      featured: {
-        title: "Designing for Every Sector — Globally",
-        description: "We deliver multidisciplinary engineering and BIM solutions across diverse markets worldwide.",
-        cta: "View Our Capabilities",
+        title: "Integrated Engineering Excellence",
+        description: "Comprehensive engineering design, drafting, and BIM solutions across all disciplines.",
+        cta: "View All Services",
         link: "/services"
       },
       sections: [
         {
-          title: "Markets",
-          description: "Delivering integrated engineering design across diverse sectors — from infrastructure and buildings to industrial and energy projects.",
+          title: "Civil Engineering",
+          link: "/services/civil",
           links: [
-            { name: "Buildings", link: "/markets" },
-            { name: "Industrial", link: "/markets" },
-            { name: "Government & Infrastructure", link: "/markets" }
-          ]
-        },
-        {
-          title: "Services",
-          link: "/services",
-          description: "Comprehensive engineering design, drafting, and BIM solutions across all disciplines.",
-          links: [
-            { name: "Civil Engineering", link: "/services/civil" },
-            { name: "Structural Engineering", link: "/services/structural" },
-            { name: "Architectural Services", link: "/services/architectural" },
-            { name: "MEP Engineering", link: "/services/mep" },
-            { name: "Industrial Engineering", link: "/services/industrial" },
-            { name: "BIM & Revit Modeling", link: "/services/bim" }
-          ]
-        },
-        {
-          title: "Specialties",
-          description: "Niche engineering expertise supporting our core disciplines.",
-          links: [
+            { name: "Site Development & Grading", link: "/services/civil/site-development" },
+            { name: "Site / Civil Engineering Design", link: "/services/civil/site-civil-engineering" },
             { name: "Stormwater Management", link: "/services/civil/stormwater-drainage" },
-            { name: "Steel & Rebar Detailing", link: "/services/structural/steel-detailing" },
+            { name: "Water & Wastewater", link: "/services/civil/water-wastewater" },
+            { name: "Transportation & Roadway", link: "/services/civil/transportation" },
+            { name: "Civil Permitting", link: "/services/civil/permitting" }
+          ]
+        },
+        {
+          title: "Structural Engineering",
+          link: "/services/structural",
+          links: [
+            { name: "Structural Building Design", link: "/services/structural/building-design" },
+            { name: "Structural Steel Detailing", link: "/services/structural/steel-detailing" },
+            { name: "Rebar Detailing", link: "/services/structural/rebar-detailing" },
+            { name: "Precast & Concrete Detailing", link: "/services/structural/precast-detailing" },
             { name: "Seismic Retrofit", link: "/services/structural/seismic-retrofit" },
-            { name: "Sustainable Design", link: "/services/architectural/sustainable-design" },
+            { name: "Condition Assessment", link: "/services/structural/condition-assessment" }
+          ]
+        },
+        {
+          title: "Architectural Services",
+          link: "/services/architectural",
+          links: [
+            { name: "Design & Development", link: "/services/architectural/design-development" },
+            { name: "Construction Documents", link: "/services/architectural/construction-documents" },
+            { name: "Interior Design", link: "/services/architectural/interior-design" },
+            { name: "3D Rendering", link: "/services/architectural/3d-rendering" },
+            { name: "Façade Design", link: "/services/architectural/facade-design" },
+            { name: "Sustainable Design", link: "/services/architectural/sustainable-design" }
+          ]
+        },
+        {
+          title: "MEP Engineering",
+          link: "/services/mep",
+          links: [
+            { name: "Mechanical (HVAC)", link: "/services/mep/mechanical" },
+            { name: "Electrical Engineering", link: "/services/mep/electrical" },
+            { name: "Plumbing Engineering", link: "/services/mep/plumbing" },
+            { name: "Fire Protection", link: "/services/mep/fire-protection" },
             { name: "MEP Coordination", link: "/services/mep/mep-coordination" },
-            { name: "Scan to BIM", link: "/services/bim/scan-to-bim" }
+            { name: "Shop Drawings", link: "/services/mep/shop-drawings" }
           ]
         },
         {
-          title: "Projects",
-          description: "Explore our global portfolio of successfully delivered engineering and design projects.",
+          title: "Industrial Engineering",
+          link: "/services/industrial",
           links: [
-            { name: "Midtown Commercial Complex", link: "/projects" },
-            { name: "EV Charging Infrastructure", link: "/projects" },
-            { name: "Industrial Plant Expansion", link: "/projects" },
-            { name: "View All Projects", link: "/projects" }
-          ]
-        }
-      ]
-    },
-    "INSIGHTS": {
-      featured: {
-        title: "The world of engineering is evolving.",
-        description: "Our expertise is your asset.",
-        cta: "Explore Our Insights",
-        link: "/"
-      },
-      sections: [
-        {
-          title: "Thought Leadership",
-          description: "Stay ahead with expert analysis on BIM trends, digital engineering, and multidisciplinary design best practices.",
-          links: [
-            { name: "BIM & Digital Engineering", link: "/bim-digital" },
-            { name: "Engineering Trends", link: "/engineering-trends" },
-            { name: "Industry Analysis", link: "/industry-analysis" },
-            { name: "Articles", link: "/articles" },
-            { name: "Publications", link: "/publications" }
+            { name: "Industrial Facility Design", link: "/services/industrial/facility-design" },
+            { name: "Process & Piping Design", link: "/services/industrial/process-piping" },
+            { name: "Equipment Layout", link: "/services/industrial/equipment-layout" },
+            { name: "Manufacturing Support", link: "/services/industrial/manufacturing-support" },
+            { name: "Material Handling", link: "/services/industrial/material-handling" },
+            { name: "Facility Upgrades", link: "/services/industrial/facility-upgrades" }
           ]
         },
         {
-          title: "Our Blog",
-          description: "Our blog discusses the biggest challenges in integrated design, BIM coordination, and project delivery for today and tomorrow.",
+          title: "BIM & Revit Modeling",
+          link: "/services/bim",
           links: [
-            { name: "Latest Posts", link: "/latest-posts" },
-            { name: "Case Studies", link: "/projects" },
-            { name: "Press Releases", link: "/latest-posts" }
-          ]
-        },
-        {
-          title: "Resources",
-          description: "Access comprehensive resources including whitepapers, case studies, and industry reports on engineering design and BIM.",
-          links: [
-            { name: "Downloads", link: "/publications" },
-            { name: "Research", link: "/industry-analysis" },
-            { name: "Webinars", link: "/latest-posts" }
+            { name: "3D BIM Modeling", link: "/services/bim/3d-modeling" },
+            { name: "Scan to BIM", link: "/services/bim/scan-to-bim" },
+            { name: "CAD to BIM Conversion", link: "/services/bim/cad-to-bim" },
+            { name: "Clash Detection", link: "/services/bim/clash-detection" },
+            { name: "Revit Family Creation", link: "/services/bim/revit-family-creation" },
+            { name: "4D Scheduling & 5D Cost", link: "/services/bim/4d-5d" }
           ]
         }
       ]
     }
   };
 
-  const navItems = ["ABOUT US", "OUR WORK", "INSIGHTS", "CAREERS", "CONTACT"];
+  const navItems = [
+    { name: "HOME", link: "/" },
+    { name: "SERVICES", link: "/services", hasMegaMenu: true },
+    { name: "INDUSTRIES", link: "/industries" },
+    { name: "PROJECTS", link: "/projects" },
+    { name: "INSIGHTS", link: "/insights" },
+    { name: "ABOUT", link: "/about" },
+    { name: "CONTACT", link: "/contact" }
+  ];
 
   return (
     <>
@@ -289,8 +247,9 @@ const Navbar = () => {
 
               {/* Desktop Navigation */}
               <div className="hidden lg:flex items-center space-x-8">
-                {navItems.map((item) => {
-                  const hasMegaMenu = megaMenuContent[item];
+                {navItems.map((navItem) => {
+                  const item = navItem.name;
+                  const hasMegaMenu = navItem.hasMegaMenu;
                   return (
                     <div
                       key={item}
@@ -307,7 +266,7 @@ const Navbar = () => {
                         </button>
                       ) : (
                         <Link
-                          to={item === "CAREERS" ? "/careers" : item === "CONTACT" ? "/contact" : "/"}
+                          to={navItem.link}
                           className="text-xs font-semibold text-foreground hover:text-primary transition-colors flex items-center gap-1 py-2"
                         >
                           {item}
@@ -326,83 +285,34 @@ const Navbar = () => {
                           style={{ maxHeight: 'calc(100vh - 64px)', overflowY: 'auto' }}
                         >
                           <div className="max-w-[1400px] mx-auto px-6 py-12">
-                            <div className="grid grid-cols-12 gap-8">
-                              {/* Left Hero Section */}
-                              <div className="col-span-3">
-                                <div className="relative h-[400px] rounded-lg overflow-hidden mb-4">
-                                  <img
-                                    src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&q=80"
-                                    alt={megaMenuContent[item].featured.title}
-                                    className="w-full h-full object-cover"
-                                  />
-                                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                                </div>
-                                <h3 className="text-2xl font-bold mb-3 text-white">
-                                  {megaMenuContent[item].featured.title}
-                                </h3>
-                                <p className="text-sm text-white/80 mb-6 leading-relaxed">
-                                  {megaMenuContent[item].featured.description}
-                                </p>
-                                <Link
-                                  to={megaMenuContent[item].featured.link}
-                                  onClick={() => setActiveDropdown(null)}
-                                  className="inline-flex items-center px-6 py-3 bg-[#a8d96e] text-[#1a4d4d] font-semibold text-sm rounded-md hover:bg-[#96c75c] transition-colors gap-2"
-                                >
-                                  {megaMenuContent[item].featured.cta}
-                                  <ArrowRight className="w-4 h-4" />
-                                </Link>
-                              </div>
-
-                              {/* Middle Content Cards Section */}
-                              <div className="col-span-5 space-y-8">
-                                {megaMenuContent[item].sections.slice(0, 3).map((section: any, idx: number) => (
-                                  <div key={idx} className="flex gap-4">
-                                    <div className="flex-shrink-0">
-                                      <img
-                                        src={`https://images.unsplash.com/photo-${idx === 0 ? '1486406146926-c627a92ad1ab' :
-                                          idx === 1 ? '1581094271901-8022df4466f9' :
-                                            '1541888946425-d81bb19240f5'
-                                          }?w=120&h=80&q=80&fit=crop`}
-                                        alt={section.title}
-                                        className="w-[100px] h-[70px] object-cover rounded"
-                                      />
-                                    </div>
-                                    <div className="flex-1">
-                                      <Link
-                                        to={section.link || section.links[0]?.link || '/'}
-                                        onClick={() => setActiveDropdown(null)}
-                                        className="inline-flex items-center text-[#a8d96e] font-semibold text-base mb-2 hover:text-[#96c75c] transition-colors gap-1"
-                                      >
-                                        {section.title}
-                                        <ArrowRight className="w-4 h-4" />
-                                      </Link>
-                                      <p className="text-sm text-white/90 leading-relaxed">
-                                        {section.description || section.links.slice(0, 3).map((l: any) => l.name).join(', ')}
-                                      </p>
+                              {/* Content Section (6 Columns) */}
+                              <div className="col-span-12 grid grid-cols-6 gap-6">
+                                {megaMenuContent[item].sections.map((section: any, idx: number) => (
+                                  <div key={idx} className="space-y-3">
+                                    <Link
+                                      to={section.link}
+                                      onClick={() => setActiveDropdown(null)}
+                                      className="block font-bold text-[#a8d96e] text-sm hover:text-[#96c75c] transition-colors mb-4 border-b border-[#2d6e6e] pb-2"
+                                    >
+                                      {section.title}
+                                    </Link>
+                                    <div className="flex flex-col space-y-2">
+                                      {section.links.map((link: any, lIdx: number) => (
+                                        <Link
+                                          key={lIdx}
+                                          to={link.link}
+                                          onClick={() => setActiveDropdown(null)}
+                                          className="text-xs text-white/80 hover:text-white transition-colors"
+                                        >
+                                          {link.name}
+                                        </Link>
+                                      ))}
                                     </div>
                                   </div>
                                 ))}
                               </div>
-
-                              {/* Right Pill Buttons Section */}
-                              <div className="col-span-4 flex items-center">
-                                <div className="w-full space-y-3">
-                                  {megaMenuContent[item].sections.flatMap((s: any) => s.links).slice(0, 15).map((link: any, idx: number) => (
-                                    <Link
-                                      key={idx}
-                                      to={link.link}
-                                      onClick={() => setActiveDropdown(null)}
-                                      className="flex items-center justify-between px-6 py-3 border-2 border-[#a8d96e] rounded-full text-white font-medium text-sm hover:bg-[#a8d96e] hover:text-[#1a4d4d] transition-all group"
-                                    >
-                                      <span>{link.name}</span>
-                                      <ArrowRight className="w-4 h-4 text-[#a8d96e] group-hover:text-[#1a4d4d] transition-colors" />
-                                    </Link>
-                                  ))}
-                                </div>
-                              </div>
                             </div>
-                          </div>
-                        </motion.div>
+                          </motion.div>
                       )}
                     </div>
                   );
@@ -480,15 +390,16 @@ const Navbar = () => {
 
             {/* Mobile Nav Items */}
             <div className="py-4">
-              {navItems.map((item) => {
-                const hasMegaMenu = megaMenuContent[item];
+              {navItems.map((navItem) => {
+                const item = navItem.name;
+                const hasMegaMenu = navItem.hasMegaMenu;
                 const isExpanded = mobileExpandedSection === item;
 
                 if (!hasMegaMenu) {
                   return (
                     <Link
                       key={item}
-                      to={item === "CAREERS" ? "/careers" : item === "CONTACT" ? "/contact" : "/"}
+                      to={navItem.link}
                       className="block px-6 py-4 text-sm font-semibold text-foreground hover:text-primary hover:bg-muted transition-colors border-b border-border/50"
                       onClick={() => setMobileMenuOpen(false)}
                     >

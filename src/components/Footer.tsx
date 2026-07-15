@@ -10,12 +10,12 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-bold mb-4">Services</h4>
             <ul className="space-y-3">
-              <li><Link to="/services/civil/site-development" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">Civil Engineering</Link></li>
-              <li><Link to="/services/structural/building-design" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">Structural Engineering</Link></li>
-              <li><Link to="/services/architectural/design-development" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">Architectural Services</Link></li>
-              <li><Link to="/services/mep/mechanical" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">MEP Engineering</Link></li>
-              <li><Link to="/services/industrial/facility-design" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">Industrial Engineering</Link></li>
-              <li><Link to="/services/bim/3d-modeling" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">BIM & Revit Modeling</Link></li>
+              <li><Link to="/services/civil" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">Civil Engineering</Link></li>
+              <li><Link to="/services/structural" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">Structural Engineering</Link></li>
+              <li><Link to="/services/architectural" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">Architectural Services</Link></li>
+              <li><Link to="/services/mep" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">MEP Engineering</Link></li>
+              <li><Link to="/services/industrial" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">Industrial Engineering</Link></li>
+              <li><Link to="/services/bim" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">BIM & Revit Modeling</Link></li>
             </ul>
           </div>
 

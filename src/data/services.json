@@ -4,10 +4,21 @@
     "discipline": "civil",
     "name": "Site Development & Grading",
     "summary": "Site development, land, and public-realm infrastructure engineering design-side work performed remotely.",
-    "deliverables": ["Site layout plans", "Grading plans", "Earthwork calculations"],
-    "sectors": ["commercial", "residential", "infrastructure"],
+    "deliverables": [
+      "Site layout plans",
+      "Grading plans",
+      "Earthwork calculations"
+    ],
+    "sectors": [
+      "commercial",
+      "residential",
+      "infrastructure"
+    ],
     "faqs": [
-      { "q": "Do you provide on-site surveying?", "a": "No, field data is supplied by the client or their local surveyor." }
+      {
+        "q": "Do you provide on-site surveying?",
+        "a": "No, field data is supplied by the client or their local surveyor."
+      }
     ]
   },
   {
@@ -15,10 +26,21 @@
     "discipline": "civil",
     "name": "Site / Civil Engineering Design",
     "summary": "Comprehensive civil engineering design for development projects.",
-    "deliverables": ["Site utility plans", "Paving plans", "Details and specifications"],
-    "sectors": ["commercial", "education", "healthcare"],
+    "deliverables": [
+      "Site utility plans",
+      "Paving plans",
+      "Details and specifications"
+    ],
+    "sectors": [
+      "commercial",
+      "education",
+      "healthcare"
+    ],
     "faqs": [
-      { "q": "Do you offer stamped deliverables?", "a": "Yes, stamped deliverables are available through our licensed PE partner network covering all 50 states." }
+      {
+        "q": "Do you offer stamped deliverables?",
+        "a": "Yes, stamped deliverables are available through our licensed PE partner network covering all 50 states."
+      }
     ]
   },
   {
@@ -26,32 +48,21 @@
     "discipline": "civil",
     "name": "Stormwater Management & Drainage Design",
     "summary": "Design of stormwater management systems to meet local compliance and environmental goals.",
-    "deliverables": ["Drainage area maps", "Stormwater routing calculations", "Detention pond design"],
-    "sectors": ["infrastructure", "residential", "industrial"],
+    "deliverables": [
+      "Drainage area maps",
+      "Stormwater routing calculations",
+      "Detention pond design"
+    ],
+    "sectors": [
+      "infrastructure",
+      "residential",
+      "industrial"
+    ],
     "faqs": [
-      { "q": "Are your designs compliant with local codes?", "a": "Yes, we design to the codes specified and provide stamping via our PE network." }
-    ]
-  },
-  {
-    "slug": "water-wastewater",
-    "discipline": "civil",
-    "name": "Water & Wastewater Engineering",
-    "summary": "Engineering design for water distribution and wastewater collection systems.",
-    "deliverables": ["Water main plans", "Sanitary sewer design", "Lift station design"],
-    "sectors": ["infrastructure", "government"],
-    "faqs": [
-      { "q": "Do you handle utility coordination?", "a": "Yes, we coordinate dry and wet utilities during the design phase." }
-    ]
-  },
-  {
-    "slug": "transportation",
-    "discipline": "civil",
-    "name": "Transportation & Roadway Engineering",
-    "summary": "Roadway and transportation infrastructure design.",
-    "deliverables": ["Roadway plans and profiles", "Traffic control plans", "Signage and striping plans"],
-    "sectors": ["infrastructure", "government"],
-    "faqs": [
-      { "q": "Does this cover state DOT standards?", "a": "Yes, our designs are coordinated to meet respective DOT standards." }
+      {
+        "q": "Are your designs compliant with local codes?",
+        "a": "Yes, we design to the codes specified and provide stamping via our PE network."
+      }
     ]
   },
   {
@@ -59,10 +70,20 @@
     "discipline": "civil",
     "name": "Civil Permitting & Entitlement Support",
     "summary": "Drawing preparation and support for civil permitting and entitlements.",
-    "deliverables": ["Permit drawing sets", "Entitlement exhibits", "Response to comments"],
-    "sectors": ["commercial", "residential"],
+    "deliverables": [
+      "Permit drawing sets",
+      "Entitlement exhibits",
+      "Response to comments"
+    ],
+    "sectors": [
+      "commercial",
+      "residential"
+    ],
     "faqs": [
-      { "q": "Do you submit the permits directly?", "a": "We prepare the drawings and support documentation for the client or local agent to submit." }
+      {
+        "q": "Do you submit the permits directly?",
+        "a": "We prepare the drawings and support documentation for the client or local agent to submit."
+      }
     ]
   },
   {
@@ -70,10 +91,21 @@
     "discipline": "structural",
     "name": "Structural Building Design",
     "summary": "Structural design for new construction and additions across various building types.",
-    "deliverables": ["Structural framing plans", "Foundation plans", "Structural details"],
-    "sectors": ["commercial", "healthcare", "residential"],
+    "deliverables": [
+      "Structural framing plans",
+      "Foundation plans",
+      "Structural details"
+    ],
+    "sectors": [
+      "commercial",
+      "healthcare",
+      "residential"
+    ],
     "faqs": [
-      { "q": "Do you provide stamped structural drawings?", "a": "Yes, through our network of licensed Professional Engineers covering all 50 states." }
+      {
+        "q": "Do you provide stamped structural drawings?",
+        "a": "Yes, through our network of licensed Professional Engineers covering all 50 states."
+      }
     ]
   },
   {
@@ -81,10 +113,20 @@
     "discipline": "structural",
     "name": "Structural Steel Detailing",
     "summary": "Precision steel detailing for fabrication and erection.",
-    "deliverables": ["Erection drawings", "Assembly drawings", "Part drawings and CNC files"],
-    "sectors": ["industrial", "commercial"],
+    "deliverables": [
+      "Erection drawings",
+      "Assembly drawings",
+      "Part drawings and CNC files"
+    ],
+    "sectors": [
+      "industrial",
+      "commercial"
+    ],
     "faqs": [
-      { "q": "What software do you use for detailing?", "a": "We utilize industry-standard 3D modeling and detailing software (e.g., Tekla Structures, Revit)." }
+      {
+        "q": "What software do you use for detailing?",
+        "a": "We utilize industry-standard 3D modeling and detailing software (e.g., Tekla Structures, Revit)."
+      }
     ]
   },
   {
@@ -92,10 +134,21 @@
     "discipline": "structural",
     "name": "Rebar Detailing",
     "summary": "Detailed reinforcement drawings and bar bending schedules.",
-    "deliverables": ["Rebar placement drawings", "Bar bending schedules (BBS)", "3D rebar models"],
-    "sectors": ["infrastructure", "residential", "industrial"],
+    "deliverables": [
+      "Rebar placement drawings",
+      "Bar bending schedules (BBS)",
+      "3D rebar models"
+    ],
+    "sectors": [
+      "infrastructure",
+      "residential",
+      "industrial"
+    ],
     "faqs": [
-      { "q": "Do you detail to specific regional codes?", "a": "Yes, we detail according to ACI, CRSI, or other specified regional standards." }
+      {
+        "q": "Do you detail to specific regional codes?",
+        "a": "Yes, we detail according to ACI, CRSI, or other specified regional standards."
+      }
     ]
   },
   {
@@ -103,10 +156,20 @@
     "discipline": "structural",
     "name": "Precast & Concrete Detailing",
     "summary": "Comprehensive detailing for precast and concrete structures.",
-    "deliverables": ["Precast erection drawings", "Piece details", "Hardware and connection details"],
-    "sectors": ["commercial", "infrastructure"],
+    "deliverables": [
+      "Precast erection drawings",
+      "Piece details",
+      "Hardware and connection details"
+    ],
+    "sectors": [
+      "commercial",
+      "infrastructure"
+    ],
     "faqs": [
-      { "q": "Can you coordinate with factory requirements?", "a": "Yes, we tailor our shop drawings to match specific precaster manufacturing processes." }
+      {
+        "q": "Can you coordinate with factory requirements?",
+        "a": "Yes, we tailor our shop drawings to match specific precaster manufacturing processes."
+      }
     ]
   },
   {
@@ -114,10 +177,21 @@
     "discipline": "structural",
     "name": "Seismic Analysis & Retrofit Design",
     "summary": "Seismic evaluation and retrofit design for existing structures.",
-    "deliverables": ["Seismic evaluation reports", "Retrofit framing plans", "Connection details"],
-    "sectors": ["healthcare", "education", "government"],
+    "deliverables": [
+      "Seismic evaluation reports",
+      "Retrofit framing plans",
+      "Connection details"
+    ],
+    "sectors": [
+      "healthcare",
+      "education",
+      "government"
+    ],
     "faqs": [
-      { "q": "Do you perform on-site inspections?", "a": "No, we rely on client-supplied inspection or survey data for our analysis." }
+      {
+        "q": "Do you perform on-site inspections?",
+        "a": "No, we rely on client-supplied inspection or survey data for our analysis."
+      }
     ]
   },
   {
@@ -125,10 +199,21 @@
     "discipline": "structural",
     "name": "Structural Condition Assessment",
     "summary": "Analysis of structural condition based on provided field data.",
-    "deliverables": ["Condition assessment reports", "Remediation recommendations", "As-built models"],
-    "sectors": ["industrial", "commercial", "infrastructure"],
+    "deliverables": [
+      "Condition assessment reports",
+      "Remediation recommendations",
+      "As-built models"
+    ],
+    "sectors": [
+      "industrial",
+      "commercial",
+      "infrastructure"
+    ],
     "faqs": [
-      { "q": "How do you assess without visiting the site?", "a": "We work from client-supplied inspection data, laser scans, and existing drawings." }
+      {
+        "q": "How do you assess without visiting the site?",
+        "a": "We work from client-supplied inspection data, laser scans, and existing drawings."
+      }
     ]
   },
   {
@@ -136,10 +221,21 @@
     "discipline": "architectural",
     "name": "Architectural Design & Development",
     "summary": "Design-phase architecture from concept through design development (SD/DD).",
-    "deliverables": ["Schematic design sets", "Design development sets", "3D conceptual models"],
-    "sectors": ["commercial", "education", "retail"],
+    "deliverables": [
+      "Schematic design sets",
+      "Design development sets",
+      "3D conceptual models"
+    ],
+    "sectors": [
+      "commercial",
+      "education",
+      "retail"
+    ],
     "faqs": [
-      { "q": "Can you take over a design mid-phase?", "a": "Yes, we frequently support firms by taking schematic designs into design development." }
+      {
+        "q": "Can you take over a design mid-phase?",
+        "a": "Yes, we frequently support firms by taking schematic designs into design development."
+      }
     ]
   },
   {
@@ -147,10 +243,21 @@
     "discipline": "architectural",
     "name": "Construction Document Sets",
     "summary": "Preparation of comprehensive construction document (CD) sets.",
-    "deliverables": ["Floor plans", "Elevations and sections", "Architectural details"],
-    "sectors": ["residential", "healthcare", "government"],
+    "deliverables": [
+      "Floor plans",
+      "Elevations and sections",
+      "Architectural details"
+    ],
+    "sectors": [
+      "residential",
+      "healthcare",
+      "government"
+    ],
     "faqs": [
-      { "q": "Are your CD sets ready for permit?", "a": "Yes, they are prepared for permit submission, and stamped via our PE/Architect partner network if required." }
+      {
+        "q": "Are your CD sets ready for permit?",
+        "a": "Yes, they are prepared for permit submission, and stamped via our PE/Architect partner network if required."
+      }
     ]
   },
   {
@@ -158,10 +265,21 @@
     "discipline": "architectural",
     "name": "Interior Design",
     "summary": "Space planning, programming, and interior architectural design.",
-    "deliverables": ["Space plans", "Finish schedules", "Interior elevations"],
-    "sectors": ["commercial", "retail", "healthcare"],
+    "deliverables": [
+      "Space plans",
+      "Finish schedules",
+      "Interior elevations"
+    ],
+    "sectors": [
+      "commercial",
+      "retail",
+      "healthcare"
+    ],
     "faqs": [
-      { "q": "Do you handle furniture selection?", "a": "We handle FF&E (Furniture, Fixtures, & Equipment) coordination and schedules as requested." }
+      {
+        "q": "Do you handle furniture selection?",
+        "a": "We handle FF&E (Furniture, Fixtures, & Equipment) coordination and schedules as requested."
+      }
     ]
   },
   {
@@ -169,10 +287,21 @@
     "discipline": "architectural",
     "name": "3D Rendering & Visualization",
     "summary": "High-quality 3D renderings and visualizations for presentations and marketing.",
-    "deliverables": ["Exterior photorealistic renderings", "Interior renderings", "Fly-through animations"],
-    "sectors": ["real estate", "commercial", "residential"],
+    "deliverables": [
+      "Exterior photorealistic renderings",
+      "Interior renderings",
+      "Fly-through animations"
+    ],
+    "sectors": [
+      "real estate",
+      "commercial",
+      "residential"
+    ],
     "faqs": [
-      { "q": "What do you need to start rendering?", "a": "We can work from sketches, CAD files, or Revit models." }
+      {
+        "q": "What do you need to start rendering?",
+        "a": "We can work from sketches, CAD files, or Revit models."
+      }
     ]
   },
   {
@@ -180,10 +309,20 @@
     "discipline": "architectural",
     "name": "Façade Design & Shop Drawings",
     "summary": "Detailed design and shop drawings for building envelopes and façades.",
-    "deliverables": ["Façade elevations", "Curtain wall shop drawings", "Cladding details"],
-    "sectors": ["commercial", "education"],
+    "deliverables": [
+      "Façade elevations",
+      "Curtain wall shop drawings",
+      "Cladding details"
+    ],
+    "sectors": [
+      "commercial",
+      "education"
+    ],
     "faqs": [
-      { "q": "Do you coordinate with structural requirements?", "a": "Yes, façade design is heavily coordinated with our structural engineering models." }
+      {
+        "q": "Do you coordinate with structural requirements?",
+        "a": "Yes, façade design is heavily coordinated with our structural engineering models."
+      }
     ]
   },
   {
@@ -191,10 +330,21 @@
     "discipline": "architectural",
     "name": "Sustainable Design & LEED Consulting",
     "summary": "Design strategies and consulting to achieve sustainability goals like LEED certification.",
-    "deliverables": ["Energy analysis reports", "Daylighting studies", "LEED documentation support"],
-    "sectors": ["government", "education", "commercial"],
+    "deliverables": [
+      "Energy analysis reports",
+      "Daylighting studies",
+      "LEED documentation support"
+    ],
+    "sectors": [
+      "government",
+      "education",
+      "commercial"
+    ],
     "faqs": [
-      { "q": "Do you guarantee LEED certification?", "a": "We provide the design and documentation support necessary for the certification process." }
+      {
+        "q": "Do you guarantee LEED certification?",
+        "a": "We provide the design and documentation support necessary for the certification process."
+      }
     ]
   },
   {
@@ -202,10 +352,21 @@
     "discipline": "mep",
     "name": "Mechanical (HVAC) Engineering",
     "summary": "Mechanical and HVAC system design for optimal building comfort and efficiency.",
-    "deliverables": ["HVAC layouts", "Ductwork sizing and routing", "Equipment schedules"],
-    "sectors": ["healthcare", "industrial", "commercial"],
+    "deliverables": [
+      "HVAC layouts",
+      "Ductwork sizing and routing",
+      "Equipment schedules"
+    ],
+    "sectors": [
+      "healthcare",
+      "industrial",
+      "commercial"
+    ],
     "faqs": [
-      { "q": "Do you perform load calculations?", "a": "Yes, we perform comprehensive heating and cooling load calculations." }
+      {
+        "q": "Do you perform load calculations?",
+        "a": "Yes, we perform comprehensive heating and cooling load calculations."
+      }
     ]
   },
   {
@@ -213,10 +374,21 @@
     "discipline": "mep",
     "name": "Electrical Engineering",
     "summary": "Electrical engineering including power, lighting, and low-voltage systems.",
-    "deliverables": ["Lighting plans", "Power distribution layouts", "Panel schedules"],
-    "sectors": ["commercial", "education", "retail"],
+    "deliverables": [
+      "Lighting plans",
+      "Power distribution layouts",
+      "Panel schedules"
+    ],
+    "sectors": [
+      "commercial",
+      "education",
+      "retail"
+    ],
     "faqs": [
-      { "q": "Does this include low-voltage systems?", "a": "Yes, we design data, telecom, security, and fire alarm layouts." }
+      {
+        "q": "Does this include low-voltage systems?",
+        "a": "Yes, we design data, telecom, security, and fire alarm layouts."
+      }
     ]
   },
   {
@@ -224,10 +396,21 @@
     "discipline": "mep",
     "name": "Plumbing Engineering",
     "summary": "Design of domestic water, sanitary, and specialized plumbing systems.",
-    "deliverables": ["Water supply isometric drawings", "Sanitary drainage plans", "Gas piping design"],
-    "sectors": ["residential", "healthcare", "industrial"],
+    "deliverables": [
+      "Water supply isometric drawings",
+      "Sanitary drainage plans",
+      "Gas piping design"
+    ],
+    "sectors": [
+      "residential",
+      "healthcare",
+      "industrial"
+    ],
     "faqs": [
-      { "q": "Do you design medical gas systems?", "a": "Yes, we design specialized systems for healthcare facilities." }
+      {
+        "q": "Do you design medical gas systems?",
+        "a": "Yes, we design specialized systems for healthcare facilities."
+      }
     ]
   },
   {
@@ -235,10 +418,21 @@
     "discipline": "mep",
     "name": "Fire Protection Engineering",
     "summary": "Fire protection and life safety system design.",
-    "deliverables": ["Sprinkler system layouts", "Hydraulic calculations", "Fire alarm plans"],
-    "sectors": ["commercial", "industrial", "residential"],
+    "deliverables": [
+      "Sprinkler system layouts",
+      "Hydraulic calculations",
+      "Fire alarm plans"
+    ],
+    "sectors": [
+      "commercial",
+      "industrial",
+      "residential"
+    ],
     "faqs": [
-      { "q": "Are your designs NFPA compliant?", "a": "Yes, our designs are based on NFPA and local code requirements." }
+      {
+        "q": "Are your designs NFPA compliant?",
+        "a": "Yes, our designs are based on NFPA and local code requirements."
+      }
     ]
   },
   {
@@ -246,10 +440,21 @@
     "discipline": "mep",
     "name": "MEP Coordination & Clash Detection",
     "summary": "Multi-trade coordination across mechanical, electrical, plumbing, and fire protection systems.",
-    "deliverables": ["Coordinated MEP model", "Clash detection reports", "Navisworks files"],
-    "sectors": ["healthcare", "education", "commercial"],
+    "deliverables": [
+      "Coordinated MEP model",
+      "Clash detection reports",
+      "Navisworks files"
+    ],
+    "sectors": [
+      "healthcare",
+      "education",
+      "commercial"
+    ],
     "faqs": [
-      { "q": "What phase should coordination start?", "a": "Ideally at Design Development, but no later than early Construction Documents." }
+      {
+        "q": "What phase should coordination start?",
+        "a": "Ideally at Design Development, but no later than early Construction Documents."
+      }
     ]
   },
   {
@@ -257,10 +462,20 @@
     "discipline": "mep",
     "name": "MEP Shop & Installation Drawings",
     "summary": "Detailed installation and shop drawings for MEP contractors.",
-    "deliverables": ["Spool drawings", "Hanger and support details", "Installation layouts"],
-    "sectors": ["industrial", "commercial"],
+    "deliverables": [
+      "Spool drawings",
+      "Hanger and support details",
+      "Installation layouts"
+    ],
+    "sectors": [
+      "industrial",
+      "commercial"
+    ],
     "faqs": [
-      { "q": "Do you provide fabrication-ready drawings?", "a": "Yes, we provide drawings suitable for prefabrication and on-site installation." }
+      {
+        "q": "Do you provide fabrication-ready drawings?",
+        "a": "Yes, we provide drawings suitable for prefabrication and on-site installation."
+      }
     ]
   },
   {
@@ -268,10 +483,20 @@
     "discipline": "industrial",
     "name": "Industrial Facility Design",
     "summary": "Facility engineering and planning for industrial and manufacturing clients.",
-    "deliverables": ["Facility layout plans", "Utility routing", "Structural framing for industrial loads"],
-    "sectors": ["industrial", "manufacturing"],
+    "deliverables": [
+      "Facility layout plans",
+      "Utility routing",
+      "Structural framing for industrial loads"
+    ],
+    "sectors": [
+      "industrial",
+      "manufacturing"
+    ],
     "faqs": [
-      { "q": "Can you design for specialized environments?", "a": "Yes, we design for cleanrooms, hazardous environments, and heavy manufacturing." }
+      {
+        "q": "Can you design for specialized environments?",
+        "a": "Yes, we design for cleanrooms, hazardous environments, and heavy manufacturing."
+      }
     ]
   },
   {
@@ -279,10 +504,20 @@
     "discipline": "industrial",
     "name": "Process & Piping Design",
     "summary": "Design and modeling of complex process piping systems.",
-    "deliverables": ["Piping & Instrumentation Diagrams (P&ID)", "3D piping models", "Isometrics"],
-    "sectors": ["industrial", "energy"],
+    "deliverables": [
+      "Piping & Instrumentation Diagrams (P&ID)",
+      "3D piping models",
+      "Isometrics"
+    ],
+    "sectors": [
+      "industrial",
+      "energy"
+    ],
     "faqs": [
-      { "q": "Do you provide stress analysis?", "a": "Yes, pipe stress analysis can be included depending on project scope." }
+      {
+        "q": "Do you provide stress analysis?",
+        "a": "Yes, pipe stress analysis can be included depending on project scope."
+      }
     ]
   },
   {
@@ -290,10 +525,20 @@
     "discipline": "industrial",
     "name": "Equipment Layout & Plant Design",
     "summary": "Spatial planning and layout of manufacturing equipment and plant infrastructure.",
-    "deliverables": ["Equipment arrangement drawings", "Clearance diagrams", "Material flow analysis"],
-    "sectors": ["manufacturing", "industrial"],
+    "deliverables": [
+      "Equipment arrangement drawings",
+      "Clearance diagrams",
+      "Material flow analysis"
+    ],
+    "sectors": [
+      "manufacturing",
+      "industrial"
+    ],
     "faqs": [
-      { "q": "Do you coordinate with vendor equipment models?", "a": "Yes, we integrate vendor-supplied 3D models into the master plant model." }
+      {
+        "q": "Do you coordinate with vendor equipment models?",
+        "a": "Yes, we integrate vendor-supplied 3D models into the master plant model."
+      }
     ]
   },
   {
@@ -301,10 +546,20 @@
     "discipline": "industrial",
     "name": "Manufacturing & Warehouse Engineering Support",
     "summary": "Engineering support for material handling, warehouse logistics, and manufacturing upgrades.",
-    "deliverables": ["Material handling system layouts", "Rack layouts", "Retrofit plans"],
-    "sectors": ["manufacturing", "retail logistics"],
+    "deliverables": [
+      "Material handling system layouts",
+      "Rack layouts",
+      "Retrofit plans"
+    ],
+    "sectors": [
+      "manufacturing",
+      "retail logistics"
+    ],
     "faqs": [
-      { "q": "Can you help optimize an existing facility?", "a": "Yes, we often provide layout options to improve workflow and safety." }
+      {
+        "q": "Can you help optimize an existing facility?",
+        "a": "Yes, we often provide layout options to improve workflow and safety."
+      }
     ]
   },
   {
@@ -312,10 +567,21 @@
     "discipline": "bim",
     "name": "3D BIM Modeling",
     "summary": "Architectural, Structural, and MEP 3D BIM modeling from LOD 100 to 500.",
-    "deliverables": ["Revit models", "IFC exports", "Model progression specifications"],
-    "sectors": ["commercial", "healthcare", "education"],
+    "deliverables": [
+      "Revit models",
+      "IFC exports",
+      "Model progression specifications"
+    ],
+    "sectors": [
+      "commercial",
+      "healthcare",
+      "education"
+    ],
     "faqs": [
-      { "q": "What LOD do you usually work to?", "a": "We typically model to LOD 300 for design and LOD 400 for construction/fabrication." }
+      {
+        "q": "What LOD do you usually work to?",
+        "a": "We typically model to LOD 300 for design and LOD 400 for construction/fabrication."
+      }
     ]
   },
   {
@@ -323,10 +589,21 @@
     "discipline": "bim",
     "name": "Scan to BIM",
     "summary": "Conversion of point cloud data into accurate 3D Revit models.",
-    "deliverables": ["As-built Revit models", "Deviation reports", "2D as-built drawings"],
-    "sectors": ["infrastructure", "industrial", "commercial renovations"],
+    "deliverables": [
+      "As-built Revit models",
+      "Deviation reports",
+      "2D as-built drawings"
+    ],
+    "sectors": [
+      "infrastructure",
+      "industrial",
+      "commercial renovations"
+    ],
     "faqs": [
-      { "q": "Do you capture the point cloud data?", "a": "No, we convert point cloud data provided by the client or their surveyor." }
+      {
+        "q": "Do you capture the point cloud data?",
+        "a": "No, we convert point cloud data provided by the client or their surveyor."
+      }
     ]
   },
   {
@@ -334,10 +611,21 @@
     "discipline": "bim",
     "name": "BIM Coordination & Clash Detection",
     "summary": "Cross-disciplinary clash detection and resolution to prevent field issues.",
-    "deliverables": ["Clash reports", "Resolution tracking", "Coordinated federated models"],
-    "sectors": ["healthcare", "education", "industrial"],
+    "deliverables": [
+      "Clash reports",
+      "Resolution tracking",
+      "Coordinated federated models"
+    ],
+    "sectors": [
+      "healthcare",
+      "education",
+      "industrial"
+    ],
     "faqs": [
-      { "q": "What software is used for coordination?", "a": "We typically use Navisworks Manage or BIM Collaborate Pro." }
+      {
+        "q": "What software is used for coordination?",
+        "a": "We typically use Navisworks Manage or BIM Collaborate Pro."
+      }
     ]
   },
   {
@@ -345,10 +633,21 @@
     "discipline": "bim",
     "name": "Revit Family Creation",
     "summary": "Creation of parametric and non-parametric Revit families for manufacturers and design firms.",
-    "deliverables": [".RFA files", "Type catalogs", "Family parameter documentation"],
-    "sectors": ["manufacturing", "architecture", "mep"],
+    "deliverables": [
+      ".RFA files",
+      "Type catalogs",
+      "Family parameter documentation"
+    ],
+    "sectors": [
+      "manufacturing",
+      "architecture",
+      "mep"
+    ],
     "faqs": [
-      { "q": "Are the families optimized for file size?", "a": "Yes, we build lightweight families that don't bloat project models." }
+      {
+        "q": "Are the families optimized for file size?",
+        "a": "Yes, we build lightweight families that don't bloat project models."
+      }
     ]
   },
   {
@@ -356,10 +655,21 @@
     "discipline": "bim",
     "name": "4D Scheduling & 5D Cost Estimating",
     "summary": "Integration of project schedules (4D) and cost data (5D) into the BIM model.",
-    "deliverables": ["4D simulation videos", "Quantity takeoff reports", "Model-linked schedules"],
-    "sectors": ["commercial", "infrastructure", "government"],
+    "deliverables": [
+      "4D simulation videos",
+      "Quantity takeoff reports",
+      "Model-linked schedules"
+    ],
+    "sectors": [
+      "commercial",
+      "infrastructure",
+      "government"
+    ],
     "faqs": [
-      { "q": "Do you provide the schedule?", "a": "We link the client's schedule (e.g., Primavera P6, MS Project) to the model elements." }
+      {
+        "q": "Do you provide the schedule?",
+        "a": "We link the client's schedule (e.g., Primavera P6, MS Project) to the model elements."
+      }
     ]
   }
 ]

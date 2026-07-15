@@ -108,9 +108,6 @@ const Navbar = () => {
           title: "Markets",
           description: "Delivering integrated engineering design across diverse sectors — from infrastructure and buildings to industrial and energy projects.",
           links: [
-            { name: "Transportation", link: "/markets" },
-            { name: "Energy", link: "/markets" },
-            { name: "Water & Environment", link: "/markets" },
             { name: "Buildings", link: "/markets" },
             { name: "Industrial", link: "/markets" },
             { name: "Government & Infrastructure", link: "/markets" }

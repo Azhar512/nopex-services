@@ -1,0 +1,56 @@
+<USER_REQUEST>
+i am sharing a detailed document please imlmenet that all in this site and please do not disturb design and please do not changae desing here is detailed document please implement this on this site 
+NOPEX SERVICES
+Full Website Content & Build Specification
+Multi-Disciplinary Engineering Firm — Civil, Structural, Architectural, MEP & Industrial
+Prepared for handoff to development team (React / Vercel build)
+ 1. Purpose of This Document
+This document provides complete, ready-to-implement website content for Nopex Services, positioned as an established, multi-disciplinary engineering design firm with national reach — offering Civil, Structural, Architectural, MEP, and Industrial engineering design services, with BIM/Revit modeling as one capability within that broader stack.
+The scope and tone here are calibrated to an established national firm — not a small local shop, but also not a 50,000-employee global multinational. Claims of global scale, decades-old landmark projects, or work with government megaprojects are deliberately left out, since those wouldn't be credible or honest for Nopex to claim.
+Two operating-model facts shape the language throughout this document, and should not be changed without checking with the business owner first:
+•	Stamped/sealed deliverables are provided through a licensed Professional Engineer (PE) partner network covering all 50 US states — not by in-house Nopex engineers. Content below says “in partnership with licensed PEs” rather than “our licensed engineers,” intentionally.
+•	Nopex does not perform on-site/field services (surveying, on-site inspection, laser scan capture). Content below frames the offering as design, engineering, and BIM/coordination work, delivered remotely.
+DEV NOTE: Bracketed placeholders like [X]+ years, [Phone], [City, State] need real values before launch. Replace them with your actual data — do not fill them with invented statistics.
+How this document is organized
+•	Section 2 — Sitemap & URL structure
+
+<truncated 16260 bytes>
+
+6.1 Recommended Stack
+•	Framework: Next.js on Vercel (matches your current deployment) — use SSR/SSG for service and project pages for SEO
+•	Content source: JSON content files or a lightweight headless CMS so services/projects can be updated without code changes
+•	Forms: Get a Quote / Contact should support file upload, routed to email + CRM
+6.2 Reusable Components
+•	<ServiceDetailTemplate /> — drives all discipline sub-pages from one data-fed component
+•	<ProjectCard /> / <ProjectCaseStudy />
+•	<DisciplineCard />, <StatCounter />, <TestimonialCarousel />, <CTASection />, <FAQAccordion />
+•	<MegaMenu /> for Services nav, driven by the same services.json used on the Services hub
+6.3 Sample Data Schema — services.json
+{
+  "slug": "mep-coordination",
+  "discipline": "mep",
+  "name": "MEP Coordination & Clash Detection",
+  "summary": "Multi-trade coordination across mechanical, electrical, plumbing,",
+              "and fire protection systems.",
+  "deliverables": ["Coordinated MEP model", "Clash reports", "Shop drawings"],
+  "sectors": ["healthcare", "education", "commercial"],
+  "faqs": [
+    { "q": "What phase should coordination start?", "a": "Ideally at DD, no later than early CD." }
+  ]
+}
+
+6.4 SEO Notes
+•	Unique title tags/meta descriptions per service and project page
+•	One H1 per page, matching the copy hierarchy in Section 5
+•	JSON-LD: Organization schema site-wide, Service schema on service pages
+•	Crawlable mega-menu (real <a> links)
+6.5 Items to Finalize Before Launch
+•	Replace all [bracketed placeholders] with real company data
+•	Source real project photography and case study details — do not reuse AECOM's or any other firm's project content or imagery
+•	Collect real client testimonials before publishing that section
+•	Confirm licensure/registration claims (PE stamps, state registrations) are accurate before publishing
+
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-07-15T00:59:19+05:00.
+</ADDITIONAL_METADATA>

@@ -30,7 +30,8 @@
         "q": "Do you provide sustainable site design?",
         "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
       }
-    ]
+    ],
+    "tagline": "Laying the groundwork for scalable, sustainable development."
   },
   {
     "slug": "site-civil-engineering",
@@ -63,7 +64,8 @@
         "q": "Do you provide sustainable site design?",
         "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
       }
-    ]
+    ],
+    "tagline": "Building the infrastructure of tomorrow, today."
   },
   {
     "slug": "stormwater-drainage",
@@ -96,7 +98,8 @@
         "q": "Do you provide sustainable site design?",
         "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
       }
-    ]
+    ],
+    "tagline": "Innovative solutions for water management and environmental protection."
   },
   {
     "slug": "water-wastewater",
@@ -129,7 +132,8 @@
         "q": "Do you provide sustainable site design?",
         "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
       }
-    ]
+    ],
+    "tagline": "Building the infrastructure of tomorrow, today."
   },
   {
     "slug": "transportation",
@@ -162,7 +166,8 @@
         "q": "Do you provide sustainable site design?",
         "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
       }
-    ]
+    ],
+    "tagline": "Connecting communities with safe, efficient infrastructure."
   },
   {
     "slug": "erosion-sediment-control",
@@ -195,7 +200,8 @@
         "q": "Do you provide sustainable site design?",
         "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
       }
-    ]
+    ],
+    "tagline": "Building the infrastructure of tomorrow, today."
   },
   {
     "slug": "permitting",
@@ -228,7 +234,8 @@
         "q": "Do you provide sustainable site design?",
         "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
       }
-    ]
+    ],
+    "tagline": "Building the infrastructure of tomorrow, today."
   },
   {
     "slug": "utility-coordination",
@@ -261,7 +268,8 @@
         "q": "Do you provide sustainable site design?",
         "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
       }
-    ]
+    ],
+    "tagline": "Building the infrastructure of tomorrow, today."
   },
   {
     "slug": "building-design",
@@ -294,7 +302,8 @@
         "q": "Can you coordinate with our architectural Revit models?",
         "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
       }
-    ]
+    ],
+    "tagline": "Ensuring strength, stability, and safety in every design."
   },
   {
     "slug": "steel-detailing",
@@ -327,7 +336,8 @@
         "q": "Can you coordinate with our architectural Revit models?",
         "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
       }
-    ]
+    ],
+    "tagline": "Precision detailing for flawless structural fabrication."
   },
   {
     "slug": "rebar-detailing",
@@ -360,7 +370,8 @@
         "q": "Can you coordinate with our architectural Revit models?",
         "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
       }
-    ]
+    ],
+    "tagline": "Ensuring strength, stability, and safety in every design."
   },
   {
     "slug": "precast-detailing",
@@ -393,7 +404,8 @@
         "q": "Can you coordinate with our architectural Revit models?",
         "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
       }
-    ]
+    ],
+    "tagline": "Ensuring strength, stability, and safety in every design."
   },
   {
     "slug": "seismic-retrofit",
@@ -426,7 +438,8 @@
         "q": "Can you coordinate with our architectural Revit models?",
         "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
       }
-    ]
+    ],
+    "tagline": "Upgrading structures to withstand the test of time and nature."
   },
   {
     "slug": "condition-assessment",
@@ -459,7 +472,8 @@
         "q": "Can you coordinate with our architectural Revit models?",
         "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
       }
-    ]
+    ],
+    "tagline": "Ensuring strength, stability, and safety in every design."
   },
   {
     "slug": "foundation-geotechnical",
@@ -492,7 +506,8 @@
         "q": "Can you coordinate with our architectural Revit models?",
         "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
       }
-    ]
+    ],
+    "tagline": "Ensuring strength, stability, and safety in every design."
   },
   {
     "slug": "shop-drawings",
@@ -525,7 +540,8 @@
         "q": "Can you coordinate with our architectural Revit models?",
         "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
       }
-    ]
+    ],
+    "tagline": "Ensuring strength, stability, and safety in every design."
   },
   {
     "slug": "design-development",
@@ -558,7 +574,8 @@
         "q": "How do you ensure the design meets our budget?",
         "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
       }
-    ]
+    ],
+    "tagline": "Where visionary aesthetics meet pragmatic design."
   },
   {
     "slug": "construction-documents",
@@ -591,7 +608,8 @@
         "q": "How do you ensure the design meets our budget?",
         "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
       }
-    ]
+    ],
+    "tagline": "Where visionary aesthetics meet pragmatic design."
   },
   {
     "slug": "interior-design",
@@ -624,7 +642,8 @@
         "q": "How do you ensure the design meets our budget?",
         "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
       }
-    ]
+    ],
+    "tagline": "Crafting functional, aesthetic spaces that inspire."
   },
   {
     "slug": "3d-rendering",
@@ -657,7 +676,8 @@
         "q": "How do you ensure the design meets our budget?",
         "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
       }
-    ]
+    ],
+    "tagline": "Bringing your visionary designs to life in photorealistic detail."
   },
   {
     "slug": "facade-design",
@@ -690,7 +710,8 @@
         "q": "How do you ensure the design meets our budget?",
         "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
       }
-    ]
+    ],
+    "tagline": "Where visionary aesthetics meet pragmatic design."
   },
   {
     "slug": "sustainable-design",
@@ -723,7 +744,8 @@
         "q": "How do you ensure the design meets our budget?",
         "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
       }
-    ]
+    ],
+    "tagline": "Where visionary aesthetics meet pragmatic design."
   },
   {
     "slug": "space-planning",
@@ -756,7 +778,8 @@
         "q": "How do you ensure the design meets our budget?",
         "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
       }
-    ]
+    ],
+    "tagline": "Where visionary aesthetics meet pragmatic design."
   },
   {
     "slug": "renovation-adaptive-reuse",
@@ -789,7 +812,8 @@
         "q": "How do you ensure the design meets our budget?",
         "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
       }
-    ]
+    ],
+    "tagline": "Where visionary aesthetics meet pragmatic design."
   },
   {
     "slug": "mechanical",
@@ -822,7 +846,8 @@
         "q": "Are your designs energy efficient?",
         "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
       }
-    ]
+    ],
+    "tagline": "Optimizing indoor climates for comfort and energy efficiency."
   },
   {
     "slug": "electrical",
@@ -855,7 +880,8 @@
         "q": "Are your designs energy efficient?",
         "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
       }
-    ]
+    ],
+    "tagline": "Empowering facilities with resilient and intelligent power systems."
   },
   {
     "slug": "plumbing",
@@ -888,7 +914,8 @@
         "q": "Are your designs energy efficient?",
         "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
       }
-    ]
+    ],
+    "tagline": "Engineered fluid systems that are safe, reliable, and efficient."
   },
   {
     "slug": "fire-protection",
@@ -921,7 +948,8 @@
         "q": "Are your designs energy efficient?",
         "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
       }
-    ]
+    ],
+    "tagline": "Safeguarding lives and assets with advanced fire safety designs."
   },
   {
     "slug": "mep-coordination",
@@ -954,7 +982,8 @@
         "q": "Are your designs energy efficient?",
         "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
       }
-    ]
+    ],
+    "tagline": "Resolving conflicts digitally before they occur on-site."
   },
   {
     "slug": "mep-shop-drawings",
@@ -987,7 +1016,8 @@
         "q": "Are your designs energy efficient?",
         "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
       }
-    ]
+    ],
+    "tagline": "Integrating intelligent systems for high-performance buildings."
   },
   {
     "slug": "energy-modeling",
@@ -1020,7 +1050,8 @@
         "q": "Are your designs energy efficient?",
         "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
       }
-    ]
+    ],
+    "tagline": "Integrating intelligent systems for high-performance buildings."
   },
   {
     "slug": "load-calculations",
@@ -1053,7 +1084,8 @@
         "q": "Are your designs energy efficient?",
         "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
       }
-    ]
+    ],
+    "tagline": "Integrating intelligent systems for high-performance buildings."
   },
   {
     "slug": "facility-design",
@@ -1086,7 +1118,8 @@
         "q": "Do you upgrade existing facilities?",
         "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
       }
-    ]
+    ],
+    "tagline": "Engineering efficient, high-capacity facilities for the future."
   },
   {
     "slug": "process-piping",
@@ -1119,7 +1152,8 @@
         "q": "Do you upgrade existing facilities?",
         "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
       }
-    ]
+    ],
+    "tagline": "Streamlining complex industrial processes for maximum throughput."
   },
   {
     "slug": "equipment-layout",
@@ -1152,7 +1186,8 @@
         "q": "Do you upgrade existing facilities?",
         "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
       }
-    ]
+    ],
+    "tagline": "Engineering efficient, high-capacity facilities for the future."
   },
   {
     "slug": "manufacturing-support",
@@ -1185,7 +1220,8 @@
         "q": "Do you upgrade existing facilities?",
         "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
       }
-    ]
+    ],
+    "tagline": "Engineering efficient, high-capacity facilities for the future."
   },
   {
     "slug": "material-handling",
@@ -1218,7 +1254,8 @@
         "q": "Do you upgrade existing facilities?",
         "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
       }
-    ]
+    ],
+    "tagline": "Engineering efficient, high-capacity facilities for the future."
   },
   {
     "slug": "facility-upgrades",
@@ -1251,7 +1288,8 @@
         "q": "Do you upgrade existing facilities?",
         "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
       }
-    ]
+    ],
+    "tagline": "Engineering efficient, high-capacity facilities for the future."
   },
   {
     "slug": "3d-modeling",
@@ -1284,7 +1322,8 @@
         "q": "Which BIM software do you use?",
         "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
       }
-    ]
+    ],
+    "tagline": "Digital precision driving real-world construction excellence."
   },
   {
     "slug": "scan-to-bim",
@@ -1317,7 +1356,8 @@
         "q": "Which BIM software do you use?",
         "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
       }
-    ]
+    ],
+    "tagline": "Capturing reality to build intelligent, data-rich 3D models."
   },
   {
     "slug": "cad-to-bim",
@@ -1350,7 +1390,8 @@
         "q": "Which BIM software do you use?",
         "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
       }
-    ]
+    ],
+    "tagline": "Digital precision driving real-world construction excellence."
   },
   {
     "slug": "clash-detection",
@@ -1383,7 +1424,8 @@
         "q": "Which BIM software do you use?",
         "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
       }
-    ]
+    ],
+    "tagline": "Resolving conflicts digitally before they occur on-site."
   },
   {
     "slug": "revit-family-creation",
@@ -1416,7 +1458,8 @@
         "q": "Which BIM software do you use?",
         "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
       }
-    ]
+    ],
+    "tagline": "Digital precision driving real-world construction excellence."
   },
   {
     "slug": "4d-5d",
@@ -1449,7 +1492,8 @@
         "q": "Which BIM software do you use?",
         "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
       }
-    ]
+    ],
+    "tagline": "Adding the dimensions of time and cost to your BIM strategy."
   },
   {
     "slug": "bep-development",
@@ -1482,6 +1526,7 @@
         "q": "Which BIM software do you use?",
         "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
       }
-    ]
+    ],
+    "tagline": "Digital precision driving real-world construction excellence."
   }
 ]

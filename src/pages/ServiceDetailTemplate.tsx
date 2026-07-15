@@ -104,24 +104,6 @@ const ServiceDetailTemplate = () => {
                             {service.summary} Nopex Services delivers coordinated, precise engineering solutions tailored to your project requirements.
                         </p>
                         
-                        <h3 className="text-2xl font-bold mb-6 text-foreground">What's Included</h3>
-                        <div className="grid sm:grid-cols-2 gap-4 mb-10">
-                            {service.deliverables.map((del, idx) => (
-                                <div key={idx} className="flex items-center gap-3 p-4 bg-muted rounded-lg border border-border/50">
-                                    <CheckCircle2 className="w-5 h-5 text-primary" />
-                                    <span className="font-medium text-foreground">{del}</span>
-                                </div>
-                            ))}
-                        </div>
-
-                        <h3 className="text-2xl font-bold mb-6 text-foreground">Sectors Commonly Served</h3>
-                        <div className="flex flex-wrap gap-3 mb-8">
-                            {service.sectors.map((sector) => (
-                                <span key={sector} className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold capitalize">
-                                    {sector}
-                                </span>
-                            ))}
-                        </div>
                     </div>
 
                     <div className="relative">
@@ -139,24 +121,15 @@ const ServiceDetailTemplate = () => {
             </div>
         </section>
 
-        {/* ═══════════ FAQ & CTA ═══════════ */}
+        {/* ═══════════ CTA ═══════════ */}
         <section className="py-24 bg-muted/30 border-y border-border/50">
             <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
                 <div className="grid lg:grid-cols-2 gap-16">
-                    <div>
-                        <h2 className="text-3xl sm:text-4xl font-bold mb-8">Frequently Asked Questions</h2>
-                        <Accordion type="single" collapsible className="w-full">
-                            {service.faqs.map((faq, index) => (
-                                <AccordionItem key={index} value={`item-${index}`}>
-                                    <AccordionTrigger className="text-left text-lg font-medium">
-                                        {faq.q}
-                                    </AccordionTrigger>
-                                    <AccordionContent className="text-muted-foreground text-base leading-relaxed">
-                                        {faq.a}
-                                    </AccordionContent>
-                                </AccordionItem>
-                            ))}
-                        </Accordion>
+                    <div className="flex flex-col justify-center">
+                        <h2 className="text-3xl sm:text-4xl font-bold mb-8">Ready to Start?</h2>
+                        <p className="text-muted-foreground mb-8 text-lg">
+                            Send us your project scope or drawings, and our engineering team will provide a structured quote and timeline.
+                        </p>
                     </div>
 
                     <div className="bg-[#1a4d4d] text-white p-10 rounded-2xl flex flex-col justify-center h-full relative overflow-hidden">

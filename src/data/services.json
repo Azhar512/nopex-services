@@ -1,47 +1,1487 @@
 [
-  { "slug": "site-development", "discipline": "civil", "name": "Site Development & Grading Design", "summary": "Site development, land, and public-realm infrastructure engineering." },
-  { "slug": "site-civil-engineering", "discipline": "civil", "name": "Site / Civil Engineering Design", "summary": "Comprehensive civil engineering design for commercial, residential, and industrial sites." },
-  { "slug": "stormwater-drainage", "discipline": "civil", "name": "Stormwater Management & Drainage Design", "summary": "Advanced stormwater systems, retention, and drainage solutions." },
-  { "slug": "water-wastewater", "discipline": "civil", "name": "Water & Wastewater Engineering Design", "summary": "Sanitary sewer, water main distribution, and wastewater system engineering." },
-  { "slug": "transportation", "discipline": "civil", "name": "Transportation & Roadway Engineering Design", "summary": "Roadway design, intersection improvements, and traffic infrastructure." },
-  { "slug": "erosion-sediment-control", "discipline": "civil", "name": "Erosion & Sediment Control Planning", "summary": "Compliance-driven erosion and sediment control (ESC) design." },
-  { "slug": "permitting", "discipline": "civil", "name": "Civil Permitting & Entitlement Support", "summary": "Permitting strategy, agency coordination, and drawing preparation." },
-  { "slug": "utility-coordination", "discipline": "civil", "name": "Utility Coordination", "summary": "Coordination for water, sewer, storm, and dry utilities." },
-  { "slug": "building-design", "discipline": "structural", "name": "Structural Building Design", "summary": "New construction and addition structural design for all building types." },
-  { "slug": "steel-detailing", "discipline": "structural", "name": "Structural Steel Detailing", "summary": "Precision 3D modeling and shop drawings for steel fabrication." },
-  { "slug": "rebar-detailing", "discipline": "structural", "name": "Rebar Detailing", "summary": "Reinforcing steel shop drawings and bar bending schedules." },
-  { "slug": "precast-detailing", "discipline": "structural", "name": "Precast & Concrete Detailing", "summary": "Detailed engineering for precast and cast-in-place concrete structures." },
-  { "slug": "seismic-retrofit", "discipline": "structural", "name": "Seismic Analysis & Retrofit Design", "summary": "Evaluating and upgrading structures to meet current seismic requirements." },
-  { "slug": "condition-assessment", "discipline": "structural", "name": "Structural Condition Assessment", "summary": "Evaluation of existing structures from client-supplied inspection/survey data." },
-  { "slug": "foundation-geotechnical", "discipline": "structural", "name": "Foundation & Geotechnical Coordination", "summary": "Coordination of structural foundation designs with geotechnical reports." },
-  { "slug": "shop-drawings", "discipline": "structural", "name": "Structural Shop & As-Built Drawings", "summary": "Accurate documentation of structural components for fabrication and records." },
-  { "slug": "design-development", "discipline": "architectural", "name": "Architectural Design & Development", "summary": "SD, DD, and CD phase architectural design and planning." },
-  { "slug": "construction-documents", "discipline": "architectural", "name": "Construction Document Sets", "summary": "Complete, permit-ready architectural drawing packages." },
-  { "slug": "interior-design", "discipline": "architectural", "name": "Interior Design", "summary": "Interior space planning, material selection, and detailing." },
-  { "slug": "3d-rendering", "discipline": "architectural", "name": "3D Rendering & Visualization", "summary": "High-fidelity photorealistic renders for marketing and approvals." },
-  { "slug": "facade-design", "discipline": "architectural", "name": "Façade Design & Shop Drawings", "summary": "Exterior envelope design, detailing, and fabrication drawings." },
-  { "slug": "sustainable-design", "discipline": "architectural", "name": "Sustainable Design & LEED Consulting", "summary": "Energy-efficient design strategies and LEED certification support." },
-  { "slug": "space-planning", "discipline": "architectural", "name": "Space Planning & Programming", "summary": "Optimizing building layouts for occupant flow and efficiency." },
-  { "slug": "renovation-adaptive-reuse", "discipline": "architectural", "name": "Renovation & Adaptive Reuse Design", "summary": "Transforming and updating existing buildings for new uses." },
-  { "slug": "mechanical", "discipline": "mep", "name": "Mechanical (HVAC) Engineering", "summary": "Energy-efficient heating, ventilation, and air conditioning design." },
-  { "slug": "electrical", "discipline": "mep", "name": "Electrical Engineering", "summary": "Power, lighting, and low-voltage systems engineering." },
-  { "slug": "plumbing", "discipline": "mep", "name": "Plumbing Engineering", "summary": "Domestic water, sanitary, and specialized plumbing systems." },
-  { "slug": "fire-protection", "discipline": "mep", "name": "Fire Protection Engineering", "summary": "Sprinkler, alarm, and life safety system design." },
-  { "slug": "mep-coordination", "discipline": "mep", "name": "MEP Coordination & Clash Detection", "summary": "Multi-trade coordination across mechanical, electrical, plumbing, and fire protection systems." },
-  { "slug": "mep-shop-drawings", "discipline": "mep", "name": "MEP Shop & Installation Drawings", "summary": "Detailed fabrication and installation drawings for MEP trades." },
-  { "slug": "energy-modeling", "discipline": "mep", "name": "Energy Modeling & Efficiency Analysis", "summary": "Simulating building performance to optimize energy use." },
-  { "slug": "load-calculations", "discipline": "mep", "name": "Load Calculations & Panel Scheduling", "summary": "Precise mechanical and electrical load analysis." },
-  { "slug": "facility-design", "discipline": "industrial", "name": "Industrial Facility Design", "summary": "Comprehensive engineering for manufacturing and production plants." },
-  { "slug": "process-piping", "discipline": "industrial", "name": "Process & Piping Design", "summary": "P&ID development and complex process piping layouts." },
-  { "slug": "equipment-layout", "discipline": "industrial", "name": "Equipment Layout & Plant Design", "summary": "Optimized equipment placement for operational efficiency." },
-  { "slug": "manufacturing-support", "discipline": "industrial", "name": "Manufacturing & Warehouse Engineering Support", "summary": "Logistics and structural support for warehouse operations." },
-  { "slug": "material-handling", "discipline": "industrial", "name": "Material Handling System Coordination", "summary": "Integrating conveyors and automated handling systems into facilities." },
-  { "slug": "facility-upgrades", "discipline": "industrial", "name": "Industrial Facility Upgrades & Retrofits", "summary": "Modernizing existing plants for increased capacity or safety." },
-  { "slug": "3d-modeling", "discipline": "bim", "name": "3D BIM Modeling", "summary": "Architectural, Structural, and MEP modeling from LOD 100 to 500." },
-  { "slug": "scan-to-bim", "discipline": "bim", "name": "Scan to BIM", "summary": "Converting point cloud data into accurate Revit models." },
-  { "slug": "cad-to-bim", "discipline": "bim", "name": "CAD to BIM Conversion", "summary": "Upgrading 2D CAD drawings into intelligent 3D BIM models." },
-  { "slug": "clash-detection", "discipline": "bim", "name": "BIM Coordination & Clash Detection", "summary": "Resolving cross-disciplinary conflicts before construction." },
-  { "slug": "revit-family-creation", "discipline": "bim", "name": "Revit Family Creation & Maintenance", "summary": "Custom parametric Revit families for manufacturers and designers." },
-  { "slug": "4d-5d", "discipline": "bim", "name": "4D BIM Scheduling & 5D Cost Estimating", "summary": "Integrating time and cost data into the BIM environment." },
-  { "slug": "bep-development", "discipline": "bim", "name": "BIM Execution Plan (BEP) Development", "summary": "Establishing standards and workflows for BIM project delivery." }
+  {
+    "slug": "site-development",
+    "discipline": "civil",
+    "name": "Site Development & Grading Design",
+    "summary": "Site development, land, and public-realm infrastructure engineering.",
+    "description": "At Nopex Services, our Site Development & Grading Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of site development & grading design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Site Plans",
+      "Grading & Drainage Plans",
+      "Utility Layouts",
+      "Erosion Control Plans",
+      "Site Development & Grading Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Development",
+      "Residential Subdivisions",
+      "Municipal Infrastructure",
+      "Industrial Parks",
+      "Public Works"
+    ],
+    "faqs": [
+      {
+        "q": "What is your approach to local permitting?",
+        "a": "We maintain close relationships with local municipalities and stay updated on zoning laws to expedite the permitting process and ensure compliance."
+      },
+      {
+        "q": "Do you provide sustainable site design?",
+        "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
+      }
+    ]
+  },
+  {
+    "slug": "site-civil-engineering",
+    "discipline": "civil",
+    "name": "Site / Civil Engineering Design",
+    "summary": "Comprehensive civil engineering design for commercial, residential, and industrial sites.",
+    "description": "At Nopex Services, our Site / Civil Engineering Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of site / civil engineering design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Site Plans",
+      "Grading & Drainage Plans",
+      "Utility Layouts",
+      "Erosion Control Plans",
+      "Site / Civil Engineering Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Development",
+      "Residential Subdivisions",
+      "Municipal Infrastructure",
+      "Industrial Parks",
+      "Public Works"
+    ],
+    "faqs": [
+      {
+        "q": "What is your approach to local permitting?",
+        "a": "We maintain close relationships with local municipalities and stay updated on zoning laws to expedite the permitting process and ensure compliance."
+      },
+      {
+        "q": "Do you provide sustainable site design?",
+        "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
+      }
+    ]
+  },
+  {
+    "slug": "stormwater-drainage",
+    "discipline": "civil",
+    "name": "Stormwater Management & Drainage Design",
+    "summary": "Advanced stormwater systems, retention, and drainage solutions.",
+    "description": "At Nopex Services, our Stormwater Management & Drainage Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of stormwater management & drainage design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Site Plans",
+      "Grading & Drainage Plans",
+      "Utility Layouts",
+      "Erosion Control Plans",
+      "Stormwater Management & Drainage Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Development",
+      "Residential Subdivisions",
+      "Municipal Infrastructure",
+      "Industrial Parks",
+      "Public Works"
+    ],
+    "faqs": [
+      {
+        "q": "What is your approach to local permitting?",
+        "a": "We maintain close relationships with local municipalities and stay updated on zoning laws to expedite the permitting process and ensure compliance."
+      },
+      {
+        "q": "Do you provide sustainable site design?",
+        "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
+      }
+    ]
+  },
+  {
+    "slug": "water-wastewater",
+    "discipline": "civil",
+    "name": "Water & Wastewater Engineering Design",
+    "summary": "Sanitary sewer, water main distribution, and wastewater system engineering.",
+    "description": "At Nopex Services, our Water & Wastewater Engineering Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of water & wastewater engineering design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Site Plans",
+      "Grading & Drainage Plans",
+      "Utility Layouts",
+      "Erosion Control Plans",
+      "Water & Wastewater Engineering Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Development",
+      "Residential Subdivisions",
+      "Municipal Infrastructure",
+      "Industrial Parks",
+      "Public Works"
+    ],
+    "faqs": [
+      {
+        "q": "What is your approach to local permitting?",
+        "a": "We maintain close relationships with local municipalities and stay updated on zoning laws to expedite the permitting process and ensure compliance."
+      },
+      {
+        "q": "Do you provide sustainable site design?",
+        "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
+      }
+    ]
+  },
+  {
+    "slug": "transportation",
+    "discipline": "civil",
+    "name": "Transportation & Roadway Engineering Design",
+    "summary": "Roadway design, intersection improvements, and traffic infrastructure.",
+    "description": "At Nopex Services, our Transportation & Roadway Engineering Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of transportation & roadway engineering design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Site Plans",
+      "Grading & Drainage Plans",
+      "Utility Layouts",
+      "Erosion Control Plans",
+      "Transportation & Roadway Engineering Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Development",
+      "Residential Subdivisions",
+      "Municipal Infrastructure",
+      "Industrial Parks",
+      "Public Works"
+    ],
+    "faqs": [
+      {
+        "q": "What is your approach to local permitting?",
+        "a": "We maintain close relationships with local municipalities and stay updated on zoning laws to expedite the permitting process and ensure compliance."
+      },
+      {
+        "q": "Do you provide sustainable site design?",
+        "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
+      }
+    ]
+  },
+  {
+    "slug": "erosion-sediment-control",
+    "discipline": "civil",
+    "name": "Erosion & Sediment Control Planning",
+    "summary": "Compliance-driven erosion and sediment control (ESC) design.",
+    "description": "At Nopex Services, our Erosion & Sediment Control Planning solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of erosion & sediment control planning aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Site Plans",
+      "Grading & Drainage Plans",
+      "Utility Layouts",
+      "Erosion Control Plans",
+      "Erosion & Sediment Control Planning Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Development",
+      "Residential Subdivisions",
+      "Municipal Infrastructure",
+      "Industrial Parks",
+      "Public Works"
+    ],
+    "faqs": [
+      {
+        "q": "What is your approach to local permitting?",
+        "a": "We maintain close relationships with local municipalities and stay updated on zoning laws to expedite the permitting process and ensure compliance."
+      },
+      {
+        "q": "Do you provide sustainable site design?",
+        "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
+      }
+    ]
+  },
+  {
+    "slug": "permitting",
+    "discipline": "civil",
+    "name": "Civil Permitting & Entitlement Support",
+    "summary": "Permitting strategy, agency coordination, and drawing preparation.",
+    "description": "At Nopex Services, our Civil Permitting & Entitlement Support solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of civil permitting & entitlement support aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Site Plans",
+      "Grading & Drainage Plans",
+      "Utility Layouts",
+      "Erosion Control Plans",
+      "Civil Permitting & Entitlement Support Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Development",
+      "Residential Subdivisions",
+      "Municipal Infrastructure",
+      "Industrial Parks",
+      "Public Works"
+    ],
+    "faqs": [
+      {
+        "q": "What is your approach to local permitting?",
+        "a": "We maintain close relationships with local municipalities and stay updated on zoning laws to expedite the permitting process and ensure compliance."
+      },
+      {
+        "q": "Do you provide sustainable site design?",
+        "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
+      }
+    ]
+  },
+  {
+    "slug": "utility-coordination",
+    "discipline": "civil",
+    "name": "Utility Coordination",
+    "summary": "Coordination for water, sewer, storm, and dry utilities.",
+    "description": "At Nopex Services, our Utility Coordination solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of utility coordination aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Site Plans",
+      "Grading & Drainage Plans",
+      "Utility Layouts",
+      "Erosion Control Plans",
+      "Utility Coordination Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Development",
+      "Residential Subdivisions",
+      "Municipal Infrastructure",
+      "Industrial Parks",
+      "Public Works"
+    ],
+    "faqs": [
+      {
+        "q": "What is your approach to local permitting?",
+        "a": "We maintain close relationships with local municipalities and stay updated on zoning laws to expedite the permitting process and ensure compliance."
+      },
+      {
+        "q": "Do you provide sustainable site design?",
+        "a": "Yes, we integrate low-impact development (LID) strategies and sustainable stormwater management into our civil designs."
+      }
+    ]
+  },
+  {
+    "slug": "building-design",
+    "discipline": "structural",
+    "name": "Structural Building Design",
+    "summary": "New construction and addition structural design for all building types.",
+    "description": "At Nopex Services, our Structural Building Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of structural building design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Structural Framing Plans",
+      "Foundation Plans",
+      "Detail Sections",
+      "BIM Structural Models",
+      "Structural Building Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "High-Rise Residential",
+      "Industrial Facilities",
+      "Healthcare",
+      "Education"
+    ],
+    "faqs": [
+      {
+        "q": "Which structural design codes do you follow?",
+        "a": "We strictly adhere to IBC, ASCE 7, ACI 318, AISC, and local building codes, ensuring safety and compliance."
+      },
+      {
+        "q": "Can you coordinate with our architectural Revit models?",
+        "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
+      }
+    ]
+  },
+  {
+    "slug": "steel-detailing",
+    "discipline": "structural",
+    "name": "Structural Steel Detailing",
+    "summary": "Precision 3D modeling and shop drawings for steel fabrication.",
+    "description": "At Nopex Services, our Structural Steel Detailing solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of structural steel detailing aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Structural Framing Plans",
+      "Foundation Plans",
+      "Detail Sections",
+      "BIM Structural Models",
+      "Structural Steel Detailing Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "High-Rise Residential",
+      "Industrial Facilities",
+      "Healthcare",
+      "Education"
+    ],
+    "faqs": [
+      {
+        "q": "Which structural design codes do you follow?",
+        "a": "We strictly adhere to IBC, ASCE 7, ACI 318, AISC, and local building codes, ensuring safety and compliance."
+      },
+      {
+        "q": "Can you coordinate with our architectural Revit models?",
+        "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
+      }
+    ]
+  },
+  {
+    "slug": "rebar-detailing",
+    "discipline": "structural",
+    "name": "Rebar Detailing",
+    "summary": "Reinforcing steel shop drawings and bar bending schedules.",
+    "description": "At Nopex Services, our Rebar Detailing solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of rebar detailing aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Structural Framing Plans",
+      "Foundation Plans",
+      "Detail Sections",
+      "BIM Structural Models",
+      "Rebar Detailing Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "High-Rise Residential",
+      "Industrial Facilities",
+      "Healthcare",
+      "Education"
+    ],
+    "faqs": [
+      {
+        "q": "Which structural design codes do you follow?",
+        "a": "We strictly adhere to IBC, ASCE 7, ACI 318, AISC, and local building codes, ensuring safety and compliance."
+      },
+      {
+        "q": "Can you coordinate with our architectural Revit models?",
+        "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
+      }
+    ]
+  },
+  {
+    "slug": "precast-detailing",
+    "discipline": "structural",
+    "name": "Precast & Concrete Detailing",
+    "summary": "Detailed engineering for precast and cast-in-place concrete structures.",
+    "description": "At Nopex Services, our Precast & Concrete Detailing solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of precast & concrete detailing aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Structural Framing Plans",
+      "Foundation Plans",
+      "Detail Sections",
+      "BIM Structural Models",
+      "Precast & Concrete Detailing Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "High-Rise Residential",
+      "Industrial Facilities",
+      "Healthcare",
+      "Education"
+    ],
+    "faqs": [
+      {
+        "q": "Which structural design codes do you follow?",
+        "a": "We strictly adhere to IBC, ASCE 7, ACI 318, AISC, and local building codes, ensuring safety and compliance."
+      },
+      {
+        "q": "Can you coordinate with our architectural Revit models?",
+        "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
+      }
+    ]
+  },
+  {
+    "slug": "seismic-retrofit",
+    "discipline": "structural",
+    "name": "Seismic Analysis & Retrofit Design",
+    "summary": "Evaluating and upgrading structures to meet current seismic requirements.",
+    "description": "At Nopex Services, our Seismic Analysis & Retrofit Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of seismic analysis & retrofit design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Structural Framing Plans",
+      "Foundation Plans",
+      "Detail Sections",
+      "BIM Structural Models",
+      "Seismic Analysis & Retrofit Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "High-Rise Residential",
+      "Industrial Facilities",
+      "Healthcare",
+      "Education"
+    ],
+    "faqs": [
+      {
+        "q": "Which structural design codes do you follow?",
+        "a": "We strictly adhere to IBC, ASCE 7, ACI 318, AISC, and local building codes, ensuring safety and compliance."
+      },
+      {
+        "q": "Can you coordinate with our architectural Revit models?",
+        "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
+      }
+    ]
+  },
+  {
+    "slug": "condition-assessment",
+    "discipline": "structural",
+    "name": "Structural Condition Assessment",
+    "summary": "Evaluation of existing structures from client-supplied inspection/survey data.",
+    "description": "At Nopex Services, our Structural Condition Assessment solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of structural condition assessment aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Structural Framing Plans",
+      "Foundation Plans",
+      "Detail Sections",
+      "BIM Structural Models",
+      "Structural Condition Assessment Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "High-Rise Residential",
+      "Industrial Facilities",
+      "Healthcare",
+      "Education"
+    ],
+    "faqs": [
+      {
+        "q": "Which structural design codes do you follow?",
+        "a": "We strictly adhere to IBC, ASCE 7, ACI 318, AISC, and local building codes, ensuring safety and compliance."
+      },
+      {
+        "q": "Can you coordinate with our architectural Revit models?",
+        "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
+      }
+    ]
+  },
+  {
+    "slug": "foundation-geotechnical",
+    "discipline": "structural",
+    "name": "Foundation & Geotechnical Coordination",
+    "summary": "Coordination of structural foundation designs with geotechnical reports.",
+    "description": "At Nopex Services, our Foundation & Geotechnical Coordination solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of foundation & geotechnical coordination aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Structural Framing Plans",
+      "Foundation Plans",
+      "Detail Sections",
+      "BIM Structural Models",
+      "Foundation & Geotechnical Coordination Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "High-Rise Residential",
+      "Industrial Facilities",
+      "Healthcare",
+      "Education"
+    ],
+    "faqs": [
+      {
+        "q": "Which structural design codes do you follow?",
+        "a": "We strictly adhere to IBC, ASCE 7, ACI 318, AISC, and local building codes, ensuring safety and compliance."
+      },
+      {
+        "q": "Can you coordinate with our architectural Revit models?",
+        "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
+      }
+    ]
+  },
+  {
+    "slug": "shop-drawings",
+    "discipline": "structural",
+    "name": "Structural Shop & As-Built Drawings",
+    "summary": "Accurate documentation of structural components for fabrication and records.",
+    "description": "At Nopex Services, our Structural Shop & As-Built Drawings solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of structural shop & as-built drawings aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Structural Framing Plans",
+      "Foundation Plans",
+      "Detail Sections",
+      "BIM Structural Models",
+      "Structural Shop & As-Built Drawings Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "High-Rise Residential",
+      "Industrial Facilities",
+      "Healthcare",
+      "Education"
+    ],
+    "faqs": [
+      {
+        "q": "Which structural design codes do you follow?",
+        "a": "We strictly adhere to IBC, ASCE 7, ACI 318, AISC, and local building codes, ensuring safety and compliance."
+      },
+      {
+        "q": "Can you coordinate with our architectural Revit models?",
+        "a": "Absolutely. We work natively in Revit and integrate our structural models directly with architectural and MEP models for clash-free design."
+      }
+    ]
+  },
+  {
+    "slug": "design-development",
+    "discipline": "architectural",
+    "name": "Architectural Design & Development",
+    "summary": "SD, DD, and CD phase architectural design and planning.",
+    "description": "At Nopex Services, our Architectural Design & Development solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of architectural design & development aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Floor Plans & Elevations",
+      "Reflected Ceiling Plans",
+      "3D Renderings",
+      "Construction Document Sets",
+      "Architectural Design & Development Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Corporate Workspaces",
+      "Retail",
+      "Hospitality",
+      "Healthcare",
+      "Mixed-Use Developments"
+    ],
+    "faqs": [
+      {
+        "q": "Do you handle the complete design process?",
+        "a": "Yes, from Schematic Design (SD) and Design Development (DD) through Construction Documents (CD) and administration."
+      },
+      {
+        "q": "How do you ensure the design meets our budget?",
+        "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
+      }
+    ]
+  },
+  {
+    "slug": "construction-documents",
+    "discipline": "architectural",
+    "name": "Construction Document Sets",
+    "summary": "Complete, permit-ready architectural drawing packages.",
+    "description": "At Nopex Services, our Construction Document Sets solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of construction document sets aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Floor Plans & Elevations",
+      "Reflected Ceiling Plans",
+      "3D Renderings",
+      "Construction Document Sets",
+      "Construction Document Sets Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Corporate Workspaces",
+      "Retail",
+      "Hospitality",
+      "Healthcare",
+      "Mixed-Use Developments"
+    ],
+    "faqs": [
+      {
+        "q": "Do you handle the complete design process?",
+        "a": "Yes, from Schematic Design (SD) and Design Development (DD) through Construction Documents (CD) and administration."
+      },
+      {
+        "q": "How do you ensure the design meets our budget?",
+        "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
+      }
+    ]
+  },
+  {
+    "slug": "interior-design",
+    "discipline": "architectural",
+    "name": "Interior Design",
+    "summary": "Interior space planning, material selection, and detailing.",
+    "description": "At Nopex Services, our Interior Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of interior design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Floor Plans & Elevations",
+      "Reflected Ceiling Plans",
+      "3D Renderings",
+      "Construction Document Sets",
+      "Interior Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Corporate Workspaces",
+      "Retail",
+      "Hospitality",
+      "Healthcare",
+      "Mixed-Use Developments"
+    ],
+    "faqs": [
+      {
+        "q": "Do you handle the complete design process?",
+        "a": "Yes, from Schematic Design (SD) and Design Development (DD) through Construction Documents (CD) and administration."
+      },
+      {
+        "q": "How do you ensure the design meets our budget?",
+        "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
+      }
+    ]
+  },
+  {
+    "slug": "3d-rendering",
+    "discipline": "architectural",
+    "name": "3D Rendering & Visualization",
+    "summary": "High-fidelity photorealistic renders for marketing and approvals.",
+    "description": "At Nopex Services, our 3D Rendering & Visualization solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of 3d rendering & visualization aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Floor Plans & Elevations",
+      "Reflected Ceiling Plans",
+      "3D Renderings",
+      "Construction Document Sets",
+      "3D Rendering & Visualization Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Corporate Workspaces",
+      "Retail",
+      "Hospitality",
+      "Healthcare",
+      "Mixed-Use Developments"
+    ],
+    "faqs": [
+      {
+        "q": "Do you handle the complete design process?",
+        "a": "Yes, from Schematic Design (SD) and Design Development (DD) through Construction Documents (CD) and administration."
+      },
+      {
+        "q": "How do you ensure the design meets our budget?",
+        "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
+      }
+    ]
+  },
+  {
+    "slug": "facade-design",
+    "discipline": "architectural",
+    "name": "Façade Design & Shop Drawings",
+    "summary": "Exterior envelope design, detailing, and fabrication drawings.",
+    "description": "At Nopex Services, our Façade Design & Shop Drawings solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of façade design & shop drawings aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Floor Plans & Elevations",
+      "Reflected Ceiling Plans",
+      "3D Renderings",
+      "Construction Document Sets",
+      "Façade Design & Shop Drawings Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Corporate Workspaces",
+      "Retail",
+      "Hospitality",
+      "Healthcare",
+      "Mixed-Use Developments"
+    ],
+    "faqs": [
+      {
+        "q": "Do you handle the complete design process?",
+        "a": "Yes, from Schematic Design (SD) and Design Development (DD) through Construction Documents (CD) and administration."
+      },
+      {
+        "q": "How do you ensure the design meets our budget?",
+        "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
+      }
+    ]
+  },
+  {
+    "slug": "sustainable-design",
+    "discipline": "architectural",
+    "name": "Sustainable Design & LEED Consulting",
+    "summary": "Energy-efficient design strategies and LEED certification support.",
+    "description": "At Nopex Services, our Sustainable Design & LEED Consulting solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of sustainable design & leed consulting aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Floor Plans & Elevations",
+      "Reflected Ceiling Plans",
+      "3D Renderings",
+      "Construction Document Sets",
+      "Sustainable Design & LEED Consulting Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Corporate Workspaces",
+      "Retail",
+      "Hospitality",
+      "Healthcare",
+      "Mixed-Use Developments"
+    ],
+    "faqs": [
+      {
+        "q": "Do you handle the complete design process?",
+        "a": "Yes, from Schematic Design (SD) and Design Development (DD) through Construction Documents (CD) and administration."
+      },
+      {
+        "q": "How do you ensure the design meets our budget?",
+        "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
+      }
+    ]
+  },
+  {
+    "slug": "space-planning",
+    "discipline": "architectural",
+    "name": "Space Planning & Programming",
+    "summary": "Optimizing building layouts for occupant flow and efficiency.",
+    "description": "At Nopex Services, our Space Planning & Programming solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of space planning & programming aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Floor Plans & Elevations",
+      "Reflected Ceiling Plans",
+      "3D Renderings",
+      "Construction Document Sets",
+      "Space Planning & Programming Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Corporate Workspaces",
+      "Retail",
+      "Hospitality",
+      "Healthcare",
+      "Mixed-Use Developments"
+    ],
+    "faqs": [
+      {
+        "q": "Do you handle the complete design process?",
+        "a": "Yes, from Schematic Design (SD) and Design Development (DD) through Construction Documents (CD) and administration."
+      },
+      {
+        "q": "How do you ensure the design meets our budget?",
+        "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
+      }
+    ]
+  },
+  {
+    "slug": "renovation-adaptive-reuse",
+    "discipline": "architectural",
+    "name": "Renovation & Adaptive Reuse Design",
+    "summary": "Transforming and updating existing buildings for new uses.",
+    "description": "At Nopex Services, our Renovation & Adaptive Reuse Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of renovation & adaptive reuse design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Floor Plans & Elevations",
+      "Reflected Ceiling Plans",
+      "3D Renderings",
+      "Construction Document Sets",
+      "Renovation & Adaptive Reuse Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Corporate Workspaces",
+      "Retail",
+      "Hospitality",
+      "Healthcare",
+      "Mixed-Use Developments"
+    ],
+    "faqs": [
+      {
+        "q": "Do you handle the complete design process?",
+        "a": "Yes, from Schematic Design (SD) and Design Development (DD) through Construction Documents (CD) and administration."
+      },
+      {
+        "q": "How do you ensure the design meets our budget?",
+        "a": "We provide value engineering and continuous cost estimation feedback during the design phases."
+      }
+    ]
+  },
+  {
+    "slug": "mechanical",
+    "discipline": "mep",
+    "name": "Mechanical (HVAC) Engineering",
+    "summary": "Energy-efficient heating, ventilation, and air conditioning design.",
+    "description": "At Nopex Services, our Mechanical (HVAC) Engineering solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of mechanical (hvac) engineering aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "HVAC Layouts",
+      "Electrical Panel Schedules",
+      "Plumbing Riser Diagrams",
+      "Fire Protection Plans",
+      "Mechanical (HVAC) Engineering Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "Data Centers",
+      "Hospitals",
+      "Laboratories",
+      "High-Rise Residential"
+    ],
+    "faqs": [
+      {
+        "q": "Do you perform clash detection for MEP systems?",
+        "a": "Yes, we use Navisworks and Revit to perform rigorous clash detection between MEP, structural, and architectural elements."
+      },
+      {
+        "q": "Are your designs energy efficient?",
+        "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
+      }
+    ]
+  },
+  {
+    "slug": "electrical",
+    "discipline": "mep",
+    "name": "Electrical Engineering",
+    "summary": "Power, lighting, and low-voltage systems engineering.",
+    "description": "At Nopex Services, our Electrical Engineering solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of electrical engineering aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "HVAC Layouts",
+      "Electrical Panel Schedules",
+      "Plumbing Riser Diagrams",
+      "Fire Protection Plans",
+      "Electrical Engineering Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "Data Centers",
+      "Hospitals",
+      "Laboratories",
+      "High-Rise Residential"
+    ],
+    "faqs": [
+      {
+        "q": "Do you perform clash detection for MEP systems?",
+        "a": "Yes, we use Navisworks and Revit to perform rigorous clash detection between MEP, structural, and architectural elements."
+      },
+      {
+        "q": "Are your designs energy efficient?",
+        "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
+      }
+    ]
+  },
+  {
+    "slug": "plumbing",
+    "discipline": "mep",
+    "name": "Plumbing Engineering",
+    "summary": "Domestic water, sanitary, and specialized plumbing systems.",
+    "description": "At Nopex Services, our Plumbing Engineering solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of plumbing engineering aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "HVAC Layouts",
+      "Electrical Panel Schedules",
+      "Plumbing Riser Diagrams",
+      "Fire Protection Plans",
+      "Plumbing Engineering Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "Data Centers",
+      "Hospitals",
+      "Laboratories",
+      "High-Rise Residential"
+    ],
+    "faqs": [
+      {
+        "q": "Do you perform clash detection for MEP systems?",
+        "a": "Yes, we use Navisworks and Revit to perform rigorous clash detection between MEP, structural, and architectural elements."
+      },
+      {
+        "q": "Are your designs energy efficient?",
+        "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
+      }
+    ]
+  },
+  {
+    "slug": "fire-protection",
+    "discipline": "mep",
+    "name": "Fire Protection Engineering",
+    "summary": "Sprinkler, alarm, and life safety system design.",
+    "description": "At Nopex Services, our Fire Protection Engineering solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of fire protection engineering aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "HVAC Layouts",
+      "Electrical Panel Schedules",
+      "Plumbing Riser Diagrams",
+      "Fire Protection Plans",
+      "Fire Protection Engineering Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "Data Centers",
+      "Hospitals",
+      "Laboratories",
+      "High-Rise Residential"
+    ],
+    "faqs": [
+      {
+        "q": "Do you perform clash detection for MEP systems?",
+        "a": "Yes, we use Navisworks and Revit to perform rigorous clash detection between MEP, structural, and architectural elements."
+      },
+      {
+        "q": "Are your designs energy efficient?",
+        "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
+      }
+    ]
+  },
+  {
+    "slug": "mep-coordination",
+    "discipline": "mep",
+    "name": "MEP Coordination & Clash Detection",
+    "summary": "Multi-trade coordination across mechanical, electrical, plumbing, and fire protection systems.",
+    "description": "At Nopex Services, our MEP Coordination & Clash Detection solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of mep coordination & clash detection aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "HVAC Layouts",
+      "Electrical Panel Schedules",
+      "Plumbing Riser Diagrams",
+      "Fire Protection Plans",
+      "MEP Coordination & Clash Detection Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "Data Centers",
+      "Hospitals",
+      "Laboratories",
+      "High-Rise Residential"
+    ],
+    "faqs": [
+      {
+        "q": "Do you perform clash detection for MEP systems?",
+        "a": "Yes, we use Navisworks and Revit to perform rigorous clash detection between MEP, structural, and architectural elements."
+      },
+      {
+        "q": "Are your designs energy efficient?",
+        "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
+      }
+    ]
+  },
+  {
+    "slug": "mep-shop-drawings",
+    "discipline": "mep",
+    "name": "MEP Shop & Installation Drawings",
+    "summary": "Detailed fabrication and installation drawings for MEP trades.",
+    "description": "At Nopex Services, our MEP Shop & Installation Drawings solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of mep shop & installation drawings aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "HVAC Layouts",
+      "Electrical Panel Schedules",
+      "Plumbing Riser Diagrams",
+      "Fire Protection Plans",
+      "MEP Shop & Installation Drawings Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "Data Centers",
+      "Hospitals",
+      "Laboratories",
+      "High-Rise Residential"
+    ],
+    "faqs": [
+      {
+        "q": "Do you perform clash detection for MEP systems?",
+        "a": "Yes, we use Navisworks and Revit to perform rigorous clash detection between MEP, structural, and architectural elements."
+      },
+      {
+        "q": "Are your designs energy efficient?",
+        "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
+      }
+    ]
+  },
+  {
+    "slug": "energy-modeling",
+    "discipline": "mep",
+    "name": "Energy Modeling & Efficiency Analysis",
+    "summary": "Simulating building performance to optimize energy use.",
+    "description": "At Nopex Services, our Energy Modeling & Efficiency Analysis solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of energy modeling & efficiency analysis aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "HVAC Layouts",
+      "Electrical Panel Schedules",
+      "Plumbing Riser Diagrams",
+      "Fire Protection Plans",
+      "Energy Modeling & Efficiency Analysis Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "Data Centers",
+      "Hospitals",
+      "Laboratories",
+      "High-Rise Residential"
+    ],
+    "faqs": [
+      {
+        "q": "Do you perform clash detection for MEP systems?",
+        "a": "Yes, we use Navisworks and Revit to perform rigorous clash detection between MEP, structural, and architectural elements."
+      },
+      {
+        "q": "Are your designs energy efficient?",
+        "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
+      }
+    ]
+  },
+  {
+    "slug": "load-calculations",
+    "discipline": "mep",
+    "name": "Load Calculations & Panel Scheduling",
+    "summary": "Precise mechanical and electrical load analysis.",
+    "description": "At Nopex Services, our Load Calculations & Panel Scheduling solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of load calculations & panel scheduling aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "HVAC Layouts",
+      "Electrical Panel Schedules",
+      "Plumbing Riser Diagrams",
+      "Fire Protection Plans",
+      "Load Calculations & Panel Scheduling Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Commercial Buildings",
+      "Data Centers",
+      "Hospitals",
+      "Laboratories",
+      "High-Rise Residential"
+    ],
+    "faqs": [
+      {
+        "q": "Do you perform clash detection for MEP systems?",
+        "a": "Yes, we use Navisworks and Revit to perform rigorous clash detection between MEP, structural, and architectural elements."
+      },
+      {
+        "q": "Are your designs energy efficient?",
+        "a": "We prioritize energy-efficient designs that comply with ASHRAE standards and support LEED certification."
+      }
+    ]
+  },
+  {
+    "slug": "facility-design",
+    "discipline": "industrial",
+    "name": "Industrial Facility Design",
+    "summary": "Comprehensive engineering for manufacturing and production plants.",
+    "description": "At Nopex Services, our Industrial Facility Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of industrial facility design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Piping & Instrumentation Diagrams (P&ID)",
+      "Equipment Layout Plans",
+      "Material Handling Schematics",
+      "3D Plant Models",
+      "Industrial Facility Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Manufacturing Plants",
+      "Warehousing",
+      "Food & Beverage",
+      "Pharmaceuticals",
+      "Automotive"
+    ],
+    "faqs": [
+      {
+        "q": "Can you design process piping systems?",
+        "a": "Yes, we specialize in complex process piping, P&ID development, and equipment layout for industrial applications."
+      },
+      {
+        "q": "Do you upgrade existing facilities?",
+        "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
+      }
+    ]
+  },
+  {
+    "slug": "process-piping",
+    "discipline": "industrial",
+    "name": "Process & Piping Design",
+    "summary": "P&ID development and complex process piping layouts.",
+    "description": "At Nopex Services, our Process & Piping Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of process & piping design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Piping & Instrumentation Diagrams (P&ID)",
+      "Equipment Layout Plans",
+      "Material Handling Schematics",
+      "3D Plant Models",
+      "Process & Piping Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Manufacturing Plants",
+      "Warehousing",
+      "Food & Beverage",
+      "Pharmaceuticals",
+      "Automotive"
+    ],
+    "faqs": [
+      {
+        "q": "Can you design process piping systems?",
+        "a": "Yes, we specialize in complex process piping, P&ID development, and equipment layout for industrial applications."
+      },
+      {
+        "q": "Do you upgrade existing facilities?",
+        "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
+      }
+    ]
+  },
+  {
+    "slug": "equipment-layout",
+    "discipline": "industrial",
+    "name": "Equipment Layout & Plant Design",
+    "summary": "Optimized equipment placement for operational efficiency.",
+    "description": "At Nopex Services, our Equipment Layout & Plant Design solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of equipment layout & plant design aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Piping & Instrumentation Diagrams (P&ID)",
+      "Equipment Layout Plans",
+      "Material Handling Schematics",
+      "3D Plant Models",
+      "Equipment Layout & Plant Design Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Manufacturing Plants",
+      "Warehousing",
+      "Food & Beverage",
+      "Pharmaceuticals",
+      "Automotive"
+    ],
+    "faqs": [
+      {
+        "q": "Can you design process piping systems?",
+        "a": "Yes, we specialize in complex process piping, P&ID development, and equipment layout for industrial applications."
+      },
+      {
+        "q": "Do you upgrade existing facilities?",
+        "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
+      }
+    ]
+  },
+  {
+    "slug": "manufacturing-support",
+    "discipline": "industrial",
+    "name": "Manufacturing & Warehouse Engineering Support",
+    "summary": "Logistics and structural support for warehouse operations.",
+    "description": "At Nopex Services, our Manufacturing & Warehouse Engineering Support solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of manufacturing & warehouse engineering support aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Piping & Instrumentation Diagrams (P&ID)",
+      "Equipment Layout Plans",
+      "Material Handling Schematics",
+      "3D Plant Models",
+      "Manufacturing & Warehouse Engineering Support Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Manufacturing Plants",
+      "Warehousing",
+      "Food & Beverage",
+      "Pharmaceuticals",
+      "Automotive"
+    ],
+    "faqs": [
+      {
+        "q": "Can you design process piping systems?",
+        "a": "Yes, we specialize in complex process piping, P&ID development, and equipment layout for industrial applications."
+      },
+      {
+        "q": "Do you upgrade existing facilities?",
+        "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
+      }
+    ]
+  },
+  {
+    "slug": "material-handling",
+    "discipline": "industrial",
+    "name": "Material Handling System Coordination",
+    "summary": "Integrating conveyors and automated handling systems into facilities.",
+    "description": "At Nopex Services, our Material Handling System Coordination solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of material handling system coordination aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Piping & Instrumentation Diagrams (P&ID)",
+      "Equipment Layout Plans",
+      "Material Handling Schematics",
+      "3D Plant Models",
+      "Material Handling System Coordination Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Manufacturing Plants",
+      "Warehousing",
+      "Food & Beverage",
+      "Pharmaceuticals",
+      "Automotive"
+    ],
+    "faqs": [
+      {
+        "q": "Can you design process piping systems?",
+        "a": "Yes, we specialize in complex process piping, P&ID development, and equipment layout for industrial applications."
+      },
+      {
+        "q": "Do you upgrade existing facilities?",
+        "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
+      }
+    ]
+  },
+  {
+    "slug": "facility-upgrades",
+    "discipline": "industrial",
+    "name": "Industrial Facility Upgrades & Retrofits",
+    "summary": "Modernizing existing plants for increased capacity or safety.",
+    "description": "At Nopex Services, our Industrial Facility Upgrades & Retrofits solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of industrial facility upgrades & retrofits aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "Piping & Instrumentation Diagrams (P&ID)",
+      "Equipment Layout Plans",
+      "Material Handling Schematics",
+      "3D Plant Models",
+      "Industrial Facility Upgrades & Retrofits Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "Manufacturing Plants",
+      "Warehousing",
+      "Food & Beverage",
+      "Pharmaceuticals",
+      "Automotive"
+    ],
+    "faqs": [
+      {
+        "q": "Can you design process piping systems?",
+        "a": "Yes, we specialize in complex process piping, P&ID development, and equipment layout for industrial applications."
+      },
+      {
+        "q": "Do you upgrade existing facilities?",
+        "a": "We offer comprehensive retrofit and facility upgrade engineering, minimizing downtime during installation."
+      }
+    ]
+  },
+  {
+    "slug": "3d-modeling",
+    "discipline": "bim",
+    "name": "3D BIM Modeling",
+    "summary": "Architectural, Structural, and MEP modeling from LOD 100 to 500.",
+    "description": "At Nopex Services, our 3D BIM Modeling solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of 3d bim modeling aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "3D Coordinated Models (RVT/NWD)",
+      "Clash Detection Reports",
+      "Quantity Takeoffs (5D)",
+      "Construction Sequencing (4D)",
+      "3D BIM Modeling Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "General Contractors",
+      "Architecture Firms",
+      "MEP Consultants",
+      "Real Estate Developers",
+      "Facility Managers"
+    ],
+    "faqs": [
+      {
+        "q": "What Level of Development (LOD) do you provide?",
+        "a": "We provide BIM modeling from LOD 100 (conceptual) up to LOD 500 (as-built and facility management)."
+      },
+      {
+        "q": "Which BIM software do you use?",
+        "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
+      }
+    ]
+  },
+  {
+    "slug": "scan-to-bim",
+    "discipline": "bim",
+    "name": "Scan to BIM",
+    "summary": "Converting point cloud data into accurate Revit models.",
+    "description": "At Nopex Services, our Scan to BIM solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of scan to bim aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "3D Coordinated Models (RVT/NWD)",
+      "Clash Detection Reports",
+      "Quantity Takeoffs (5D)",
+      "Construction Sequencing (4D)",
+      "Scan to BIM Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "General Contractors",
+      "Architecture Firms",
+      "MEP Consultants",
+      "Real Estate Developers",
+      "Facility Managers"
+    ],
+    "faqs": [
+      {
+        "q": "What Level of Development (LOD) do you provide?",
+        "a": "We provide BIM modeling from LOD 100 (conceptual) up to LOD 500 (as-built and facility management)."
+      },
+      {
+        "q": "Which BIM software do you use?",
+        "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
+      }
+    ]
+  },
+  {
+    "slug": "cad-to-bim",
+    "discipline": "bim",
+    "name": "CAD to BIM Conversion",
+    "summary": "Upgrading 2D CAD drawings into intelligent 3D BIM models.",
+    "description": "At Nopex Services, our CAD to BIM Conversion solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of cad to bim conversion aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "3D Coordinated Models (RVT/NWD)",
+      "Clash Detection Reports",
+      "Quantity Takeoffs (5D)",
+      "Construction Sequencing (4D)",
+      "CAD to BIM Conversion Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "General Contractors",
+      "Architecture Firms",
+      "MEP Consultants",
+      "Real Estate Developers",
+      "Facility Managers"
+    ],
+    "faqs": [
+      {
+        "q": "What Level of Development (LOD) do you provide?",
+        "a": "We provide BIM modeling from LOD 100 (conceptual) up to LOD 500 (as-built and facility management)."
+      },
+      {
+        "q": "Which BIM software do you use?",
+        "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
+      }
+    ]
+  },
+  {
+    "slug": "clash-detection",
+    "discipline": "bim",
+    "name": "BIM Coordination & Clash Detection",
+    "summary": "Resolving cross-disciplinary conflicts before construction.",
+    "description": "At Nopex Services, our BIM Coordination & Clash Detection solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of bim coordination & clash detection aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "3D Coordinated Models (RVT/NWD)",
+      "Clash Detection Reports",
+      "Quantity Takeoffs (5D)",
+      "Construction Sequencing (4D)",
+      "BIM Coordination & Clash Detection Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "General Contractors",
+      "Architecture Firms",
+      "MEP Consultants",
+      "Real Estate Developers",
+      "Facility Managers"
+    ],
+    "faqs": [
+      {
+        "q": "What Level of Development (LOD) do you provide?",
+        "a": "We provide BIM modeling from LOD 100 (conceptual) up to LOD 500 (as-built and facility management)."
+      },
+      {
+        "q": "Which BIM software do you use?",
+        "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
+      }
+    ]
+  },
+  {
+    "slug": "revit-family-creation",
+    "discipline": "bim",
+    "name": "Revit Family Creation & Maintenance",
+    "summary": "Custom parametric Revit families for manufacturers and designers.",
+    "description": "At Nopex Services, our Revit Family Creation & Maintenance solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of revit family creation & maintenance aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "3D Coordinated Models (RVT/NWD)",
+      "Clash Detection Reports",
+      "Quantity Takeoffs (5D)",
+      "Construction Sequencing (4D)",
+      "Revit Family Creation & Maintenance Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "General Contractors",
+      "Architecture Firms",
+      "MEP Consultants",
+      "Real Estate Developers",
+      "Facility Managers"
+    ],
+    "faqs": [
+      {
+        "q": "What Level of Development (LOD) do you provide?",
+        "a": "We provide BIM modeling from LOD 100 (conceptual) up to LOD 500 (as-built and facility management)."
+      },
+      {
+        "q": "Which BIM software do you use?",
+        "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
+      }
+    ]
+  },
+  {
+    "slug": "4d-5d",
+    "discipline": "bim",
+    "name": "4D BIM Scheduling & 5D Cost Estimating",
+    "summary": "Integrating time and cost data into the BIM environment.",
+    "description": "At Nopex Services, our 4D BIM Scheduling & 5D Cost Estimating solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of 4d bim scheduling & 5d cost estimating aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "3D Coordinated Models (RVT/NWD)",
+      "Clash Detection Reports",
+      "Quantity Takeoffs (5D)",
+      "Construction Sequencing (4D)",
+      "4D BIM Scheduling & 5D Cost Estimating Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "General Contractors",
+      "Architecture Firms",
+      "MEP Consultants",
+      "Real Estate Developers",
+      "Facility Managers"
+    ],
+    "faqs": [
+      {
+        "q": "What Level of Development (LOD) do you provide?",
+        "a": "We provide BIM modeling from LOD 100 (conceptual) up to LOD 500 (as-built and facility management)."
+      },
+      {
+        "q": "Which BIM software do you use?",
+        "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
+      }
+    ]
+  },
+  {
+    "slug": "bep-development",
+    "discipline": "bim",
+    "name": "BIM Execution Plan (BEP) Development",
+    "summary": "Establishing standards and workflows for BIM project delivery.",
+    "description": "At Nopex Services, our BIM Execution Plan (BEP) Development solutions are designed to deliver unparalleled accuracy and efficiency. Leveraging modern technology and industry best practices, we ensure that every aspect of bim execution plan (bep) development aligns seamlessly with your overall project goals. Our dedicated team works closely with stakeholders to reduce risks, optimize costs, and accelerate project timelines.",
+    "deliverables": [
+      "3D Coordinated Models (RVT/NWD)",
+      "Clash Detection Reports",
+      "Quantity Takeoffs (5D)",
+      "Construction Sequencing (4D)",
+      "BIM Execution Plan (BEP) Development Specific Analysis",
+      "Comprehensive Technical Documentation",
+      "Quality Assurance Reports"
+    ],
+    "sectors": [
+      "General Contractors",
+      "Architecture Firms",
+      "MEP Consultants",
+      "Real Estate Developers",
+      "Facility Managers"
+    ],
+    "faqs": [
+      {
+        "q": "What Level of Development (LOD) do you provide?",
+        "a": "We provide BIM modeling from LOD 100 (conceptual) up to LOD 500 (as-built and facility management)."
+      },
+      {
+        "q": "Which BIM software do you use?",
+        "a": "Our primary tools include Autodesk Revit, Navisworks, AutoCAD Civil 3D, ReCap, and BIM 360 for cloud collaboration."
+      }
+    ]
+  }
 ]

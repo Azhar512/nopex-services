@@ -43,13 +43,38 @@ const Contact = () => {
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "ec8ec49b-58e5-43d0-9ad4-77e306542238",
+          subject: `New Contact Request from ${data.firstName} ${data.lastName}`,
+          from_name: `${data.firstName} ${data.lastName}`,
+          email: data.email,
+          phone: data.phone || "Not provided",
+          company: data.company || "Not provided",
+          service: data.service,
+          message: data.message,
+        }),
+      });
 
-    console.log("Form submitted:", data);
-    toast.success("Message sent successfully! Our team will contact you soon.");
-    reset();
-    setIsSubmitting(false);
+      const result = await response.json();
+      if (result.success) {
+        toast.success("Message sent successfully! Our team will contact you soon.");
+        reset();
+      } else {
+        toast.error("Something went wrong. Please try again later.");
+      }
+    } catch (error) {
+      toast.error("Network error. Please check your connection and try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

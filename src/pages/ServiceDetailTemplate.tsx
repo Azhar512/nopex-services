@@ -21,7 +21,17 @@ const ServiceDetailTemplate = () => {
 
   useEffect(() => {
     if (service) {
-      document.title = `${service.name} | Nopex Services`;
+      document.title = service.seoTitle || `${service.name} | Nopex Services`;
+
+      let metaDescription = document.querySelector('meta[name="description"]');
+      if (metaDescription) {
+        metaDescription.setAttribute("content", service.seoMetaDescription || service.summary || "");
+      } else {
+        metaDescription = document.createElement('meta');
+        metaDescription.name = "description";
+        metaDescription.content = service.seoMetaDescription || service.summary || "";
+        document.head.appendChild(metaDescription);
+      }
     }
   }, [service]);
 

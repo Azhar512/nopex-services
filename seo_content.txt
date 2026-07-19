@@ -1,0 +1,2766 @@
+NOPEX SERVICES
+
+Full Service Page Content — SEO-Ready
+
+36 pages across 6 categories: Civil, Structural, Architectural, MEP, Industrial, BIM & Revit Modeling
+
+
+
+How to Use This Document
+
+Each of the 36 service pages below follows the Service Detail Page Template: H1, intro paragraph, “What's Included” deliverables, a process specific to that service (3–5 steps), sectors commonly served, a 6-question FAQ accordion, and a “Send Us Your Project Scope” CTA band. SEO title tag, meta description, and URL are included above each H1 for direct use in your CMS/data file.
+
+DEV NOTE: Title tags are written under 60 characters and meta descriptions under 160 characters, per standard SEO guidance.
+
+DEV NOTE: Each page's FAQ combines 2 questions specific to that exact service with 4 commonly-asked questions (getting started, turnaround time, revisions, and licensure/stamping) — all phrased to stay consistent with the PE partner network / no on-site field work model confirmed earlier.
+
+
+
+4.1 Civil Engineering
+
+Site Development & Grading Design
+
+Title Tag: Site Development & Grading Design Services | Nopex Services
+
+Meta Description: Site development and grading design services engineered for proper drainage, code compliance, and buildable pad design on commercial and residential sites.
+
+URL: /services/civil/site-development-grading
+
+H1: Site Development & Grading Design
+
+Getting a site ready to build starts with grading that manages water, protects structures, and satisfies local code. We design grading and site development plans that balance earthwork efficiency with long-term drainage performance, coordinated with your architectural and MEP teams from the start.
+
+What's Included
+
+Grading & drainage plans
+
+Cut/fill earthwork calculations
+
+Erosion & sediment control layout
+
+Pad elevation certification support
+
+Utility trench coordination
+
+Process
+
+1. Site Data Review — evaluate existing topographic survey and jurisdiction grading requirements
+
+2. Grading & Earthwork Design — develop pad elevations, slopes, and cut/fill balance
+
+3. Drainage Integration — coordinate grading with stormwater management design
+
+4. QA/QC & Client Review
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Commercial · Residential · Industrial · Retail
+
+FAQ Accordion
+
+Q: What information do you need to start a grading design?
+
+A: An existing topographic survey, the proposed building footprint, and any jurisdiction-specific grading ordinances.
+
+Q: Can you work from a survey we already have?
+
+A: Yes — we design from client-supplied survey and geotechnical data rather than performing field surveys ourselves.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Site Development & Grading Design.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Site Development & Grading Design packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Civil 3D and PDF, with Revit/BIM coordination available on request.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Site / Civil Engineering Design
+
+Title Tag: Site / Civil Engineering Design Services | Nopex Services
+
+Meta Description: Full site civil engineering design services covering layout, utilities, and infrastructure coordination for development and construction projects nationwide.
+
+URL: /services/civil/site-civil-engineering
+
+H1: Site / Civil Engineering Design
+
+Every development project needs a coherent civil plan tying access, utilities, parking, and grading into one buildable layout. We prepare complete site civil design packages that coordinate these elements early, reducing conflicts before they reach the field.
+
+What's Included
+
+Site layout plans
+
+Utility routing plans
+
+Parking & access design
+
+Easement coordination
+
+Civil detail sheets
+
+Process
+
+1. Program & Site Constraints Review
+
+2. Layout Development — access, parking, utilities, and grading integrated into one plan
+
+3. Cross-Discipline Coordination — align with architectural and MEP site needs
+
+4. QA/QC & Client Review
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Commercial · Residential · Education · Government
+
+FAQ Accordion
+
+Q: Do you coordinate directly with our architect?
+
+A: Yes — site civil design is developed alongside the architectural site plan to keep both disciplines aligned.
+
+Q: What format do you deliver drawings in?
+
+A: Typically AutoCAD Civil 3D and PDF, with Revit/BIM coordination available on request.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Site / Civil Engineering Design.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Site / Civil Engineering Design packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Civil 3D and PDF, with Revit/BIM coordination available on request.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Stormwater Management & Drainage Design
+
+Title Tag: Stormwater Management & Drainage Design Services | Nopex Services
+
+Meta Description: Stormwater management and drainage design services, including detention/retention systems and hydrology calculations, for code-compliant site development.
+
+URL: /services/civil/stormwater-management
+
+H1: Stormwater Management & Drainage Design
+
+Stormwater requirements vary widely by jurisdiction, and getting them wrong can stall a permit application for months. We design detention/retention systems and drainage networks sized to meet local and state stormwater regulations, backed by supporting hydrology calculations.
+
+What's Included
+
+Hydrology & hydraulic calculations
+
+Detention/retention pond sizing
+
+Storm drain network design
+
+Low-impact development (LID) features
+
+SWPPP support documentation
+
+Process
+
+1. Hydrology Data Review — rainfall data, site soils, and the jurisdiction's stormwater manual
+
+2. Detention/Retention Sizing — calculate required storage and outflow control
+
+3. Drainage Network Design — storm drain pipe sizing and routing
+
+4. QA/QC & Regulatory Compliance Check
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Commercial · Residential · Municipal · Industrial
+
+FAQ Accordion
+
+Q: Which stormwater modeling software do you use?
+
+A: We work in HydroCAD, StormCAD, and similar tools depending on jurisdiction requirements.
+
+Q: Can you handle jurisdictions with unique stormwater ordinances?
+
+A: Yes — designs are built around the specific local or state stormwater manual that applies to your site.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Stormwater Management & Drainage Design.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Stormwater Management & Drainage Design packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Civil 3D and PDF, with Revit/BIM coordination available on request.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Water & Wastewater Engineering
+
+Title Tag: Water & Wastewater Engineering Services | Nopex Services
+
+Meta Description: Water distribution and sanitary sewer engineering design services for site development, municipal, and industrial utility infrastructure projects.
+
+URL: /services/civil/water-wastewater
+
+H1: Water & Wastewater Engineering
+
+Water and sanitary sewer systems have to be sized correctly the first time — undersized lines create capacity problems long after construction is finished. We design potable water distribution and sanitary sewer collection systems sized to current demand and applicable code.
+
+What's Included
+
+Water distribution system design
+
+Sanitary sewer collection design
+
+Lift station coordination
+
+Fire flow analysis support
+
+Utility as-built documentation
+
+Process
+
+1. Demand & Flow Analysis — calculate water demand and wastewater generation
+
+2. System Design — size water distribution and sanitary sewer networks
+
+3. Utility Coordination — align with civil site layout and existing infrastructure
+
+4. QA/QC & Client Review
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Municipal · Commercial · Residential · Industrial
+
+FAQ Accordion
+
+Q: Do you design fire flow systems as part of this service?
+
+A: We provide fire flow analysis support that feeds into your fire protection engineer's design.
+
+Q: Can you coordinate with an existing municipal utility model?
+
+A: Yes, when the municipality provides their existing model or GIS data we design our system to tie into it.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Water & Wastewater Engineering.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Water & Wastewater Engineering packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Civil 3D and PDF, with Revit/BIM coordination available on request.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Transportation & Roadway Engineering
+
+Title Tag: Transportation & Roadway Engineering Services | Nopex Services
+
+Meta Description: Transportation and roadway engineering design services covering street layout, intersection design, and pavement design for public and private projects.
+
+URL: /services/civil/transportation-roadway
+
+H1: Transportation & Roadway Engineering
+
+Whether it's a private site access road or a public street improvement, roadway design has to balance traffic flow, safety, and constructability. We prepare roadway geometry, pavement, and signage/striping plans coordinated with the rest of your site civil package.
+
+What's Included
+
+Roadway geometric design
+
+Pavement section design
+
+Intersection & sight-distance analysis
+
+Signage & striping plans
+
+ADA-compliant access design
+
+Process
+
+1. Traffic & Geometry Review — confirm design speed, volumes, and site constraints
+
+2. Roadway Geometric Design — horizontal/vertical alignment and pavement section
+
+3. Safety & Access Analysis — sight distance, intersection, and ADA compliance
+
+4. QA/QC & Client Review
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Municipal · Commercial · Government · Retail
+
+FAQ Accordion
+
+Q: Do you handle traffic impact studies?
+
+A: We support the roadway design elements that follow from a traffic study; the study itself is typically provided by a traffic engineering specialist.
+
+Q: Can you design private access roads for a commercial site?
+
+A: Yes, this is one of the most common uses of this service.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Transportation & Roadway Engineering.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Transportation & Roadway Engineering packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Civil 3D and PDF, with Revit/BIM coordination available on request.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Civil Permitting & Entitlement Support
+
+Title Tag: Civil Permitting & Entitlement Support Services | Nopex Services
+
+Meta Description: Civil permitting and entitlement drawing support to help move site development projects through local jurisdiction review and approval.
+
+URL: /services/civil/civil-permitting
+
+H1: Civil Permitting & Entitlement Support
+
+Permit review comments are usually about missing details, not fundamental design flaws. We prepare and revise civil permit sets to directly address jurisdiction review comments, helping keep your entitlement timeline on track.
+
+What's Included
+
+Permit-ready civil drawing sets
+
+Review comment response packages
+
+Code compliance narratives
+
+Revision tracking through approval
+
+Coordination with your permit expediter
+
+Process
+
+1. Jurisdiction Requirements Review
+
+2. Permit Set Preparation — assemble drawings to meet the submission checklist
+
+3. Review Comment Response — revise drawings against reviewer comments
+
+4. Resubmittal Tracking
+
+5. Final Approved Set Delivery
+
+Sectors Commonly Served
+
+Commercial · Residential · Municipal
+
+FAQ Accordion
+
+Q: Do you submit the permit application for us?
+
+A: We prepare the drawings and responses; submission is typically handled by the client or their permit expediter.
+
+Q: How do you handle multiple rounds of review comments?
+
+A: We track comments against drawing revisions so nothing gets missed across resubmittals.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Civil Permitting & Entitlement Support.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Civil Permitting & Entitlement Support packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Civil 3D and PDF, with Revit/BIM coordination available on request.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+4.2 Structural Engineering
+
+Structural Building Design
+
+Title Tag: Structural Building Design Services | Nopex Services
+
+Meta Description: Structural building design services for new construction and additions, covering framing, foundations, and lateral systems across all building types.
+
+URL: /services/structural/structural-building-design
+
+H1: Structural Building Design
+
+A building's structure has to carry real loads under real code requirements, not just look right on paper. We design framing, foundation, and lateral systems for new construction and additions, coordinated closely with architectural and MEP teams.
+
+What's Included
+
+Structural framing plans
+
+Foundation design
+
+Lateral system design (wind/seismic)
+
+Connection design
+
+Structural specifications
+
+Process
+
+1. Load & Code Criteria Review
+
+2. Structural System Selection — framing, foundation, and lateral system approach
+
+3. Analysis & Member Design
+
+4. Cross-Discipline Coordination with architectural/MEP
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Commercial · Residential · Education · Industrial
+
+FAQ Accordion
+
+Q: What structural materials do you design in?
+
+A: Steel, concrete, wood, and masonry, depending on project type.
+
+Q: Do you provide structural calculations for permit submission?
+
+A: Yes, full calculation packages are prepared to support permit review.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Structural Building Design.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Structural Building Design packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit and/or Tekla Structures, with PDF and DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Structural Steel Detailing
+
+Title Tag: Structural Steel Detailing Services | Nopex Services
+
+Meta Description: Structural steel detailing services producing fabrication-ready shop and erection drawings for commercial and industrial steel structures.
+
+URL: /services/structural/structural-steel-detailing
+
+H1: Structural Steel Detailing
+
+Steel fabrication runs on precision — a detailing error caught in the shop costs far more than one caught on paper. We produce fabrication-ready shop and erection drawings from structural design documents, coordinated with connection design requirements.
+
+What's Included
+
+Shop drawings
+
+Erection drawings
+
+Connection details
+
+Bill of materials
+
+3D steel models
+
+Process
+
+1. Structural Drawing & Connection Design Review
+
+2. 3D Steel Model Development
+
+3. Shop & Erection Drawing Production
+
+4. Fabricator Review Cycle
+
+5. Approved-for-Fabrication Delivery
+
+Sectors Commonly Served
+
+Commercial · Industrial · Warehouse · Infrastructure
+
+FAQ Accordion
+
+Q: What software do you detail in?
+
+A: Tekla Structures and Revit, depending on the fabricator's preferred workflow.
+
+Q: Do you coordinate directly with the fabricator?
+
+A: Yes — we work through the fabricator's review and comment cycle to finalize approved-for-fabrication drawings.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Structural Steel Detailing.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Structural Steel Detailing packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit and/or Tekla Structures, with PDF and DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Rebar Detailing
+
+Title Tag: Rebar Detailing Services | Nopex Services
+
+Meta Description: Rebar detailing services producing placement drawings and bar bending schedules for concrete structures, ready for fabrication and field placement.
+
+URL: /services/structural/rebar-detailing
+
+H1: Rebar Detailing
+
+Concrete reinforcement has to be placed exactly as designed to perform as intended. We produce rebar placement drawings and bar bending schedules from structural design documents, formatted for both the fabricator and the field crew.
+
+What's Included
+
+Rebar placement drawings
+
+Bar bending schedules
+
+Bar list & bill of materials
+
+Splice & lap detailing
+
+Coordination with formwork drawings
+
+Process
+
+1. Structural Drawing Review
+
+2. Placement Drawing Development
+
+3. Bar Bending Schedule Preparation
+
+4. QA/QC Against ACI/CRSI Standards
+
+5. Final Delivery to Fabricator & Field
+
+Sectors Commonly Served
+
+Commercial · Residential · Infrastructure · Industrial
+
+FAQ Accordion
+
+Q: Do you follow ACI/CRSI detailing standards?
+
+A: Yes, detailing follows ACI 318 and CRSI placement conventions unless a project specifies otherwise.
+
+Q: Can you detail from structural drawings only, without a 3D model?
+
+A: Yes, though a 3D model can speed up coordination and reduce field conflicts.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Rebar Detailing.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Rebar Detailing packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit and/or Tekla Structures, with PDF and DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Precast & Concrete Detailing
+
+Title Tag: Precast & Concrete Detailing Services | Nopex Services
+
+Meta Description: Precast and concrete detailing services covering erection drawings, piece details, and connection design for precast concrete building systems.
+
+URL: /services/structural/precast-concrete-detailing
+
+H1: Precast & Concrete Detailing
+
+Precast construction depends on every piece fitting exactly as planned before it ever reaches the site. We produce piece details, erection drawings, and connection designs for precast concrete systems, coordinated with the structural engineer of record.
+
+What's Included
+
+Precast piece drawings
+
+Erection sequence drawings
+
+Connection design & details
+
+Embed & hardware schedules
+
+Coordination with precast fabricator
+
+Process
+
+1. Structural & Architectural Drawing Review
+
+2. Piece & Connection Design
+
+3. Erection Sequence Drawing Development
+
+4. Fabricator Coordination Cycle
+
+5. Approved-for-Fabrication Delivery
+
+Sectors Commonly Served
+
+Commercial · Parking Structures · Industrial · Infrastructure
+
+FAQ Accordion
+
+Q: Do you work with our precast fabricator's standard details?
+
+A: Yes, we adapt to the fabricator's standard connection library where one exists.
+
+Q: Can this be coordinated with our BIM model?
+
+A: Yes, precast models can be integrated into the overall project BIM for clash detection.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Precast & Concrete Detailing.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Precast & Concrete Detailing packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit and/or Tekla Structures, with PDF and DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Seismic Analysis & Retrofit Design
+
+Title Tag: Seismic Analysis & Retrofit Design Services | Nopex Services
+
+Meta Description: Seismic analysis and retrofit design services for existing buildings, including vulnerability assessment and lateral system strengthening.
+
+URL: /services/structural/seismic-retrofit
+
+H1: Seismic Analysis & Retrofit Design
+
+Older buildings often don't meet current seismic code, and bringing them up to standard requires a careful balance of structural performance and constructability. We perform seismic analysis on existing structures and design retrofit strategies to meet current code requirements.
+
+What's Included
+
+Seismic vulnerability assessment
+
+Lateral system retrofit design
+
+Foundation strengthening design
+
+Retrofit construction drawings
+
+Code compliance documentation
+
+Process
+
+1. Existing Condition Data Review (client-supplied)
+
+2. Seismic Vulnerability Analysis
+
+3. Retrofit Strategy Design
+
+4. Construction Drawing Development
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Government · Education · Healthcare · Commercial
+
+FAQ Accordion
+
+Q: Do you need an on-site inspection before starting a retrofit design?
+
+A: Yes — condition data is typically provided by the client's local structural inspector or engineer of record; we don't perform on-site inspections ourselves.
+
+Q: What seismic design standards do you follow?
+
+A: ASCE 41 for existing building evaluation and retrofit, alongside applicable state/local building codes.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Seismic Analysis & Retrofit Design.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Seismic Analysis & Retrofit Design packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit and/or Tekla Structures, with PDF and DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Structural Condition Assessment
+
+Title Tag: Structural Condition Assessment Services | Nopex Services
+
+Meta Description: Structural condition assessment and analysis services using client-supplied inspection and survey data to evaluate existing building performance.
+
+URL: /services/structural/condition-assessment
+
+H1: Structural Condition Assessment
+
+Understanding what an existing structure can and can't support starts with the right data. Working from inspection reports, drawings, or scan data supplied by the client's local team, we analyze existing structural conditions and provide findings to guide repair or reuse decisions.
+
+What's Included
+
+Structural analysis of existing conditions
+
+Load rating & capacity evaluation
+
+Findings & recommendations report
+
+Repair/reinforcement design where needed
+
+Code compliance gap analysis
+
+Process
+
+1. Existing Data Intake — inspection reports, drawings, or scan data
+
+2. Structural Analysis of Current Conditions
+
+3. Capacity & Code Gap Evaluation
+
+4. Findings & Recommendations Report
+
+5. Repair/Reinforcement Design (if needed)
+
+Sectors Commonly Served
+
+Commercial · Industrial · Government · Education
+
+FAQ Accordion
+
+Q: Do you perform the physical building inspection?
+
+A: No — we analyze inspection, survey, or scan data supplied by the client or their local inspector.
+
+Q: What data do you need to start an assessment?
+
+A: Existing drawings if available, plus current condition data such as inspection reports, photos, or a point cloud scan.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Structural Condition Assessment.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Structural Condition Assessment packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit and/or Tekla Structures, with PDF and DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+4.3 Architectural Services
+
+Architectural Design & Development
+
+Title Tag: Architectural Design & Development Services | Nopex Services
+
+Meta Description: Architectural design and development services translating early concepts into coordinated, code-compliant building plans ready for construction documentation.
+
+URL: /services/architectural/design-development
+
+H1: Architectural Design & Development
+
+The design development phase is where a concept becomes a buildable plan. We develop floor plans, elevations, and sections in coordination with structural and MEP disciplines, refining code compliance and material decisions before construction documents begin.
+
+What's Included
+
+Floor plans & elevations
+
+Building sections
+
+Preliminary material & finish selections
+
+Code & zoning compliance review
+
+Coordination set for structural/MEP input
+
+Process
+
+1. Concept & Program Review
+
+2. Floor Plan & Elevation Development
+
+3. Code & Zoning Compliance Check
+
+4. Cross-Discipline Coordination
+
+5. DD Package Delivery
+
+Sectors Commonly Served
+
+Commercial · Residential · Education · Healthcare
+
+FAQ Accordion
+
+Q: What do you need from us to start design development?
+
+A: An approved schematic design or concept, along with the applicable zoning and building code for the site.
+
+Q: Do you coordinate directly with our structural and MEP consultants?
+
+A: Yes, design development is where cross-discipline coordination typically begins in earnest.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Architectural Design & Development.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Architectural Design & Development packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit files, with PDF/DWG as needed.
+
+Q: Is a licensed stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed architect/PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Construction Document Sets
+
+Title Tag: Construction Document Sets Services | Nopex Services
+
+Meta Description: Construction document preparation services producing permit-ready, coordinated architectural drawing sets for commercial and residential projects.
+
+URL: /services/architectural/construction-documents
+
+H1: Construction Document Sets
+
+Construction documents are what actually get built from, so precision here matters more than at any earlier phase. We prepare complete, permit-ready architectural drawing sets, cross-checked against structural, MEP, and civil documents for consistency.
+
+What's Included
+
+Full architectural CD set
+
+Door, window & finish schedules
+
+Wall sections & details
+
+Code compliance sheets
+
+Cross-discipline coordination review
+
+Process
+
+1. Design Development Package Review
+
+2. CD Drawing Production — plans, sections, details, schedules
+
+3. Cross-Discipline Cross-Check against structural/MEP/civil
+
+4. QA/QC Review
+
+5. Permit-Ready CD Set Delivery
+
+Sectors Commonly Served
+
+Commercial · Residential · Retail · Government
+
+FAQ Accordion
+
+Q: Do you coordinate CDs with structural and MEP drawings?
+
+A: Yes — cross-checking against other disciplines' documents is a standard part of this service.
+
+Q: Can you produce CDs directly in Revit?
+
+A: Yes, Revit-based CD sets are our default workflow, with AutoCAD available if required.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Construction Document Sets.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Construction Document Sets packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit files, with PDF/DWG as needed.
+
+Q: Is a licensed stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed architect/PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Interior Design
+
+Title Tag: Interior Design Services | Nopex Services
+
+Meta Description: Interior design services for commercial and residential spaces, covering space planning, finishes, and furniture layout coordinated with construction documents.
+
+URL: /services/architectural/interior-design
+
+H1: Interior Design
+
+Interior spaces need to work functionally as much as they need to look right. We provide space planning, finish selection, and furniture layout services coordinated with the architectural construction documents, so interiors and base building stay aligned.
+
+What's Included
+
+Space planning layouts
+
+Finish & material schedules
+
+Furniture, fixture & equipment (FF&E) layout
+
+Reflected ceiling plans
+
+Interior detail drawings
+
+Process
+
+1. Space Program Review
+
+2. Space Planning & Layout Development
+
+3. Finish & FF&E Selection
+
+4. Coordination with Architectural CDs
+
+5. Final Interior Package Delivery
+
+Sectors Commonly Served
+
+Commercial · Hospitality · Healthcare · Retail
+
+FAQ Accordion
+
+Q: Do you select actual furniture and finish products?
+
+A: We provide specification-level selections; sourcing and purchasing are typically handled by the client or a procurement partner.
+
+Q: Can interior design be added mid-project?
+
+A: Yes, though earlier coordination avoids conflicts with MEP and structural elements already in place.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Interior Design.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Interior Design packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit files, with PDF/DWG as needed.
+
+Q: Is a licensed stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed architect/PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+3D Rendering & Visualization
+
+Title Tag: 3D Rendering & Visualization Services | Nopex Services
+
+Meta Description: Architectural 3D rendering and visualization services for design presentations, marketing, and client approval throughout the design process.
+
+URL: /services/architectural/3d-rendering
+
+H1: 3D Rendering & Visualization
+
+Clients and stakeholders often need to see a design before they can approve it with confidence. We produce photorealistic 3D renderings and walkthroughs from architectural models, used for design review, marketing, and leasing.
+
+What's Included
+
+Exterior renderings
+
+Interior renderings
+
+Walkthrough animations
+
+Aerial/site context renderings
+
+Marketing-ready image sets
+
+Process
+
+1. Model & Reference Review
+
+2. Scene Setup & Lighting
+
+3. Render Production
+
+4. Client Review & Revision Round
+
+5. Final Image/Animation Delivery
+
+Sectors Commonly Served
+
+Commercial · Residential · Hospitality · Retail
+
+FAQ Accordion
+
+Q: What model do you need to produce renderings?
+
+A: A Revit or SketchUp model of the design; we can also model from 2D drawings if needed.
+
+Q: How long does a rendering typically take?
+
+A: Turnaround depends on scene complexity, but most single-view renderings are delivered within [X] business days.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for 3D Rendering & Visualization.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most 3D Rendering & Visualization packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit files, with PDF/DWG as needed.
+
+Q: Is a licensed stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed architect/PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Façade Design & Shop Drawings
+
+Title Tag: Façade Design & Shop Drawings Services | Nopex Services
+
+Meta Description: Façade design and shop drawing services for curtain wall, cladding, and building envelope systems, coordinated with structural and architectural teams.
+
+URL: /services/architectural/facade-design
+
+H1: Façade Design & Shop Drawings
+
+The building envelope has to perform structurally, thermally, and visually all at once. We design façade systems and produce fabrication-ready shop drawings for curtain wall, cladding, and glazing systems, coordinated with structural and architectural requirements.
+
+What's Included
+
+Façade system design
+
+Curtain wall & cladding shop drawings
+
+Panel layout & detailing
+
+Waterproofing & thermal detail coordination
+
+Fabricator coordination support
+
+Process
+
+1. Envelope Performance & Aesthetic Requirements Review
+
+2. Façade System Design
+
+3. Shop Drawing Production
+
+4. Structural & Waterproofing Coordination
+
+5. Fabricator-Ready Delivery
+
+Sectors Commonly Served
+
+Commercial · Hospitality · Government · Institutional
+
+FAQ Accordion
+
+Q: Do you design the façade system or just detail it?
+
+A: Both — we can support early façade system selection as well as fabrication-level shop drawings.
+
+Q: Can façade shop drawings be coordinated in our BIM model?
+
+A: Yes, façade models integrate into the overall project BIM for clash detection with structure.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Façade Design & Shop Drawings.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Façade Design & Shop Drawings packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit files, with PDF/DWG as needed.
+
+Q: Is a licensed stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed architect/PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Sustainable Design & LEED Consulting
+
+Title Tag: Sustainable Design & LEED Consulting Services | Nopex Services
+
+Meta Description: Sustainable design and LEED consulting services helping project teams pursue green building certification through design strategy and documentation support.
+
+URL: /services/architectural/sustainable-design
+
+H1: Sustainable Design & LEED Consulting
+
+Sustainability goals need to be built into design decisions early, not added at the end. We support LEED and other green building certification pathways through design strategy input, energy modeling coordination, and certification documentation.
+
+What's Included
+
+LEED credit strategy & scorecard
+
+Sustainable design recommendations
+
+Energy model coordination
+
+Certification documentation support
+
+Materials & daylighting analysis input
+
+Process
+
+1. Certification Goal & Credit Review
+
+2. Strategy Development Across Disciplines
+
+3. Energy Model Coordination
+
+4. Documentation Package Preparation
+
+5. Certification Submission Support
+
+Sectors Commonly Served
+
+Commercial · Education · Government · Healthcare
+
+FAQ Accordion
+
+Q: Do you perform the energy modeling yourselves?
+
+A: We coordinate with energy modeling specialists and integrate results into the design and certification package.
+
+Q: Which certification systems do you support?
+
+A: Primarily LEED, with support for other regional green building programs on request.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Sustainable Design & LEED Consulting.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Sustainable Design & LEED Consulting packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit files, with PDF/DWG as needed.
+
+Q: Is a licensed stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed architect/PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+4.4 MEP Engineering
+
+Mechanical (HVAC) Engineering
+
+Title Tag: Mechanical (HVAC) Engineering Services | Nopex Services
+
+Meta Description: Mechanical and HVAC engineering design services covering equipment sizing, ductwork layout, and system design for commercial and industrial buildings.
+
+URL: /services/mep/mechanical-hvac
+
+H1: Mechanical (HVAC) Engineering
+
+HVAC systems have to be sized right the first time — oversized or undersized equipment causes comfort and cost problems for the life of the building. We design mechanical systems including equipment selection, ductwork layout, and controls coordination.
+
+What's Included
+
+Load calculations
+
+Equipment selection & sizing
+
+Ductwork & piping layout
+
+Mechanical schedules
+
+Controls sequence coordination
+
+Process
+
+1. Load Calculation & Requirements Review
+
+2. Equipment Selection & Sizing
+
+3. Ductwork & Piping Layout Design
+
+4. Cross-Discipline Coordination
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Commercial · Healthcare · Education · Industrial
+
+FAQ Accordion
+
+Q: Do you design both ductwork and equipment selection?
+
+A: Yes, this service covers the full mechanical system from load calculations through final layout.
+
+Q: Can you work with a specific equipment manufacturer we prefer?
+
+A: Yes, designs can be built around a preferred manufacturer's product line where specified.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Mechanical (HVAC) Engineering.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Mechanical (HVAC) Engineering packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit, with PDF/DWG deliverables also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Electrical Engineering
+
+Title Tag: Electrical Engineering Services | Nopex Services
+
+Meta Description: Electrical engineering design services covering power distribution, lighting, and low-voltage systems for commercial and industrial buildings.
+
+URL: /services/mep/electrical-engineering
+
+H1: Electrical Engineering
+
+Electrical systems tie together power, lighting, and low-voltage needs across an entire building. We design power distribution, lighting, and low-voltage systems, including load calculations and panel scheduling, coordinated with mechanical and structural teams.
+
+What's Included
+
+Power distribution design
+
+Lighting design & calculations
+
+Panel schedules
+
+Low-voltage/data system layout
+
+Emergency power coordination
+
+Process
+
+1. Load Calculation & Requirements Review
+
+2. Power & Lighting System Design
+
+3. Panel Scheduling & Distribution Layout
+
+4. Cross-Discipline Coordination
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Commercial · Healthcare · Education · Industrial
+
+FAQ Accordion
+
+Q: Do you handle emergency and backup power design?
+
+A: Yes, emergency power and generator coordination are included where the project requires it.
+
+Q: What calculation software do you use?
+
+A: Industry-standard tools such as SKM, ETAP, or AGi32 for lighting, depending on project scope.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Electrical Engineering.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Electrical Engineering packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit, with PDF/DWG deliverables also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Plumbing Engineering
+
+Title Tag: Plumbing Engineering Services | Nopex Services
+
+Meta Description: Plumbing engineering design services covering domestic water, sanitary, and storm drainage systems for commercial and residential buildings.
+
+URL: /services/mep/plumbing-engineering
+
+H1: Plumbing Engineering
+
+Plumbing systems are easy to overlook until something doesn't drain or a fixture doesn't get enough pressure. We design domestic water, sanitary, and storm drainage systems sized to code and coordinated with architectural and structural layouts.
+
+What's Included
+
+Domestic water system design
+
+Sanitary & vent system design
+
+Storm drainage design
+
+Fixture unit calculations
+
+Plumbing schedules & details
+
+Process
+
+1. Fixture Count & Demand Analysis
+
+2. Domestic Water & Sanitary System Design
+
+3. Storm Drainage Design
+
+4. Cross-Discipline Coordination
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Commercial · Residential · Healthcare · Hospitality
+
+FAQ Accordion
+
+Q: Do you design domestic hot water systems too?
+
+A: Yes, hot water generation and distribution are part of the standard plumbing scope.
+
+Q: Can you coordinate with our fire protection engineer on shared piping runs?
+
+A: Yes, cross-discipline coordination with fire protection is standard practice.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Plumbing Engineering.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Plumbing Engineering packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit, with PDF/DWG deliverables also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Fire Protection Engineering
+
+Title Tag: Fire Protection Engineering Services | Nopex Services
+
+Meta Description: Fire protection engineering design services covering sprinkler systems, fire pumps, and life safety coordination for commercial and industrial buildings.
+
+URL: /services/mep/fire-protection
+
+H1: Fire Protection Engineering
+
+Fire protection design has to satisfy code requirements exactly, with no room for interpretation errors. We design sprinkler systems, fire pump layouts, and standpipe systems, coordinated with the building's life safety plan and other MEP systems.
+
+What's Included
+
+Sprinkler system design
+
+Fire pump & riser design
+
+Standpipe system layout
+
+Hydraulic calculations
+
+Life safety coordination documentation
+
+Process
+
+1. Code & Hazard Classification Review
+
+2. Sprinkler & Standpipe System Design
+
+3. Hydraulic Calculations
+
+4. Life Safety Coordination
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Commercial · Healthcare · Industrial · Warehouse
+
+FAQ Accordion
+
+Q: What code standards do you design to?
+
+A: NFPA 13, 14, and 20 primarily, along with applicable local amendments.
+
+Q: Do you coordinate directly with the local fire marshal?
+
+A: We prepare documentation to support that review; direct submission is typically handled by the client or their local team.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Fire Protection Engineering.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Fire Protection Engineering packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit, with PDF/DWG deliverables also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+MEP Coordination & Clash Detection
+
+Title Tag: MEP Coordination & Clash Detection Services | Nopex Services
+
+Meta Description: MEP coordination and clash detection services identifying and resolving conflicts between mechanical, electrical, plumbing, and structural systems before construction.
+
+URL: /services/mep/mep-coordination
+
+H1: MEP Coordination & Clash Detection
+
+Most costly field conflicts trace back to MEP systems that weren't coordinated with each other or with structure before construction started. We coordinate mechanical, electrical, plumbing, and fire protection models together, running clash detection to catch conflicts on screen instead of on site.
+
+What's Included
+
+Coordinated multi-trade MEP model
+
+Clash detection reports
+
+Conflict resolution tracking
+
+Coordinated ceiling/above-ceiling layout
+
+Coordination meeting support
+
+Process
+
+1. Discipline Model Intake
+
+2. Combined Model Assembly
+
+3. Clash Detection Runs
+
+4. Conflict Resolution Tracking
+
+5. Final Coordinated Model Delivery
+
+Sectors Commonly Served
+
+Healthcare · Education · Commercial · Industrial
+
+FAQ Accordion
+
+Q: What software do you use for clash detection?
+
+A: Navisworks is our standard platform, with Revit used for the underlying discipline models.
+
+Q: At what project phase should coordination start?
+
+A: Ideally at design development, and no later than early construction documents.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for MEP Coordination & Clash Detection.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most MEP Coordination & Clash Detection packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit, with PDF/DWG deliverables also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+MEP Shop & Installation Drawings
+
+Title Tag: MEP Shop & Installation Drawings Services | Nopex Services
+
+Meta Description: MEP shop and installation drawing services producing fabrication-ready and field-installation drawings for mechanical, electrical, and plumbing systems.
+
+URL: /services/mep/shop-drawings
+
+H1: MEP Shop & Installation Drawings
+
+Installation crews need drawings that reflect exactly how a system will be built in the field, not just how it was designed on paper. We produce coordinated shop and installation drawings for MEP systems, ready for fabrication and field use.
+
+What's Included
+
+Ductwork & piping shop drawings
+
+Electrical installation drawings
+
+Prefabrication spool drawings
+
+Coordinated installation sequence drawings
+
+As-built drawing support
+
+Process
+
+1. Coordinated Model/Design Review
+
+2. Shop Drawing Production per Trade
+
+3. Prefabrication Spool Drawing Development (where applicable)
+
+4. Installer/Fabricator Review Cycle
+
+5. Final Installation-Ready Delivery
+
+Sectors Commonly Served
+
+Commercial · Industrial · Healthcare · Education
+
+FAQ Accordion
+
+Q: Do you support prefabrication workflows?
+
+A: Yes, we produce spool and prefabrication drawings for trades using off-site fabrication.
+
+Q: Can shop drawings be generated directly from the coordinated BIM model?
+
+A: Yes, this is our standard workflow once coordination is complete.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for MEP Shop & Installation Drawings.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most MEP Shop & Installation Drawings packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in Revit, with PDF/DWG deliverables also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+4.5 Industrial Engineering
+
+Industrial Facility Design
+
+Title Tag: Industrial Facility Design Services | Nopex Services
+
+Meta Description: Industrial facility design services covering building layout, structural systems, and infrastructure for manufacturing and warehouse facilities.
+
+URL: /services/industrial/industrial-facility-design
+
+H1: Industrial Facility Design
+
+Industrial facilities have to accommodate equipment, material flow, and future flexibility all at once. We design industrial building layouts and supporting infrastructure, coordinated across structural, MEP, and process disciplines.
+
+What's Included
+
+Facility layout design
+
+Structural system coordination
+
+Utility infrastructure planning
+
+Loading dock & access design
+
+Code compliance review
+
+Process
+
+1. Operational & Process Requirements Review
+
+2. Facility Layout Development
+
+3. Structural & MEP Infrastructure Coordination
+
+4. Code Compliance Review
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Manufacturing · Warehouse · Logistics · Industrial
+
+FAQ Accordion
+
+Q: Do you design for future expansion?
+
+A: Yes, facility layouts can be designed with expansion phases in mind when that's part of the project brief.
+
+Q: Can you coordinate with our equipment vendor's specifications?
+
+A: Yes, equipment vendor data sheets are incorporated into facility and utility design.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Industrial Facility Design.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Industrial Facility Design packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Plant 3D or Revit, with PDF/DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Process & Piping Design
+
+Title Tag: Process & Piping Design Services | Nopex Services
+
+Meta Description: Process and piping design services for industrial facilities, including piping layout, routing, and specification for manufacturing and process systems.
+
+URL: /services/industrial/process-piping-design
+
+H1: Process & Piping Design
+
+Process piping has to move the right materials at the right pressure and temperature without conflicting with structure or other systems. We design process piping layouts and specifications, coordinated with equipment and structural teams.
+
+What's Included
+
+Process piping layout (P&ID support)
+
+Piping isometric drawings
+
+Pipe support & routing design
+
+Material & specification selection
+
+Coordination with equipment vendors
+
+Process
+
+1. P&ID & Process Requirements Review
+
+2. Piping Layout & Routing Design
+
+3. Isometric & Support Drawing Development
+
+4. Equipment Vendor Coordination
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Manufacturing · Industrial · Oil & Gas Support · Chemical Processing
+
+FAQ Accordion
+
+Q: Do you develop P&IDs from scratch?
+
+A: We typically work from client- or process-engineer-provided P&IDs to develop detailed piping layouts.
+
+Q: What piping design software do you use?
+
+A: AutoCAD Plant 3D or Revit, depending on project and client preference.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Process & Piping Design.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Process & Piping Design packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Plant 3D or Revit, with PDF/DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Equipment Layout & Plant Design
+
+Title Tag: Equipment Layout & Plant Design Services | Nopex Services
+
+Meta Description: Equipment layout and plant design services for industrial facilities, optimizing space, access, and coordination between machinery and building systems.
+
+URL: /services/industrial/equipment-layout
+
+H1: Equipment Layout & Plant Design
+
+Getting equipment layout wrong means clearances, maintenance access, or workflow problems that are expensive to fix after installation. We design equipment layouts that balance operational workflow, maintenance access, and coordination with structural and MEP systems.
+
+What's Included
+
+Equipment layout plans
+
+Clearance & access verification
+
+Foundation coordination for equipment
+
+Material flow diagrams
+
+Vendor equipment integration
+
+Process
+
+1. Vendor Equipment Data Review
+
+2. Layout & Workflow Development
+
+3. Clearance & Access Verification
+
+4. Structural/MEP Coordination
+
+5. Final Layout Delivery
+
+Sectors Commonly Served
+
+Manufacturing · Warehouse · Industrial · Food & Beverage
+
+FAQ Accordion
+
+Q: Do you need equipment vendor drawings to start?
+
+A: Yes, vendor-supplied dimensional drawings and clearance requirements are the starting point for layout design.
+
+Q: Can equipment layout be modeled in 3D/BIM?
+
+A: Yes, 3D equipment layout allows clash detection against structure and MEP before installation.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Equipment Layout & Plant Design.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Equipment Layout & Plant Design packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Plant 3D or Revit, with PDF/DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Manufacturing & Warehouse Engineering Support
+
+Title Tag: Manufacturing & Warehouse Engineering Support Services | Nopex Services
+
+Meta Description: Manufacturing and warehouse engineering support services covering facility modifications, racking coordination, and operational layout design.
+
+URL: /services/industrial/manufacturing-support
+
+H1: Manufacturing & Warehouse Engineering Support
+
+Manufacturing and warehouse facilities change over time as operations evolve. We provide engineering support for facility modifications, racking system coordination, and operational layout changes within existing or new industrial buildings.
+
+What's Included
+
+Racking system layout coordination
+
+Facility modification drawings
+
+Operational flow analysis
+
+Structural coordination for rack loading
+
+Code compliance for modifications
+
+Process
+
+1. Existing Facility Data Review
+
+2. Modification/Racking Layout Development
+
+3. Structural Loading Coordination
+
+4. Code Compliance Review
+
+5. Final Delivery & Stamping Coordination (where applicable)
+
+Sectors Commonly Served
+
+Warehouse · Manufacturing · Logistics · Distribution
+
+FAQ Accordion
+
+Q: Do you design the racking systems themselves?
+
+A: We coordinate racking layout and structural loading; racking system design is typically provided by the racking manufacturer's engineer.
+
+Q: Can you support a phased warehouse expansion?
+
+A: Yes, phased layouts are common and can be planned around ongoing operations.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Manufacturing & Warehouse Engineering Support.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Manufacturing & Warehouse Engineering Support packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Plant 3D or Revit, with PDF/DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Material Handling System Coordination
+
+Title Tag: Material Handling System Coordination Services | Nopex Services
+
+Meta Description: Material handling system coordination services integrating conveyors, lifts, and automated systems with building structure and MEP infrastructure.
+
+URL: /services/industrial/material-handling
+
+H1: Material Handling System Coordination
+
+Material handling equipment like conveyors and automated systems has to integrate cleanly with the building around it. We coordinate material handling system layouts with structural, electrical, and building systems to avoid conflicts before installation.
+
+What's Included
+
+Conveyor & material handling layout coordination
+
+Structural support coordination
+
+Power & controls infrastructure coordination
+
+Clearance & access verification
+
+Integration with facility BIM model
+
+Process
+
+1. Equipment Vendor Data Review
+
+2. Layout Coordination with Structure & MEP
+
+3. Clearance & Access Verification
+
+4. BIM Model Integration
+
+5. Final Coordinated Layout Delivery
+
+Sectors Commonly Served
+
+Manufacturing · Warehouse · Distribution · Logistics
+
+FAQ Accordion
+
+Q: Do you design the material handling equipment itself?
+
+A: No — we coordinate the equipment vendor's system with the building's structure and MEP infrastructure.
+
+Q: Can this be modeled alongside our BIM coordination process?
+
+A: Yes, material handling systems can be added to the shared BIM model for full coordination.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Material Handling System Coordination.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Material Handling System Coordination packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Plant 3D or Revit, with PDF/DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Industrial Facility Upgrades & Retrofits
+
+Title Tag: Industrial Facility Upgrades & Retrofits Services | Nopex Services
+
+Meta Description: Industrial facility upgrade and retrofit engineering services for modernizing existing manufacturing and warehouse buildings and infrastructure.
+
+URL: /services/industrial/facility-upgrades
+
+H1: Industrial Facility Upgrades & Retrofits
+
+Upgrading an existing industrial facility means working around what's already there while meeting current operational and code requirements. We provide engineering design for facility upgrades and retrofits, from structural reinforcement to MEP system modernization.
+
+What's Included
+
+Existing conditions analysis (from client-supplied data)
+
+Structural reinforcement design
+
+MEP system upgrade design
+
+Code compliance gap analysis
+
+Phased construction coordination
+
+Process
+
+1. Existing Conditions Data Review (client-supplied)
+
+2. Upgrade/Retrofit Design Development
+
+3. Structural & MEP Coordination
+
+4. Code Compliance Gap Analysis
+
+5. Final Delivery & Stamping Coordination
+
+Sectors Commonly Served
+
+Manufacturing · Warehouse · Industrial · Distribution
+
+FAQ Accordion
+
+Q: Do you need an on-site assessment before starting an upgrade design?
+
+A: We work from client-supplied inspection, survey, or scan data rather than performing on-site assessments ourselves.
+
+Q: Can upgrades be designed around continued facility operations?
+
+A: Yes, phased approaches are common so operations can continue during construction.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Industrial Facility Upgrades & Retrofits.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Industrial Facility Upgrades & Retrofits packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in AutoCAD Plant 3D or Revit, with PDF/DWG also available.
+
+Q: Is a licensed PE stamp available for this service?
+
+A: Yes — stamped and sealed deliverables are available in all 50 states through our licensed PE partner network.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+4.6 BIM & Revit Modeling
+
+3D BIM Modeling
+
+Title Tag: 3D BIM Modeling Services | Nopex Services
+
+Meta Description: 3D BIM modeling services across architectural, structural, and MEP disciplines, built to the Level of Development your project phase requires.
+
+URL: /services/bim/3d-bim-modeling
+
+H1: 3D BIM Modeling
+
+A BIM model is only as useful as its accuracy and level of detail. We build architectural, structural, and MEP models to the specific Level of Development (LOD 100–500) your project phase requires, from early massing through construction-ready detail.
+
+What's Included
+
+Architectural, structural & MEP 3D models
+
+LOD-specific modeling (100–500)
+
+Model coordination across disciplines
+
+Native Revit file delivery
+
+Model QA/QC review
+
+Process
+
+1. Design Data Intake
+
+2. Model Development to Required LOD
+
+3. Cross-Discipline Coordination
+
+4. QA/QC Review
+
+5. Final Model Delivery
+
+Sectors Commonly Served
+
+Commercial · Healthcare · Education · Industrial
+
+FAQ Accordion
+
+Q: What LOD do you typically model to?
+
+A: It depends on project phase — LOD 200–300 for design development, up to LOD 400–500 for fabrication and facility management.
+
+Q: Do you model from 2D drawings or from scratch?
+
+A: Both — we can convert existing 2D drawings into a 3D model, or model directly from design intent.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for 3D BIM Modeling.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most 3D BIM Modeling packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit, Navisworks (NWD/NWC), or IFC, depending on your project's BIM execution plan.
+
+Q: Do BIM deliverables need to be stamped?
+
+A: BIM models themselves are not typically stamped; if the underlying design requires a stamp, that's coordinated through our licensed PE partner network as part of the associated design service.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Scan to BIM
+
+Title Tag: Scan to BIM Services | Nopex Services
+
+Meta Description: Scan to BIM services converting laser scan point cloud data into accurate, coordinated Revit models for renovation and as-built documentation projects.
+
+URL: /services/bim/scan-to-bim
+
+H1: Scan to BIM
+
+Renovation and retrofit projects need an accurate picture of existing conditions, and that starts with a good point cloud. We convert laser scan point cloud data into coordinated Revit models, giving your team a reliable as-built starting point.
+
+What's Included
+
+Point cloud to Revit model conversion
+
+As-built architectural, structural & MEP modeling
+
+Model accuracy verification against scan data
+
+Deviation/clash reporting against design intent
+
+Native Revit file delivery
+
+Process
+
+1. Point Cloud Data Intake
+
+2. Model Development from Scan Data
+
+3. Accuracy Verification Against Point Cloud
+
+4. QA/QC Review
+
+5. Final Model Delivery
+
+Sectors Commonly Served
+
+Commercial · Healthcare · Education · Historic Preservation
+
+FAQ Accordion
+
+Q: Do you perform the laser scanning ourselves?
+
+A: No — we work from point cloud data captured by your scanning provider or partner.
+
+Q: What point cloud formats do you accept?
+
+A: Standard formats such as .e57, .rcp, and .pts.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Scan to BIM.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Scan to BIM packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit, Navisworks (NWD/NWC), or IFC, depending on your project's BIM execution plan.
+
+Q: Do BIM deliverables need to be stamped?
+
+A: BIM models themselves are not typically stamped; if the underlying design requires a stamp, that's coordinated through our licensed PE partner network as part of the associated design service.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+CAD to BIM Conversion
+
+Title Tag: CAD to BIM Conversion Services | Nopex Services
+
+Meta Description: CAD to BIM conversion services transforming 2D AutoCAD drawings into coordinated, intelligent 3D Revit models for design and construction use.
+
+URL: /services/bim/cad-to-bim-conversion
+
+H1: CAD to BIM Conversion
+
+Many existing projects only have 2D CAD drawings, which limits coordination and clash detection. We convert 2D CAD drawings into intelligent 3D Revit models, unlocking BIM-based coordination for projects that started without it.
+
+What's Included
+
+2D CAD to 3D Revit model conversion
+
+Parametric family application
+
+Model organization by discipline
+
+QA/QC accuracy review against source drawings
+
+Native Revit file delivery
+
+Process
+
+1. 2D CAD Drawing Intake
+
+2. 3D Model Development
+
+3. Parametric Family Application
+
+4. Accuracy Verification Against Source Drawings
+
+5. Final Model Delivery
+
+Sectors Commonly Served
+
+Commercial · Residential · Education · Government
+
+FAQ Accordion
+
+Q: Can you convert drawings from any CAD software?
+
+A: We primarily work from AutoCAD (.dwg) files; other formats can often be accommodated on request.
+
+Q: Does the converted model include MEP systems?
+
+A: Yes, if MEP CAD drawings are provided, they can be converted alongside architectural and structural content.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for CAD to BIM Conversion.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most CAD to BIM Conversion packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit, Navisworks (NWD/NWC), or IFC, depending on your project's BIM execution plan.
+
+Q: Do BIM deliverables need to be stamped?
+
+A: BIM models themselves are not typically stamped; if the underlying design requires a stamp, that's coordinated through our licensed PE partner network as part of the associated design service.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+BIM Coordination & Clash Detection
+
+Title Tag: BIM Coordination & Clash Detection Services | Nopex Services
+
+Meta Description: BIM coordination and clash detection services identifying conflicts between architectural, structural, and MEP models before construction begins.
+
+URL: /services/bim/clash-detection
+
+H1: BIM Coordination & Clash Detection
+
+Clash detection catches the conflicts between disciplines that would otherwise surface as expensive change orders in the field. We coordinate architectural, structural, and MEP models together, run systematic clash detection, and track resolution to closeout.
+
+What's Included
+
+Multi-discipline coordinated model
+
+Clash detection reports
+
+Conflict resolution tracking
+
+Coordination meeting facilitation support
+
+Final coordinated model handoff
+
+Process
+
+1. Discipline Model Intake
+
+2. Combined Model Assembly
+
+3. Clash Detection Runs
+
+4. Conflict Resolution Tracking
+
+5. Final Coordinated Model Delivery
+
+Sectors Commonly Served
+
+Healthcare · Education · Commercial · Industrial
+
+FAQ Accordion
+
+Q: What software do you use for coordination?
+
+A: Navisworks Manage is our standard platform for clash detection and coordination review.
+
+Q: How often are clash reports issued?
+
+A: Typically on a weekly or bi-weekly cycle, aligned with your project's coordination meeting schedule.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for BIM Coordination & Clash Detection.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most BIM Coordination & Clash Detection packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit, Navisworks (NWD/NWC), or IFC, depending on your project's BIM execution plan.
+
+Q: Do BIM deliverables need to be stamped?
+
+A: BIM models themselves are not typically stamped; if the underlying design requires a stamp, that's coordinated through our licensed PE partner network as part of the associated design service.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+Revit Family Creation
+
+Title Tag: Revit Family Creation Services | Nopex Services
+
+Meta Description: Custom Revit family creation services building parametric BIM content for architectural, structural, and MEP components and equipment.
+
+URL: /services/bim/revit-family-creation
+
+H1: Revit Family Creation
+
+Generic Revit families don't always match the specific products or components your project actually uses. We build custom parametric Revit families — from architectural elements to MEP equipment — matched to real manufacturer specifications.
+
+What's Included
+
+Custom parametric Revit families
+
+Manufacturer-specific equipment families
+
+Family library organization
+
+Type catalog creation
+
+Family testing & QA/QC
+
+Process
+
+1. Specification/Data Sheet Review
+
+2. Parametric Family Development
+
+3. Testing Within Sample Model
+
+4. QA/QC Review
+
+5. Final Family Delivery & Library Organization
+
+Sectors Commonly Served
+
+Commercial · Healthcare · Industrial · Education
+
+FAQ Accordion
+
+Q: Can you build families from manufacturer spec sheets?
+
+A: Yes, this is one of the most common starting points for custom family creation.
+
+Q: Do you maintain a family library for repeat clients?
+
+A: Yes, we can maintain and expand a client-specific family library over time.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for Revit Family Creation.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most Revit Family Creation packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit, Navisworks (NWD/NWC), or IFC, depending on your project's BIM execution plan.
+
+Q: Do BIM deliverables need to be stamped?
+
+A: BIM models themselves are not typically stamped; if the underlying design requires a stamp, that's coordinated through our licensed PE partner network as part of the associated design service.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+
+4D Scheduling & 5D Cost Estimating
+
+Title Tag: 4D Scheduling & 5D Cost Estimating Services | Nopex Services
+
+Meta Description: 4D BIM scheduling and 5D cost estimating services linking construction models to project schedules and cost data for improved planning certainty.
+
+URL: /services/bim/4d-scheduling-5d-cost
+
+H1: 4D Scheduling & 5D Cost Estimating
+
+Linking a BIM model to schedule and cost data turns it into a planning tool, not just a design reference. We connect coordinated models to construction schedules (4D) and cost estimates (5D), helping teams visualize sequencing and track budget impact.
+
+What's Included
+
+4D construction sequence simulation
+
+Schedule-linked model visualization
+
+5D quantity take-off from the model
+
+Cost-linked model reporting
+
+Sequencing conflict identification
+
+Process
+
+1. Schedule & Cost Data Intake
+
+2. Model-Schedule Linking (4D)
+
+3. Quantity Take-Off & Cost Linking (5D)
+
+4. Sequencing Conflict Review
+
+5. Final Simulation/Report Delivery
+
+Sectors Commonly Served
+
+Commercial · Healthcare · Industrial · Infrastructure
+
+FAQ Accordion
+
+Q: Do you build the construction schedule yourselves?
+
+A: We typically link to a schedule provided by the client's scheduler or construction manager.
+
+Q: What software do you use for 4D/5D?
+
+A: Synchro or Navisworks for 4D sequencing, with quantity take-off tools feeding 5D cost data.
+
+Q: What information do you need to get started?
+
+A: Send us your project scope, available design or site data, and any applicable code requirements through our Get a Quote form — we'll return a structured proposal and timeline for 4D Scheduling & 5D Cost Estimating.
+
+Q: What's the typical turnaround time?
+
+A: Turnaround depends on project size and complexity; most 4D Scheduling & 5D Cost Estimating packages are delivered within [X] business days of receiving complete information.
+
+Q: Do you provide revisions based on reviewer or client comments?
+
+A: Yes, a standard round of revisions is included as part of our QA/QC and client review process.
+
+Q: What file formats do you deliver in?
+
+A: Deliverables are typically provided in native Revit, Navisworks (NWD/NWC), or IFC, depending on your project's BIM execution plan.
+
+Q: Do BIM deliverables need to be stamped?
+
+A: BIM models themselves are not typically stamped; if the underlying design requires a stamp, that's coordinated through our licensed PE partner network as part of the associated design service.
+
+CTA Band
+
+Send Us Your Project Scope
+
+
+

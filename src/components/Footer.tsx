@@ -14,7 +14,6 @@ const Footer = () => {
               <li><Link to="/services/structural" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">Structural Engineering</Link></li>
               <li><Link to="/services/architectural" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">Architectural Services</Link></li>
               <li><Link to="/services/mep" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">MEP Engineering</Link></li>
-              <li><Link to="/services/industrial" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">Industrial Engineering</Link></li>
               <li><Link to="/services/bim" className="text-white/80 hover:text-[#a8d96e] transition-colors text-sm">BIM & Revit Modeling</Link></li>
             </ul>
           </div>
@@ -46,8 +45,9 @@ const Footer = () => {
               Multi-Disciplinary Engineering, Delivered With Precision.
             </p>
             <div className="text-white/80 text-sm leading-relaxed mb-6 lg:text-right">
-              <p>[Street Address, City, State, ZIP]</p>
-              <p>Phone: <a href="tel:[Phone Number]" className="hover:text-[#a8d96e]">[Phone Number]</a></p>
+              <p>San Francisco, CA | Lahore, PK</p>
+              <p>US: <a href="tel:+14159491414" className="hover:text-[#a8d96e]">+1 (415) 949-1414</a></p>
+              <p>PK: <a href="tel:04235970024" className="hover:text-[#a8d96e]">04235970024</a></p>
               <p>Email: <a href="mailto:info@nopexservices.com" className="hover:text-[#a8d96e]">info@nopexservices.com</a></p>
             </div>
             <div className="flex space-x-3">

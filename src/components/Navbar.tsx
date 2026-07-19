@@ -114,18 +114,6 @@ const Navbar = () => {
           ]
         },
         {
-          title: "Industrial Engineering",
-          link: "/services/industrial",
-          links: [
-            { name: "Industrial Facility Design", link: "/services/industrial/facility-design" },
-            { name: "Process & Piping Design", link: "/services/industrial/process-piping" },
-            { name: "Equipment Layout", link: "/services/industrial/equipment-layout" },
-            { name: "Manufacturing Support", link: "/services/industrial/manufacturing-support" },
-            { name: "Material Handling", link: "/services/industrial/material-handling" },
-            { name: "Facility Upgrades", link: "/services/industrial/facility-upgrades" }
-          ]
-        },
-        {
           title: "BIM & Revit Modeling",
           link: "/services/bim",
           links: [

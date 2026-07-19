@@ -38,7 +38,6 @@ const ServiceDetailTemplate = () => {
       case "structural": return "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80"; // modern steel/glass
       case "architectural": return "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1920&q=80"; // interior architecture
       case "mep": return "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1920&q=80"; // electrical/mep
-      case "industrial": return "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&q=80"; // industrial plant
       case "bim": return "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=80"; // 3D structural
       default: return "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=80";
     }
@@ -51,7 +50,6 @@ const ServiceDetailTemplate = () => {
       case "structural": return "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=80";
       case "architectural": return "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80";
       case "mep": return "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=600&q=80";
-      case "industrial": return "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=600&q=80";
       case "bim": return "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=600&q=80";
       default: return "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80";
     }

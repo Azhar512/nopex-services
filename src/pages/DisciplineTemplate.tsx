@@ -24,10 +24,6 @@ const disciplineInfo: Record<string, { title: string, desc: string }> = {
     title: "MEP Engineering",
     desc: "Highly coordinated Mechanical, Electrical, Plumbing, and Fire Protection engineering designs that optimize energy efficiency and building operations."
   },
-  "industrial": {
-    title: "Industrial Engineering",
-    desc: "Specialized facility design, process piping, and manufacturing layout engineering optimized for maximum throughput and safety."
-  },
   "bim": {
     title: "BIM & Revit Modeling",
     desc: "Advanced 3D modeling, scan-to-BIM, and cross-disciplinary clash detection ensuring seamless construction execution and clash-free designs."
@@ -56,11 +52,6 @@ const getCardImage = (discipline: string, index: number) => {
       "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80",
       "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
-    ],
-    industrial: [
-      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80",
-      "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&q=80",
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     ],
     bim: [
       "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80",

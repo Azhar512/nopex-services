@@ -199,7 +199,6 @@ const Contact = () => {
                     <option value="structural">Structural Engineering</option>
                     <option value="architectural">Architectural Services</option>
                     <option value="mep">MEP Engineering</option>
-                    <option value="industrial">Industrial Engineering</option>
                     <option value="bim">BIM & Revit Modeling</option>
                     <option value="multiple">Multiple Disciplines</option>
                   </select>

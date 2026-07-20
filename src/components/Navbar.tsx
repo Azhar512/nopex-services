@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Search, ArrowRight, Menu, X } from "lucide-react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
+import servicesData from "@/data/services.json";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -56,6 +57,23 @@ const Navbar = () => {
     setCloseTimeout(timeout);
   };
 
+  const megaMenuSections = [
+    { id: "civil", title: "Civil Engineering" },
+    { id: "structural", title: "Structural Engineering" },
+    { id: "architectural", title: "Architectural Services" },
+    { id: "mep", title: "MEP Engineering" },
+    { id: "bim", title: "BIM & Revit Modeling" }
+  ].map(disc => ({
+    title: disc.title,
+    link: `/services/${disc.id}`,
+    links: servicesData
+      .filter(s => s.discipline === disc.id)
+      .map(s => ({
+        name: s.name,
+        link: `/services/${disc.id}/${s.slug}`
+      }))
+  }));
+
   const megaMenuContent: Record<string, any> = {
     "SERVICES": {
       featured: {
@@ -64,68 +82,7 @@ const Navbar = () => {
         cta: "View All Services",
         link: "/services"
       },
-      sections: [
-        {
-          title: "Civil Engineering",
-          link: "/services/civil",
-          links: [
-            { name: "Site Development & Grading", link: "/services/civil/site-development" },
-            { name: "Site / Civil Engineering Design", link: "/services/civil/site-civil-engineering" },
-            { name: "Stormwater Management", link: "/services/civil/stormwater-drainage" },
-            { name: "Water & Wastewater", link: "/services/civil/water-wastewater" },
-            { name: "Transportation & Roadway", link: "/services/civil/transportation" },
-            { name: "Civil Permitting", link: "/services/civil/permitting" }
-          ]
-        },
-        {
-          title: "Structural Engineering",
-          link: "/services/structural",
-          links: [
-            { name: "Structural Building Design", link: "/services/structural/building-design" },
-            { name: "Structural Steel Detailing", link: "/services/structural/steel-detailing" },
-            { name: "Rebar Detailing", link: "/services/structural/rebar-detailing" },
-            { name: "Precast & Concrete Detailing", link: "/services/structural/precast-detailing" },
-            { name: "Seismic Retrofit", link: "/services/structural/seismic-retrofit" },
-            { name: "Condition Assessment", link: "/services/structural/condition-assessment" }
-          ]
-        },
-        {
-          title: "Architectural Services",
-          link: "/services/architectural",
-          links: [
-            { name: "Design & Development", link: "/services/architectural/design-development" },
-            { name: "Construction Documents", link: "/services/architectural/construction-documents" },
-            { name: "Interior Design", link: "/services/architectural/interior-design" },
-            { name: "3D Rendering", link: "/services/architectural/3d-rendering" },
-            { name: "Façade Design", link: "/services/architectural/facade-design" },
-            { name: "Sustainable Design", link: "/services/architectural/sustainable-design" }
-          ]
-        },
-        {
-          title: "MEP Engineering",
-          link: "/services/mep",
-          links: [
-            { name: "Mechanical (HVAC)", link: "/services/mep/mechanical" },
-            { name: "Electrical Engineering", link: "/services/mep/electrical" },
-            { name: "Plumbing Engineering", link: "/services/mep/plumbing" },
-            { name: "Fire Protection", link: "/services/mep/fire-protection" },
-            { name: "MEP Coordination", link: "/services/mep/mep-coordination" },
-            { name: "Shop Drawings", link: "/services/mep/shop-drawings" }
-          ]
-        },
-        {
-          title: "BIM & Revit Modeling",
-          link: "/services/bim",
-          links: [
-            { name: "3D BIM Modeling", link: "/services/bim/3d-modeling" },
-            { name: "Scan to BIM", link: "/services/bim/scan-to-bim" },
-            { name: "CAD to BIM Conversion", link: "/services/bim/cad-to-bim" },
-            { name: "Clash Detection", link: "/services/bim/clash-detection" },
-            { name: "Revit Family Creation", link: "/services/bim/revit-family-creation" },
-            { name: "4D Scheduling & 5D Cost", link: "/services/bim/4d-5d" }
-          ]
-        }
-      ]
+      sections: megaMenuSections
     }
   };
 

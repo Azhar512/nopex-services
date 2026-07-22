@@ -98,197 +98,126 @@ const Navbar = () => {
 
   return (
     <>
-      <style>{`
-        .nopex-logo {
-          display: flex;
-          align-items: center;
-          font-size: 1.6rem;
-          line-height: 1;
-          text-decoration: none;
-          letter-spacing: 1.5px;
-        }
-
-        .broken-n {
-          position: relative;
-          display: inline-block;
-          font-weight: 800;
-          background: linear-gradient(135deg, #00B4DB 0%, #00D4AA 30%, #FF6B35 70%, #F7931E 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-        }
-
-        .broken-n::before {
-          content: '';
-          position: absolute;
-          top: 20%;
-          right: -2px;
-          width: 4px;
-          height: 30%;
-          background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
-          transform: skew(-10deg);
-        }
-
-        .broken-n::after {
-          content: '';
-          position: absolute;
-          top: 60%;
-          right: -4px;
-          width: 3px;
-          height: 25%;
-          background: linear-gradient(135deg, #F7931E 0%, #FFD700 100%);
-          clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
-          transform: skew(-10deg);
-        }
-
-        .logo-rest {
-          font-weight: 600;
-          color: #2C3E50;
-          margin-left: 2px;
-        }
-
-        .nopex-logo:hover .broken-n {
-          background: linear-gradient(135deg, #00A8CC 0%, #00C4A0 30%, #FF5722 70%, #FF9800 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-          transition: all 0.3s ease;
-        }
-
-        .nopex-logo:hover .broken-n::before {
-          background: linear-gradient(135deg, #FF5722 0%, #FF9800 50%, #FFC107 100%);
-          transition: all 0.3s ease;
-        }
-
-        .nopex-logo:hover .broken-n::after {
-          background: linear-gradient(135deg, #FF9800 0%, #FFC107 100%);
-          transition: all 0.3s ease;
-        }
-
-        .nopex-logo:hover .logo-rest {
-          color: #34495E;
-          transition: color 0.3s ease;
-        }
-      `}</style>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 bg-background transition-shadow duration-300 ${isScrolled ? "shadow-md" : ""
-          }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+          isScrolled ? "bg-white shadow-md py-2" : "bg-white py-4"
+        }`}
       >
-        <div className="border-b border-border">
-          <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
-            <div className="flex items-center justify-between h-16">
-              {/* Logo */}
-              <Link
-                to="/"
-                className="flex items-center gap-2 sm:gap-3 group"
-              >
-                <img src="/logo.svg" alt="Nopex Logo" className="h-8 w-8 sm:h-10 sm:w-10 transition-transform group-hover:rotate-12" />
-                <div className="nopex-logo">
-                  <span className="broken-n">N</span>
-                  <span className="logo-rest">OPEX</span>
-                </div>
-              </Link>
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
+          <div className="flex items-center justify-between h-14">
+            {/* Logo */}
+            <Link
+              to="/"
+              className="flex items-center gap-3 group"
+            >
+              <div className="text-3xl font-black tracking-tighter text-[#000000]">
+                NOPEX
+              </div>
+            </Link>
 
-              {/* Desktop Navigation */}
-              <div className="hidden lg:flex items-center space-x-8">
+            {/* Desktop Navigation */}
+            <div className="hidden lg:flex items-center h-full">
+              <div className="flex space-x-1">
                 {navItems.map((navItem) => {
                   const item = navItem.name;
                   const hasMegaMenu = navItem.hasMegaMenu;
                   return (
                     <div
                       key={item}
-                      className="relative"
+                      className="relative h-full flex items-center"
                       onMouseEnter={() => handleMouseEnter(item)}
                       onMouseLeave={handleMouseLeave}
                     >
                       {hasMegaMenu ? (
                         <button
-                          className="text-xs font-semibold text-foreground hover:text-primary transition-colors flex items-center gap-1 py-2"
+                          className="px-4 py-2 text-sm font-bold text-[#000000] hover:text-gray-500 transition-colors flex items-center gap-1"
                         >
                           {item}
-                          <ChevronDown className="w-3 h-3" />
+                          <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === item ? 'rotate-180' : ''}`} />
                         </button>
                       ) : (
                         <Link
                           to={navItem.link}
-                          className="text-xs font-semibold text-foreground hover:text-primary transition-colors flex items-center gap-1 py-2"
+                          className="px-4 py-2 text-sm font-bold text-[#000000] hover:text-gray-500 transition-colors flex items-center"
                         >
                           {item}
                         </Link>
                       )}
-
-                      {/* Mega Menu Dropdown - Desktop */}
-                      {hasMegaMenu && activeDropdown === item && (
-                        <motion.div
-                          initial={{ opacity: 0, y: -10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ duration: 0.2 }}
-                          onMouseEnter={() => handleMouseEnter(item)}
-                          onMouseLeave={handleMouseLeave}
-                          className="fixed top-16 left-0 right-0 bg-[#1a4d4d] shadow-2xl z-50"
-                          style={{ maxHeight: 'calc(100vh - 64px)', overflowY: 'auto' }}
-                        >
-                          <div className="max-w-[1400px] mx-auto px-6 py-12">
-                              {/* Content Section (6 Columns) */}
-                              <div className="col-span-12 grid grid-cols-6 gap-6">
-                                {megaMenuContent[item].sections.map((section: any, idx: number) => (
-                                  <div key={idx} className="space-y-3">
-                                    <Link
-                                      to={section.link}
-                                      onClick={() => setActiveDropdown(null)}
-                                      className="block font-bold text-[#a8d96e] text-sm hover:text-[#96c75c] transition-colors mb-4 border-b border-[#2d6e6e] pb-2"
-                                    >
-                                      {section.title}
-                                    </Link>
-                                    <div className="flex flex-col space-y-2">
-                                      {section.links.map((link: any, lIdx: number) => (
-                                        <Link
-                                          key={lIdx}
-                                          to={link.link}
-                                          onClick={() => setActiveDropdown(null)}
-                                          className="text-xs text-white/80 hover:text-white transition-colors"
-                                        >
-                                          {link.name}
-                                        </Link>
-                                      ))}
-                                    </div>
-                                  </div>
-                                ))}
-                              </div>
-                            </div>
-                          </motion.div>
-                      )}
                     </div>
                   );
                 })}
-                <div className="flex items-center gap-4 ml-4 pl-4 border-l border-border">
-                  <a href="tel:1-800-555-0199" className="text-sm font-semibold text-foreground hover:text-primary transition-colors">
-                    1-800-555-0199
-                  </a>
-                  <Link
-                    to="/contact"
-                    className="px-4 py-2 bg-primary text-primary-foreground font-semibold text-sm rounded-md hover:bg-primary/90 transition-colors"
-                  >
-                    Get a Quote
-                  </Link>
-                  <button className="text-foreground hover:text-primary transition-colors">
-                    <Search className="w-5 h-5" />
-                  </button>
-                </div>
               </div>
-
-              {/* Mobile Hamburger Button */}
-              <button
-                className="lg:hidden p-2 text-foreground hover:text-primary transition-colors"
-                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                aria-label="Toggle mobile menu"
-              >
-                {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-              </button>
+              
+              <div className="flex items-center gap-6 ml-8 pl-8 border-l border-gray-200">
+                <a href="tel:1-800-555-0199" className="text-sm font-bold text-[#000000] hover:text-gray-500 transition-colors">
+                  1-800-555-0199
+                </a>
+                <Link
+                  to="/contact"
+                  className="px-5 py-2.5 bg-[#00353e] text-white font-bold text-sm hover:bg-gray-800 transition-colors"
+                >
+                  Get a Quote
+                </Link>
+                <button className="text-[#000000] hover:text-gray-500 transition-colors">
+                  <Search className="w-5 h-5" />
+                </button>
+              </div>
             </div>
+
+            {/* Mobile Hamburger Button */}
+            <button
+              className="lg:hidden p-2 text-[#000000] hover:text-gray-500 transition-colors"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Toggle mobile menu"
+            >
+              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
           </div>
         </div>
+
+        {/* Mega Menu Dropdown - Desktop (Full Width) */}
+        <AnimatePresence>
+          {activeDropdown === "SERVICES" && (
+            <motion.div
+              initial={{ opacity: 0, y: -5 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -5 }}
+              transition={{ duration: 0.15 }}
+              onMouseEnter={() => handleMouseEnter("SERVICES")}
+              onMouseLeave={handleMouseLeave}
+              className="absolute top-full left-0 right-0 bg-[#00353e] border-t border-[#00353e] shadow-2xl z-50"
+              style={{ maxHeight: 'calc(100vh - 80px)', overflowY: 'auto' }}
+            >
+              <div className="max-w-[1400px] mx-auto px-6 py-12">
+                <div className="grid grid-cols-5 gap-8">
+                  {megaMenuContent["SERVICES"].sections.map((section: any, idx: number) => (
+                    <div key={idx} className="flex flex-col">
+                      <Link
+                        to={section.link}
+                        onClick={() => setActiveDropdown(null)}
+                        className="text-2xl font-serif text-white hover:text-[#aecc53] transition-colors mb-6 pb-4 border-b border-white/20"
+                      >
+                        {section.title}
+                      </Link>
+                      <div className="flex flex-col space-y-3">
+                        {section.links.map((link: any, lIdx: number) => (
+                          <Link
+                            key={lIdx}
+                            to={link.link}
+                            onClick={() => setActiveDropdown(null)}
+                            className="text-base text-[#aecc53] hover:text-white transition-colors"
+                          >
+                            {link.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </nav>
 
       {/* Mobile Menu Overlay */}

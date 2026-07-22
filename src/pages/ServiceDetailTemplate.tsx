@@ -70,7 +70,7 @@ const ServiceDetailTemplate = () => {
       <Navbar />
 
       {/* ═══════════ FULL-WIDTH IMMERSIVE DARK HERO ═══════════ */}
-      <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gray-900">
+      <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden bg-[#00353e]">
         {/* Background Image & Overlays */}
         <div className="absolute inset-0 z-0">
           <img
@@ -78,8 +78,8 @@ const ServiceDetailTemplate = () => {
             alt={service.name}
             className="w-full h-full object-cover opacity-30"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/80 to-transparent" />
-          <div className="absolute inset-0 bg-primary/20 mix-blend-multiply" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#00353e] via-[#00353e]/80 to-transparent" />
+          <div className="absolute inset-0 bg-[#00353e]/40 mix-blend-multiply" />
           {/* Decorative Dot Pattern overlay for aesthetic touch */}
           <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)', backgroundSize: '24px 24px' }} />
         </div>
@@ -100,7 +100,7 @@ const ServiceDetailTemplate = () => {
             transition={{ duration: 0.6 }}
             className="max-w-4xl mx-auto"
           >
-            <div className="inline-block px-5 py-2 bg-white/10 backdrop-blur-md text-[#a8d96e] border border-white/20 font-semibold text-sm tracking-widest uppercase rounded-full mb-8 shadow-2xl">
+            <div className="inline-block px-5 py-2 bg-white/10 backdrop-blur-md text-[#aecc53] border border-white/20 font-semibold text-sm tracking-widest uppercase mb-8 shadow-2xl">
               {displayDiscipline} Engineering
             </div>
             
@@ -121,7 +121,7 @@ const ServiceDetailTemplate = () => {
             
             <Link
               to="/contact"
-              className="inline-flex items-center px-8 py-4 bg-[#a8d96e] text-[#1a4d4d] font-bold rounded-full shadow-[0_0_40px_rgba(168,217,110,0.3)] hover:shadow-[0_0_60px_rgba(168,217,110,0.5)] hover:scale-105 transition-all duration-300"
+              className="inline-flex items-center px-8 py-4 bg-[#00353e] text-white font-bold shadow-xl hover:bg-gray-800 transition-all duration-300"
             >
               Request a Quote
               <ArrowRight className="ml-2 w-5 h-5" />
@@ -157,13 +157,15 @@ const ServiceDetailTemplate = () => {
 
             {/* Right Content - RESIZED IMAGE & SECTORS */}
             <div className="lg:col-span-5 xl:col-span-4 space-y-12">
-              {/* Image is now smaller: max-w-sm or aspect-[4/3] to stop it from being too tall/big */}
-              <div className="aspect-[4/3] max-w-md mx-auto rounded-[2rem] overflow-hidden shadow-2xl ring-1 ring-gray-900/5">
-                <img
-                  src={getContentImage(service.discipline)}
-                  alt="Process"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                />
+              {/* Added generous padding to image container */}
+              <div className="p-4 sm:p-6 bg-gray-50 rounded-[2rem] shadow-xl border border-gray-100">
+                <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden ring-1 ring-gray-900/5">
+                  <img
+                    src={getContentImage(service.discipline)}
+                    alt="Process"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
               </div>
 
               <div className="bg-gray-50 rounded-3xl p-8 border border-gray-100">
@@ -210,7 +212,7 @@ const ServiceDetailTemplate = () => {
       {/* ═══════════ CTA SECTION ═══════════ */}
       <section className="py-24 bg-white">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-[#1a4d4d] rounded-[3rem] p-12 lg:p-20 text-center relative overflow-hidden shadow-2xl">
+          <div className="bg-[#00353e] p-12 lg:p-20 text-center relative overflow-hidden shadow-2xl rounded-[3rem]">
             <div className="relative z-10 max-w-3xl mx-auto">
               <h2 className="text-3xl sm:text-5xl font-bold text-white mb-6">Ready to Start Your Project?</h2>
               <p className="text-lg text-white/80 mb-10 leading-relaxed">
@@ -218,16 +220,15 @@ const ServiceDetailTemplate = () => {
               </p>
               <Link
                 to="/contact"
-                className="inline-flex items-center px-10 py-5 bg-[#a8d96e] text-[#1a4d4d] font-bold text-lg rounded-full shadow-xl hover:bg-white hover:scale-105 transition-all duration-300"
+                className="inline-flex items-center px-10 py-5 bg-[#00353e] text-white font-bold text-lg rounded-full shadow-xl hover:bg-gray-800 transition-all duration-300 hover:scale-105"
               >
-                Discuss Your Requirements
+                Request a Proposal
                 <ArrowRight className="ml-2 w-6 h-6" />
               </Link>
             </div>
             
             {/* Background Decorations */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-            <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#a8d96e]/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
           </div>
         </div>
       </section>

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-// ... other imports
+import ProblemSolution from "@/components/ProblemSolution";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Projects from "@/components/Projects";
@@ -23,6 +23,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Navbar />
       <Hero />
+      <ProblemSolution />
       <About />
       <Services />
       <Projects />

@@ -8,44 +8,44 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Nopex Corporate Design System - AECOM Inspired */
+    /* Nopex Corporate Design System - AECOM 100% Match */
     --background: 0 0% 100%;
-    --foreground: 0 0% 13%;
+    --foreground: 0 0% 0%;
 
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 13%;
+    --card-foreground: 0 0% 0%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 13%;
+    --popover-foreground: 0 0% 0%;
 
-    /* Primary: Teal/Cyan (AECOM-inspired) */
-    --primary: 184 91% 38%;
+    /* Primary: AECOM Teal (#00353e) */
+    --primary: 189 100% 12%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary: Lime Green accent */
-    --secondary: 82 73% 55%;
-    --secondary-foreground: 0 0% 13%;
+    /* Secondary: Dark Gray */
+    --secondary: 0 0% 30%;
+    --secondary-foreground: 0 0% 100%;
 
     /* Muted: Light Gray */
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 40%;
 
-    /* Accent: Teal */
-    --accent: 184 91% 38%;
+    /* Accent: AECOM Teal */
+    --accent: 189 100% 12%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 89%;
-    --input: 0 0% 89%;
-    --ring: 184 91% 38%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 189 100% 12%;
 
     --radius: 0;
 
     /* Custom Design Tokens */
-    --text-heading: 0 0% 13%;
-    --text-body: 0 0% 27%;
+    --text-heading: 189 100% 12%;
+    --text-body: 0 0% 25%;
     
     /* Gradients */
     --gradient-overlay: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);

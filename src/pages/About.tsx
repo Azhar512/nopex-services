@@ -19,16 +19,20 @@ const About = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white overflow-hidden">
+      <section className="relative pt-32 pb-20 bg-[#00353e] text-white overflow-hidden mt-14">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">
-              An Established Engineering Design Partner, Built Around Coordination
+            <div className="w-16 h-1 bg-white mb-8" />
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black mb-6 leading-tight tracking-tight">
+              An Established Engineering Design Partner.
             </h1>
+            <p className="text-xl text-gray-400 max-w-2xl font-light">
+              Built around rigorous coordination and global delivery.
+            </p>
           </motion.div>
         </div>
       </section>

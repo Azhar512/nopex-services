@@ -26,7 +26,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="w-16 h-1 bg-white mb-8" />
+            <div className="w-16 h-1 bg-[#aecc53] mb-8" />
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black mb-6 leading-tight tracking-tight">
               An Established Engineering Design Partner.
             </h1>

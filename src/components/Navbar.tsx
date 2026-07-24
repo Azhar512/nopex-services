@@ -92,7 +92,7 @@ const Navbar = () => {
     { name: "INDUSTRIES", link: "/industries" },
     { name: "PROJECTS", link: "/projects" },
     { name: "INSIGHTS", link: "/insights" },
-    { name: "ABOUT", link: "/about" },
+    { name: "COMPANY", link: "/about", hasMegaMenu: true },
     { name: "CONTACT", link: "/contact" }
   ];
 
@@ -188,24 +188,24 @@ const Navbar = () => {
               className="absolute top-full left-0 right-0 bg-[#00353e] border-t border-[#00353e] shadow-2xl z-50"
               style={{ maxHeight: 'calc(100vh - 80px)', overflowY: 'auto' }}
             >
-              <div className="max-w-[1400px] mx-auto px-6 py-12">
-                <div className="grid grid-cols-5 gap-8">
+              <div className="max-w-[1400px] mx-auto px-6 py-8">
+                <div className="grid grid-cols-5 gap-6">
                   {megaMenuContent["SERVICES"].sections.map((section: any, idx: number) => (
                     <div key={idx} className="flex flex-col">
                       <Link
                         to={section.link}
                         onClick={() => setActiveDropdown(null)}
-                        className="text-2xl font-serif text-white hover:text-[#aecc53] transition-colors mb-6 pb-4 border-b border-white/20"
+                        className="text-lg font-serif text-white hover:text-[#aecc53] transition-colors mb-4 pb-2 border-b border-white/20"
                       >
                         {section.title}
                       </Link>
-                      <div className="flex flex-col space-y-3">
+                      <div className="flex flex-col space-y-2">
                         {section.links.map((link: any, lIdx: number) => (
                           <Link
                             key={lIdx}
                             to={link.link}
                             onClick={() => setActiveDropdown(null)}
-                            className="text-base text-[#aecc53] hover:text-white transition-colors"
+                            className="text-sm text-[#aecc53] hover:text-white transition-colors"
                           >
                             {link.name}
                           </Link>
@@ -213,6 +213,39 @@ const Navbar = () => {
                       </div>
                     </div>
                   ))}
+                </div>
+              </div>
+            </motion.div>
+          )}
+
+          {activeDropdown === "COMPANY" && (
+            <motion.div
+              initial={{ opacity: 0, y: -5 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -5 }}
+              transition={{ duration: 0.15 }}
+              onMouseEnter={() => handleMouseEnter("COMPANY")}
+              onMouseLeave={handleMouseLeave}
+              className="absolute top-full left-0 right-0 bg-[#00353e] border-t border-[#00353e] shadow-2xl z-50"
+            >
+              <div className="max-w-[1400px] mx-auto px-6 py-8">
+                <div className="grid grid-cols-3 gap-8">
+                  <div className="flex flex-col border-r border-white/20 pr-8">
+                    <h3 className="text-xl font-bold text-white mb-2">Our Company</h3>
+                    <p className="text-sm text-white/70 mb-4">Discover who we are and what drives us forward.</p>
+                    <div className="flex flex-col space-y-3">
+                      <Link to="/about" onClick={() => setActiveDropdown(null)} className="text-base text-[#aecc53] hover:text-white transition-colors font-medium">About Us</Link>
+                      <Link to="/careers" onClick={() => setActiveDropdown(null)} className="text-base text-[#aecc53] hover:text-white transition-colors font-medium">Careers</Link>
+                      <Link to="/clients" onClick={() => setActiveDropdown(null)} className="text-base text-[#aecc53] hover:text-white transition-colors font-medium">Clients</Link>
+                    </div>
+                  </div>
+                  <div className="col-span-2 flex items-center bg-white/5 p-6 rounded-lg">
+                    <div>
+                      <h4 className="text-lg font-bold text-white mb-2 text-[#aecc53]">Join Our Team</h4>
+                      <p className="text-white/80 text-sm mb-4">We are always looking for passionate engineers and designers to join our global team and shape the future of infrastructure.</p>
+                      <Link to="/careers" onClick={() => setActiveDropdown(null)} className="text-sm font-bold text-[#00353e] bg-[#aecc53] px-4 py-2 rounded hover:bg-white transition-colors inline-block">Explore Careers</Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </motion.div>
@@ -301,7 +334,7 @@ const Navbar = () => {
                           transition={{ duration: 0.2 }}
                           className="overflow-hidden bg-muted"
                         >
-                          {megaMenuContent[item].sections.map((section: any, sIdx: number) => (
+                          {item === "SERVICES" && megaMenuContent["SERVICES"].sections.map((section: any, sIdx: number) => (
                             <div key={sIdx} className="px-6 py-3">
                               <p className="text-xs font-bold text-primary uppercase tracking-wider mb-2">{section.title}</p>
                               {section.links.map((link: any, lIdx: number) => (
@@ -316,6 +349,13 @@ const Navbar = () => {
                               ))}
                             </div>
                           ))}
+                          {item === "COMPANY" && (
+                            <div className="px-6 py-3">
+                              <Link to="/about" className="block py-2 text-sm font-semibold text-muted-foreground hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>About Us</Link>
+                              <Link to="/careers" className="block py-2 text-sm font-semibold text-muted-foreground hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Careers</Link>
+                              <Link to="/clients" className="block py-2 text-sm font-semibold text-muted-foreground hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Clients</Link>
+                            </div>
+                          )}
                         </motion.div>
                       )}
                     </AnimatePresence>

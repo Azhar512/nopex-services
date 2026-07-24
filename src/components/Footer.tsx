@@ -68,7 +68,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/80 text-sm">© {new Date().getFullYear()} Nopex Services | All Rights Reserved</p>
             <div className="flex flex-wrap gap-4 text-sm">
-              <Link to="/terms-of-use" className="text-white/80 hover:text-[#aecc53] transition-colors">
+              <Link to="/terms-of-service" className="text-white/80 hover:text-[#aecc53] transition-colors">
                 Terms & Conditions
               </Link>
               <span className="text-white/40">|</span>

@@ -209,6 +209,34 @@ const ServiceDetailTemplate = () => {
         </section>
       )}
 
+      {/* ═══════════ PROCESS SECTION ═══════════ */}
+      {service.process && service.process.length > 0 && (
+        <section className="py-24 bg-white border-t border-gray-100">
+          <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Process</h2>
+              <p className="text-gray-600 text-lg max-w-2xl mx-auto">How we deliver {service.name} from start to finish.</p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+              {service.process.map((step: string, index: number) => {
+                const parts = step.split(/ [—\-] /);
+                const title = parts[0];
+                const desc = parts.slice(1).join(" - ");
+                return (
+                  <div key={index} className="relative p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:border-[#aecc53] hover:shadow-lg transition-all group">
+                    <div className="text-[#00353e] font-black text-4xl mb-4 opacity-20 group-hover:opacity-100 group-hover:text-[#aecc53] transition-colors">
+                      0{index + 1}
+                    </div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-3">{title}</h3>
+                    {desc && <p className="text-sm text-gray-600 leading-relaxed">{desc}</p>}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* ═══════════ CTA SECTION ═══════════ */}
       <section className="py-24 bg-white">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">

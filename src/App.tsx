@@ -29,6 +29,7 @@ import Publications from "./pages/Publications";
 import LatestPosts from "./pages/LatestPosts";
 import CaseStudies from "./pages/CaseStudies";
 import Careers from "./pages/Careers";
+import Clients from "./pages/Clients";
 import Offices from "./pages/Offices";
 import Sitemap from "./pages/Sitemap";
 import WithoutLimits from "./pages/WithoutLimits";
@@ -40,7 +41,7 @@ import SupplyChain from "./pages/SupplyChain";
 import AntiHumanTrafficking from "./pages/AntiHumanTrafficking";
 import ModernSlavery from "./pages/ModernSlavery";
 import RecruitmentPrivacy from "./pages/RecruitmentPrivacy";
-import TermsOfUse from "./pages/TermsOfUse";
+import TermsOfService from "./pages/TermsOfService";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import CookiesPolicy from "./pages/CookiesPolicy";
 import NotFound from "./pages/NotFound";
@@ -81,6 +82,7 @@ const App = () => (
           <Route path="/latest-posts" element={<LatestPosts />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/careers" element={<Careers />} />
+          <Route path="/clients" element={<Clients />} />
           <Route path="/offices" element={<Offices />} />
           <Route path="/sitemap" element={<Sitemap />} />
           <Route path="/without-limits" element={<WithoutLimits />} />
@@ -92,7 +94,7 @@ const App = () => (
           <Route path="/anti-human-trafficking" element={<AntiHumanTrafficking />} />
           <Route path="/modern-slavery" element={<ModernSlavery />} />
           <Route path="/recruitment-privacy" element={<RecruitmentPrivacy />} />
-          <Route path="/terms-of-use" element={<TermsOfUse />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/cookies-policy" element={<CookiesPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

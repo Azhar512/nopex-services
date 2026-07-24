@@ -17,7 +17,7 @@ const Careers = () => {
   const jobOpenings = [
     {
       title: "Senior BIM Coordinator",
-      location: "Dubai, UAE",
+      location: "Lahore, Pakistan",
       type: "Full-time",
       department: "BIM & Digital Engineering",
       description: "Lead BIM coordination across multidisciplinary projects, ensuring clash-free designs and seamless collaboration.",
@@ -30,7 +30,7 @@ const Careers = () => {
     },
     {
       title: "Civil Engineer",
-      location: "Toronto, Canada",
+      location: "Lahore, Pakistan",
       type: "Full-time",
       department: "Civil Engineering",
       description: "Design and coordinate civil infrastructure projects including roads, utilities, and site development.",
@@ -43,7 +43,7 @@ const Careers = () => {
     },
     {
       title: "MEP Design Engineer",
-      location: "London, UK",
+      location: "Lahore, Pakistan",
       type: "Full-time",
       department: "MEP Engineering",
       description: "Design mechanical, electrical, and plumbing systems for commercial and industrial buildings.",
@@ -56,7 +56,7 @@ const Careers = () => {
     },
     {
       title: "Project Manager",
-      location: "Singapore",
+      location: "Lahore, Pakistan",
       type: "Full-time",
       department: "Project Management",
       description: "Oversee project delivery, client relationships, and team coordination across global projects.",
@@ -74,7 +74,7 @@ const Careers = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 bg-[#1a4d4d] text-white">
+      <section className="relative pt-32 pb-20 bg-[#00353e] text-white">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

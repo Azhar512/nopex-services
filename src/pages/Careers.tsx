@@ -1,9 +1,16 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, MapPin, Clock, Users } from "lucide-react";
+import { ArrowRight, MapPin, Clock, Users, Briefcase, GraduationCap, DollarSign, Target } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import careersData from "@/data/careers.json";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const Careers = () => {
   useEffect(() => {
@@ -13,61 +20,6 @@ const Careers = () => {
       meta.setAttribute("content", "Build your career with Nopex Services. We offer global opportunities for BIM coordinators, engineers, and project managers in a dynamic, innovative environment.");
     }
   }, []);
-
-  const jobOpenings = [
-    {
-      title: "Senior BIM Coordinator",
-      location: "Lahore, Pakistan",
-      type: "Full-time",
-      department: "BIM & Digital Engineering",
-      description: "Lead BIM coordination across multidisciplinary projects, ensuring clash-free designs and seamless collaboration.",
-      requirements: [
-        "5+ years BIM coordination experience",
-        "Proficiency in Revit, Navisworks, and BIM 360",
-        "Strong project management skills",
-        "Experience with large-scale infrastructure projects"
-      ]
-    },
-    {
-      title: "Civil Engineer",
-      location: "Lahore, Pakistan",
-      type: "Full-time",
-      department: "Civil Engineering",
-      description: "Design and coordinate civil infrastructure projects including roads, utilities, and site development.",
-      requirements: [
-        "Bachelor's in Civil Engineering",
-        "P.Eng designation preferred",
-        "AutoCAD Civil 3D expertise",
-        "3+ years relevant experience"
-      ]
-    },
-    {
-      title: "MEP Design Engineer",
-      location: "Lahore, Pakistan",
-      type: "Full-time",
-      department: "MEP Engineering",
-      description: "Design mechanical, electrical, and plumbing systems for commercial and industrial buildings.",
-      requirements: [
-        "Degree in Mechanical or Electrical Engineering",
-        "Revit MEP proficiency",
-        "Energy modeling experience",
-        "LEED certification preferred"
-      ]
-    },
-    {
-      title: "Project Manager",
-      location: "Lahore, Pakistan",
-      type: "Full-time",
-      department: "Project Management",
-      description: "Oversee project delivery, client relationships, and team coordination across global projects.",
-      requirements: [
-        "PMP certification preferred",
-        "10+ years project management experience",
-        "Engineering background",
-        "International project experience"
-      ]
-    }
-  ];
 
   return (
     <div className="min-h-screen bg-background">
@@ -149,62 +101,126 @@ const Careers = () => {
       <section className="py-20 bg-background">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-2xl sm:text-4xl font-bold mb-6">Current Openings</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-gray-900">Current Openings</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Explore our current job opportunities and find your next career move.
             </p>
           </div>
 
-          <div className="space-y-8">
-            {jobOpenings.map((job, index) => (
-              <motion.div
-                key={job.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-muted p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
-              >
-                <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6">
-                  <div>
-                    <h3 className="text-2xl font-bold mb-2">{job.title}</h3>
-                    <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
-                      <span className="flex items-center gap-1">
-                        <MapPin className="w-4 h-4" />
-                        {job.location}
-                      </span>
-                      <span className="flex items-center gap-1">
-                        <Clock className="w-4 h-4" />
-                        {job.type}
-                      </span>
-                      <span className="bg-primary/10 text-primary px-3 py-1 rounded-full">
-                        {job.department}
-                      </span>
+          <div className="space-y-6">
+            <Accordion type="single" collapsible className="w-full space-y-4">
+              {careersData.map((job: any, index: number) => (
+                <AccordionItem 
+                  key={index} 
+                  value={`job-${index}`} 
+                  className="bg-white border border-gray-100 shadow-sm rounded-2xl overflow-hidden px-2"
+                >
+                  <AccordionTrigger className="hover:no-underline py-6 px-4">
+                    <div className="flex flex-col md:flex-row md:items-center text-left gap-4 w-full pr-4">
+                      <div className="flex-grow">
+                        <h3 className="text-xl font-bold text-gray-900 group-hover:text-primary transition-colors mb-2">
+                          {job.title}
+                        </h3>
+                        <div className="flex items-center text-sm text-gray-500 gap-2">
+                          <MapPin className="w-4 h-4 text-primary" />
+                          <span>{job.location}</span>
+                        </div>
+                      </div>
+                      <div className="shrink-0 bg-primary/10 text-primary font-semibold px-4 py-2 rounded-full text-sm">
+                        View Details
+                      </div>
                     </div>
-                  </div>
-                  <Link
-                    to="/contact"
-                    className="mt-4 lg:mt-0 inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-md hover:bg-primary/90 transition-colors gap-2"
-                  >
-                    Apply Now
-                    <ArrowRight className="w-4 h-4" />
-                  </Link>
-                </div>
+                  </AccordionTrigger>
+                  
+                  <AccordionContent className="px-4 pb-8">
+                    <div className="pt-6 border-t border-gray-100 grid lg:grid-cols-2 gap-12">
+                      <div className="space-y-8">
+                        {/* Profile Section */}
+                        {job.profile && job.profile.length > 0 && (
+                          <div>
+                            <h4 className="flex items-center text-lg font-bold text-gray-900 mb-4">
+                              <Target className="w-5 h-5 mr-2 text-primary" />
+                              Target Profile
+                            </h4>
+                            <div className="space-y-3">
+                              {job.profile.map((item: string, i: number) => (
+                                <p key={i} className="text-gray-600 leading-relaxed text-sm">{item}</p>
+                              ))}
+                            </div>
+                          </div>
+                        )}
 
-                <p className="text-muted-foreground mb-4">{job.description}</p>
+                        {/* Responsibilities Section */}
+                        {job.responsibilities && job.responsibilities.length > 0 && (
+                          <div>
+                            <h4 className="flex items-center text-lg font-bold text-gray-900 mb-4">
+                              <Briefcase className="w-5 h-5 mr-2 text-primary" />
+                              Key Responsibilities
+                            </h4>
+                            <ul className="space-y-3">
+                              {job.responsibilities.map((item: string, i: number) => (
+                                <li key={i} className="flex items-start gap-3 text-gray-600 text-sm">
+                                  <ArrowRight className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+                                  <span className="leading-relaxed">{item}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </div>
 
-                <div>
-                  <h4 className="font-semibold mb-2">Requirements:</h4>
-                  <ul className="grid md:grid-cols-2 gap-2">
-                    {job.requirements.map((req, idx) => (
-                      <li key={idx} className="flex items-start gap-2 text-sm text-muted-foreground">
-                        <ArrowRight className="w-3 h-3 text-primary flex-shrink-0 mt-1" />
-                        {req}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </motion.div>
-            ))}
+                      <div className="space-y-8">
+                        {/* Requirements Section */}
+                        {job.requirements && job.requirements.length > 0 && (
+                          <div>
+                            <h4 className="flex items-center text-lg font-bold text-gray-900 mb-4">
+                              <GraduationCap className="w-5 h-5 mr-2 text-primary" />
+                              Technical & Niche Requirements
+                            </h4>
+                            <ul className="space-y-3">
+                              {job.requirements.map((item: string, i: number) => (
+                                <li key={i} className="flex items-start gap-3 text-gray-600 text-sm">
+                                  <ArrowRight className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+                                  <span className="leading-relaxed">{item}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+                        {/* Compensation Section */}
+                        {job.compensation && job.compensation.length > 0 && (
+                          <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
+                            <h4 className="flex items-center text-lg font-bold text-gray-900 mb-4">
+                              <DollarSign className="w-5 h-5 mr-2 text-primary" />
+                              Compensation & Incentives
+                            </h4>
+                            <ul className="space-y-3">
+                              {job.compensation.map((item: string, i: number) => (
+                                <li key={i} className="flex items-start gap-3 text-gray-700 font-medium text-sm">
+                                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-1.5" />
+                                  <span>{item}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+                        <div className="pt-6">
+                          <a
+                            href="mailto:hr@nopexservices.com"
+                            className="inline-flex items-center px-8 py-4 bg-[#00353e] text-white font-bold rounded-lg shadow-lg hover:bg-gray-800 transition-all duration-300 w-full justify-center"
+                          >
+                            Apply for this Position
+                            <ArrowRight className="ml-2 w-5 h-5" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>
@@ -218,13 +234,13 @@ const Careers = () => {
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
             We're always looking for talented individuals. Send us your resume and let us know how you can contribute to our team.
           </p>
-          <Link
-            to="/contact"
-            className="inline-flex items-center px-8 py-4 bg-white text-primary font-semibold rounded-md hover:bg-gray-100 transition-colors gap-2"
+          <a
+            href="mailto:hr@nopexservices.com"
+            className="inline-flex items-center px-8 py-4 bg-white text-primary font-bold rounded-lg hover:bg-gray-100 transition-colors shadow-lg"
           >
             Send Your Resume
-            <ArrowRight className="w-5 h-5" />
-          </Link>
+            <ArrowRight className="w-5 h-5 ml-2" />
+          </a>
         </div>
       </section>
 

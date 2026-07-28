@@ -7,6 +7,7 @@ import servicesData from "@/data/services.json";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [activeServiceCategory, setActiveServiceCategory] = useState<string | null>(null);
   const [closeTimeout, setCloseTimeout] = useState<NodeJS.Timeout | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileExpandedSection, setMobileExpandedSection] = useState<string | null>(null);
@@ -64,6 +65,7 @@ const Navbar = () => {
     { id: "mep", title: "MEP Engineering" },
     { id: "bim", title: "BIM & Revit Modeling" }
   ].map(disc => ({
+    id: disc.id,
     title: disc.title,
     link: `/services/${disc.id}`,
     links: servicesData
@@ -189,30 +191,72 @@ const Navbar = () => {
               style={{ maxHeight: 'calc(100vh - 80px)', overflowY: 'auto' }}
             >
               <div className="max-w-[1400px] mx-auto px-6 py-8">
-                <div className="grid grid-cols-5 gap-6">
-                  {megaMenuContent["SERVICES"].sections.map((section: any, idx: number) => (
-                    <div key={idx} className="flex flex-col">
-                      <Link
-                        to={section.link}
-                        onClick={() => setActiveDropdown(null)}
-                        className="text-lg font-serif text-white hover:text-[#aecc53] transition-colors mb-4 pb-2 border-b border-white/20"
-                      >
-                        {section.title}
-                      </Link>
-                      <div className="flex flex-col space-y-2">
-                        {section.links.map((link: any, lIdx: number) => (
+                <div className="grid grid-cols-4 gap-8">
+                  {/* Left Column: Main Categories */}
+                  <div className="flex flex-col border-r border-white/20 pr-8 col-span-1">
+                    <h3 className="text-xl font-bold text-white mb-2">Our Services</h3>
+                    <p className="text-sm text-white/70 mb-4">Comprehensive engineering & design solutions.</p>
+                    <div className="flex flex-col space-y-2">
+                      {megaMenuContent["SERVICES"].sections.map((section: any, idx: number) => (
+                        <div
+                          key={idx}
+                          onMouseEnter={() => setActiveServiceCategory(section.id)}
+                          className={`cursor-pointer px-4 py-3 rounded-md transition-colors ${activeServiceCategory === section.id ? 'bg-white/10 text-[#aecc53]' : 'text-white/80 hover:text-white hover:bg-white/5'}`}
+                        >
                           <Link
-                            key={lIdx}
-                            to={link.link}
+                            to={section.link}
                             onClick={() => setActiveDropdown(null)}
-                            className="text-sm text-[#aecc53] hover:text-white transition-colors"
+                            className="font-medium block w-full"
                           >
-                            {link.name}
+                            {section.title}
                           </Link>
-                        ))}
-                      </div>
+                        </div>
+                      ))}
                     </div>
-                  ))}
+                  </div>
+
+                  {/* Middle Column: Subcategories */}
+                  <div className="col-span-2 min-h-[300px]">
+                    {megaMenuContent["SERVICES"].sections.map((section: any, idx: number) => (
+                      activeServiceCategory === section.id && (
+                        <div key={idx} className="animate-in fade-in slide-in-from-left-4 duration-300 h-full">
+                          <div className="flex items-center justify-between mb-6 pb-4 border-b border-white/10">
+                            <h4 className="text-2xl font-serif text-white">{section.title}</h4>
+                            <Link
+                              to={section.link}
+                              onClick={() => setActiveDropdown(null)}
+                              className="text-sm text-[#aecc53] hover:text-white transition-colors flex items-center gap-1 font-bold"
+                            >
+                              Explore Discipline <ArrowRight className="w-4 h-4" />
+                            </Link>
+                          </div>
+                          
+                          <div className="grid grid-cols-2 gap-x-6 gap-y-4">
+                            {section.links.map((link: any, lIdx: number) => (
+                              <Link
+                                key={lIdx}
+                                to={link.link}
+                                onClick={() => setActiveDropdown(null)}
+                                className="text-sm text-white/70 hover:text-[#aecc53] transition-colors py-1 group flex items-start"
+                              >
+                                <span className="opacity-0 group-hover:opacity-100 transition-opacity text-[#aecc53] mr-2">›</span>
+                                <span className="group-hover:translate-x-1 transition-transform">{link.name}</span>
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      )
+                    ))}
+                  </div>
+
+                  {/* Right Column: Featured Image */}
+                  <div className="col-span-1 flex items-center justify-center pl-4 border-l border-white/20">
+                    <img 
+                      src="/services-dropdown-image.jpg" 
+                      alt="Engineering Services" 
+                      className="rounded-lg shadow-2xl object-cover w-full h-[300px] opacity-90 hover:opacity-100 transition-opacity" 
+                    />
+                  </div>
                 </div>
               </div>
             </motion.div>

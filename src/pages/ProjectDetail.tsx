@@ -1,7 +1,7 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
-import { ArrowLeft } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { ArrowLeft, X } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import projectsData from "@/data/projects.json";
@@ -9,6 +9,7 @@ import projectsData from "@/data/projects.json";
 const ProjectDetail = () => {
   const { projectId } = useParams();
   const navigate = useNavigate();
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   
   const project = projectsData.find(p => p.id === projectId);
 
@@ -61,13 +62,17 @@ const ProjectDetail = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="w-full h-[400px] sm:h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl mb-12"
+              className="w-full h-[400px] sm:h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl mb-12 cursor-pointer group relative"
+              onClick={() => setSelectedImage(project.mainImage)}
             >
               <img 
                 src={project.mainImage} 
                 alt={project.title} 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                <span className="text-white opacity-0 group-hover:opacity-100 font-medium tracking-wide transition-opacity bg-black/50 px-4 py-2 rounded-lg backdrop-blur-sm">View Full Size</span>
+              </div>
             </motion.div>
           )}
 
@@ -96,7 +101,7 @@ const ProjectDetail = () => {
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.4, delay: index * 0.1 }}
                     className="relative aspect-video rounded-xl overflow-hidden shadow-md group cursor-pointer"
-                    onClick={() => window.open(img, '_blank')}
+                    onClick={() => setSelectedImage(img)}
                   >
                     <img 
                       src={img} 
@@ -114,6 +119,35 @@ const ProjectDetail = () => {
 
         </div>
       </section>
+
+      {/* Lightbox Modal */}
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 sm:p-8"
+            onClick={() => setSelectedImage(null)}
+          >
+            <button
+              onClick={() => setSelectedImage(null)}
+              className="absolute top-4 right-4 sm:top-8 sm:right-8 p-2 text-white hover:text-red-500 transition-colors bg-black/50 hover:bg-black/80 rounded-full"
+            >
+              <X className="w-8 h-8" />
+            </button>
+            <motion.img
+              initial={{ scale: 0.9 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0.9 }}
+              src={selectedImage}
+              alt="Full size view"
+              className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <Footer />
     </div>

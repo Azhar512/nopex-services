@@ -57,9 +57,15 @@ const Projects = () => {
                     </div>
                     <div className="p-6 flex-grow flex flex-col justify-between">
                       <div>
-                        <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-[#1a4d4d] transition-colors line-clamp-2">
+                        <h3 className="text-xl font-bold mb-2 text-gray-900 group-hover:text-[#1a4d4d] transition-colors line-clamp-2">
                           {project.title}
                         </h3>
+                        {project.location && (
+                          <p className="text-sm text-gray-500 mb-2 flex items-center">
+                            <span className="inline-block w-3 h-3 bg-[#aecc53] rounded-full mr-2"></span>
+                            {project.location}
+                          </p>
+                        )}
                       </div>
                       <div className="mt-4 flex items-center text-[#aecc53] font-semibold text-sm">
                         View Details <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />

@@ -48,6 +48,12 @@ const ProjectDetail = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
               {project.title}
             </h1>
+            {project.location && (
+              <p className="text-lg text-[#aecc53] font-medium flex items-center opacity-90">
+                <span className="inline-block w-4 h-4 bg-[#aecc53] rounded-full mr-3"></span>
+                {project.location}
+              </p>
+            )}
           </motion.div>
         </div>
       </section>

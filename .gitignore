@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Raw Project Data and Processing Scripts
+Projects.rar
+Projects/
+process_projects.cjs

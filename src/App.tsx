@@ -41,6 +41,8 @@ import SupplyChain from "./pages/SupplyChain";
 import AntiHumanTrafficking from "./pages/AntiHumanTrafficking";
 import ModernSlavery from "./pages/ModernSlavery";
 import RecruitmentPrivacy from "./pages/RecruitmentPrivacy";
+import JobApplication from "./pages/JobApplication";
+import ProjectDetail from "./pages/ProjectDetail";
 import TermsOfService from "./pages/TermsOfService";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import CookiesPolicy from "./pages/CookiesPolicy";
@@ -71,6 +73,7 @@ const App = () => (
           <Route path="/services/:discipline/:subservice" element={<ServiceDetailTemplate />} />
           <Route path="/services/:discipline" element={<DisciplineTemplate />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:projectId" element={<ProjectDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/bim-digital" element={<BIMDigital />} />
           <Route path="/shop-drawings" element={<ShopDrawings />} />
@@ -82,6 +85,7 @@ const App = () => (
           <Route path="/latest-posts" element={<LatestPosts />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/careers" element={<Careers />} />
+          <Route path="/careers/apply/:jobId" element={<JobApplication />} />
           <Route path="/clients" element={<Clients />} />
           <Route path="/offices" element={<Offices />} />
           <Route path="/sitemap" element={<Sitemap />} />

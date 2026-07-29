@@ -207,13 +207,13 @@ const Careers = () => {
                         )}
 
                         <div className="pt-6">
-                          <a
-                            href="mailto:hr@nopexservices.com"
+                          <Link
+                            to={`/careers/apply/${index}`}
                             className="inline-flex items-center px-8 py-4 bg-[#00353e] text-white font-bold rounded-lg shadow-lg hover:bg-gray-800 transition-all duration-300 w-full justify-center"
                           >
                             Apply for this Position
                             <ArrowRight className="ml-2 w-5 h-5" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

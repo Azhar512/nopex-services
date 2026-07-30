@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowLeft, X } from "lucide-react";
+import { ArrowLeft, X, Tag } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import projectsData from "@/data/projects.json";
@@ -48,12 +48,20 @@ const ProjectDetail = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
               {project.title}
             </h1>
-            {project.location && (
-              <p className="text-lg text-[#aecc53] font-medium flex items-center opacity-90">
-                <span className="inline-block w-4 h-4 bg-[#aecc53] rounded-full mr-3"></span>
-                {project.location}
-              </p>
-            )}
+            <div className="flex flex-wrap gap-4 items-center">
+              {project.location && (
+                <p className="text-lg text-[#aecc53] font-medium flex items-center opacity-90">
+                  <span className="inline-block w-4 h-4 bg-[#aecc53] rounded-full mr-3"></span>
+                  {project.location}
+                </p>
+              )}
+              {project.category && (
+                <div className="inline-flex px-4 py-1.5 bg-white/10 text-white border border-white/20 text-sm font-semibold rounded-full items-center shadow-sm">
+                  <Tag className="w-4 h-4 mr-2" />
+                  {project.category}
+                </div>
+              )}
+            </div>
           </motion.div>
         </div>
       </section>

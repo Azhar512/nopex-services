@@ -1,0 +1,7 @@
+Location: Berlin, Germany
+Project Type: Airport Infrastructure
+
+Project Description:
+The airport expansion project involved BIM coordination for terminal facilities, structural systems, HVAC, electrical networks, baggage handling systems, and fire protection. BIM workflows improved construction planning and multidisciplinary coordination.
+
+LOD: 350–400

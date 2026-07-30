@@ -1,0 +1,5 @@
+Central Railway Transit Hub – 
+Project Type: Transportation Infrastructure / Railway Station
+Location: Chicago, Illinois, USA
+
+This project involved the creation of a detailed Scan-to-BIM model for an existing railway transit hub undergoing modernization and infrastructure upgrades. Laser scanning technology was utilized to capture accurate existing conditions, which were converted into a coordinated BIM environment. The project included architectural modeling, structural assessment, MEP system coordination, and documentation development to support renovation planning, construction execution, and long-term facility management.

@@ -10,7 +10,8 @@
       "/projects/project-1/zaha-hadid-architects-the-henderson-art-garden-hong-kong-sq_dezeen_2364_col_0.jpg"
     ],
     "mainImage": "/projects/project-1/fmjq2Zzmhp9N9xwZmLlrRR13OtZIP1mi-zv6iIZWTcHjs6nS1vf2d_opX46nR65CyzaadMbCEGQTEkr2hdSKuAlxHIJ6rhBE2z0vn0hCL058DdJLS999pNmZGvC9K-yy7VbmnqvRI-XuVsp1Mx6GRGvshaw30J988wr6hJY35xgNAF-dNSp_TFxMjVoai1.jpg",
-    "location": "Central, Hong Kong"
+    "location": "Central, Hong Kong",
+    "category": "Landscape"
   },
   {
     "id": "project-2",
@@ -21,7 +22,8 @@
       "/projects/project-2/image2-1-scaled-rep826kg49qhepvfcjrj26vige7o3rl37ldz8qv71s.jpeg"
     ],
     "mainImage": "/projects/project-2/FQbP7nbrcLdJsyYChLTpAsU25Y78BpUs_Q748biCjb5toi2OvLR3c2WRlQ5XPFQ5mSSixBdd3bJ_KmmKbA6cl00myDucF1U0uOpAFKMtYRg-PAnR5hsa0dl4o4hukiYqS43TC663aFqodQJx3pOP66arJyP0a_2Iv0dL7NZDX9GOBrrGBo_vl1lTtBv1p0.jpg",
-    "location": "Philadelphia, PA, USA"
+    "location": "Philadelphia, PA, USA",
+    "category": "MEP"
   },
   {
     "id": "project-3",
@@ -34,7 +36,8 @@
       "/projects/project-3/zvejbRfeqRsHZRYjogYXXUYap5scaHbZn1qaZqB1mKQYyoFIWmsofhNZTA0HxosiCMmP1Lg9RYnERqPSZvKMTcB6RY509DGWGNvPgDNMyXe8Bjuq_TuCN7G_KV8hMkNybStOXs7f_RdQ6fwOINBpfFM9Pu59yuaCvUnW8XfyCgdhs1hxuPSPAmK81oxWiS.jpg"
     ],
     "mainImage": "/projects/project-3/2Gp65C_oQkDrqruY9YSWwxUMFyPiRmmz8Mehb3TVrpWJVb5IEBP855xgSDMP-_dr80kPHDocdnzWH81VOR50IY4dNPm0to6-Xs23DkLA9UXz2qpvGoGGf9KQWKgn23H7JqfBzSkG9UmIdzwVHzPYl392sm82Dv2Bvy4fWdiqRltbGxwzqubSbDD5-D8OBi.jpg",
-    "location": "Vancouver, Washington, USA"
+    "location": "Vancouver, Washington, USA",
+    "category": "MEP"
   },
   {
     "id": "project-4",
@@ -46,7 +49,8 @@
       "/projects/project-4/yNld_b4Di9tD2DpscLDf56MdFtfCQe9dQjiK5SF89B9ApC7wNDVFA2b_MYUOEOw8J3R1H2XG4jsAOePjVrDiUPpWc546T87B1lqK7ysC3GW-KKvocer7LKC-IRdPxqwKPzIfUS2zLvmFnY8K6WVmk1lw4mpSpnMIvebmpgPnYXVMWvJivpfX5815b9Utt3.jpg"
     ],
     "mainImage": "/projects/project-4/Fo2MCdS31DIE9H0Ivg2KdFvQqTlPnNR05noKVeuIemLAR8zTVSLTTgy3BOhOJAdbJ9zgOBODhZHtCYzjIcfIWGLbnBWyUhAMsFsGOPjSEeoxRVlQu7ADSDkU9O90mNFTKMlQAhaHVFl1vv-3Tl-MC-snrnDbAA1141u7-8MzTyILkEsUdJogz2OK66owWp.jpg",
-    "location": "Dallas, Texas, USA"
+    "location": "Dallas, Texas, USA",
+    "category": "MEP"
   },
   {
     "id": "project-5",
@@ -61,7 +65,8 @@
       "/projects/project-5/wGO0MjiVLEKTOl0nirUeZdQnYVIqLuhdaEz4lNV1QNap_EjjJjYlZovjjKT01ObXl6RSQPB8Con9SvqERudfHCojaddtIOAxNfMWmS3MljDmTfuL3utC3uO50v_n59ig6vJ66CCwVOpgb-tUEuNy5sNorEMhlScP-r1Scrg3lUIkb0faSIY2405wUyuQGk.jpg"
     ],
     "mainImage": "/projects/project-5/0L5jrIvcHcIYkWYY4Ak5I503ud65GwW_rXB15Z5oMWeNozhRxnq_y7pcvvc-_JncOq22wTItkIT4l1DsyTboCm_zAQ5PV6I9l5X0No1gYfc44crzjb7XX6rFfyK-kdgtkDet9lNY9SOxz8-lL8xhJi0brg5s1CY9PST7-eZC-3-bfsgVVtMOGkAr9gSPDa.jpg",
-    "location": "Seattle, Washington, USA"
+    "location": "Seattle, Washington, USA",
+    "category": "MEP"
   },
   {
     "id": "project-6",
@@ -75,7 +80,8 @@
       "/projects/project-6/U_0ChL2QHgMfTga7o_AqC6GPjLiWDQkJqMd6-ytUgbHAWslbBk0Hk0V5gl8LKLezwawrFgLcnVFCUSj1kTtmW-Lr58p6UmXZYwAAftf8yatgpj2MuRNPZEag2SUSMwWpHgJs8nKe2Fh3c6C9GB5DsJ9uQ67v48SgJpqS61ZkkShJ9IVpqkzBwmZF7WB_rj.jpg"
     ],
     "mainImage": "/projects/project-6/-6bVAyrOl3Tfy4HX_NWezwzjl3T42XuMfSLgmgTSXIELSVTpigcBi4bzJQKiYiMrkrwVY0clOTAG46F_v6KGa5sK0gRzQz9kvhFFqUdp0cy4WvaiMsHT1uBs8UF7YH5GZ7xfSKd_2tMfbVk3t8W_kTQigKUbk9ywaqsiRIjFCXnsIKjdA-4CrIY7dwYYtK.jpg",
-    "location": "Chicago, Illinois, USA"
+    "location": "Chicago, Illinois, USA",
+    "category": "MEP"
   },
   {
     "id": "project-7",
@@ -87,7 +93,8 @@
       "/projects/project-7/Z7Tyj1QhUUPaL_CwnW1-WG_inAzLjwT5PbG78O-iX5ejzIDkIlTBjBesedRvlOJuK1hmiuuaZZLsqa-CD4uNAUCPZAPB7fbOQL1Bp2k1HrR8CD3wh_jo3EY2NydoHFrHNa5wY2IO5MrFj-F2LYeJALvLCojUKZxtsIOJ50rJhcoDk0akPZi_3iGxvuLek9.jpg"
     ],
     "mainImage": "/projects/project-7/s7jxNhHuTbG1I3TPYN7umOjtXpDyax1bxn_3h2wrM9GPsNrIDSl4u0pM0eDa2bogiBtuZmaWQD5TmNKqIQkVWfxo7BhCWlzcJvp2yH5SjMcGoYP23vJzfd-yVYeTAG635mrpAD8SAf6jRQ0NJ67ehHhFqlbrWlYchXAyxwINDfzhbags2oipYdimTLnixW.jpg",
-    "location": "USA"
+    "location": "USA",
+    "category": "MEP"
   },
   {
     "id": "project-8",
@@ -104,7 +111,8 @@
       "/projects/project-8/ryP3f3pnstJJ3y1XP-_B-ceCtUiL4F7GXCdVn9zIXQ3SyDmpATqytKd7pof4N9i_G_hgoJAjIoFy4bwd6g3m_daGMOeTRj46nBgriwkJmtT3pShiu_kEN086KnuvkEGxjq4r_D0RWxAYlVakUCjshE8j4yU3rIlwNBtXi5ryjqh7N0uhtwbAq9tPtNa-Ea.jpg"
     ],
     "mainImage": "/projects/project-8/8u7pmpFZy_kclU8_BnCJlRkdx_ntvxP_jD2q34LmU2tAtauipcvgJm3xWKCH3reCKoc6kznhF0tP7kgwr6zy8LwlU7N_L2WXKg9JHyksQYCr7Ge8HyatbmbmWdEVCqkSUTXa9UpWuqg3lWKYeXH8w3OpXvgFaYPGinnz6A6ingep6fG_98xRPVHgQnYoUE.jpg",
-    "location": "Virginia, USA"
+    "location": "Virginia, USA",
+    "category": "MEP"
   },
   {
     "id": "project-9",
@@ -120,7 +128,8 @@
       "/projects/project-9/zcPqKpnZLcm_72x0LIwEDr21VOWcJpf7z7e8KXwykee6yrsxBEgpWquADPzKCnPFAeM7Nn-8t0i6Hh1LGLBKZAin1HxmwAoLYjqw5jffTnB_vShaDoUHaLL-wBJZO0m5LSn6zuwl3o4FNdqdhT0USJHh2lIdQnBlF4xP3a6fe19AIEz8i6KXsHVmfo_wKN.jpg"
     ],
     "mainImage": "/projects/project-9/-VBeNk_FTjeBUuhSOZbTMYeFtwDfCuohudg8GKStQXjDcNEy9BluYeChpXG58HXl_pKVDW4I97TqLJ4gtulg6D4k0M8c0WXqMl6Vn9rUbwH5fvVtyPjafhEbsYQm8qO8DTl1Z59l0YW-GY63d4GTZJiMBasu7V2Q1nDagz6JVb_GYw-2eJe_tn-v6ltQue.jpg",
-    "location": "New York, NY, USA"
+    "location": "New York, NY, USA",
+    "category": "MEP"
   },
   {
     "id": "project-10",
@@ -135,6 +144,203 @@
       "/projects/project-10/z_0faYkQMwZff9dewbeF-400TOx-e_6ADbiOhuU0bWtdQ5Xp4_j7TlDXIwn76ZyL_JTZ1MOgk7Mylbdz0gn6gdvyVjwHUpOqN2ryTIHeBG6_oLzY2CXA5Uw3cXJKH2S3sM4g2senLNNzTOO7xm9sh_56czASM7-9uppuGN3vntOjTdY_iMUGwZ3IrO1RT.jpg"
     ],
     "mainImage": "/projects/project-10/4gPx4jrb_wUgjmegniJtT92oV5M_zv8hH-JF-TYZLbeKPTrlzIDN8rCJs2KJ5AXgRnFwvCiAVOObih_vzg2OjdYHuI8yya4skG5SJluhASl6as4-kVW_u3AMs8WnhwSAlh6UXVj6zbxTDPSHGp5rfVLW8WNaXSJaw52woWNdsCKHSVF-A_-OeJjZ5ES5WL.jpg",
-    "location": "Chicago, Illinois, USA"
+    "location": "Chicago, Illinois, USA",
+    "category": "MEP"
+  },
+  {
+    "id": "project-11",
+    "title": "HS2 Old Oak Common Station",
+    "description": "HS2 Old Oak Common Station\r\n\r\n\r\n\r\nA major high-speed rail infrastructure project utilizing BIM for architectural, structural, civil, and MEP coordination. Digital engineering workflows supported design coordination, 4D planning, clash detection, and construction sequencing to improve project delivery and asset management.\r\n\r\nLOD: 350–400",
+    "images": [
+      "/projects/project-11/lNOG-ws2bwJRC-_J6Gqb-QMFBzIBqq7sGAvrYu8pM9Uz_uSqfuLPJ0cyH5L7S5UblNi3Owi5S3HUakUhFO2GsimVuZ8lhWCwnjkMwKS66xfeLa71hwDdCM6MNyS4s3VCDb69qvKA-II_b06PKf9bxvTE6acsAqXmc3DJJZ_VrIGcng0IWNeCY9Eegj2CG.jpg",
+      "/projects/project-11/nho-CVvta6vao5P2MebS585OnIXsAA6yZ5UoEHqquJCq8t9B1ACoxdYfu7n530l8prTwrwTqkHZ_0x-ar02-eJcDxLOuf6W0who2czqjsDKHXYcKIERHt33w_u6Z5C0XXTF3-OMDeu5um0Qa1u20tjszhm2Iubt6fWdAeHRU6r-9s6Vx2AiyJxfesGMk1.jpg",
+      "/projects/project-11/NyGcPBtDxEwOfBJLYkR4sQBRTA1AN8sToeVYH9kCNONYo8alLE9DNVaJqsXU5jsdp0-XqOtLlLNBw6InpNsqIkb7-e5upeNh_Cjjx-lWtGk381BfJQRzaQVts0i17NsrSb-7vykVM0qmlUIgFUCkVxfSMFrkmpcKKv5YJ63eWvAj20wpus2rawEoG3jJp.jpg",
+      "/projects/project-11/SGcZTW2CR63zd0fYeUoQjtr5yaK56mShzl_hqXK6hy3rZPEKHzvdl8V2LhjZp93Jzt0i3tqwfP2yL9xokxi2R2oNpdtBFWaG7Uv5MKoAt78eS9hZ_bYe1xgfO6Y8ADJ72C3fTUxQTOHyKJIFNRY_U3c_I75kPNEgDaMWLhnU8qShcdwyLk1GzmMCsCYze.jpg",
+      "/projects/project-11/w4Ba0PEDv9f67LFPvkbsl3E-EMn8Iu7XkLPpb74vvIiYjSsJ0AeTTZAj91eqcRDOnDcWk_QdXIB-QT7OEN-bwf7E-EuczNt1wGyE_m-stKMtY5ENE_CjEzcDxEcQ9y2LmGne9iOLFjgGaQ4PPddGp4FcVh1tx_YALimzykUoU2vcaNnBD4v7ldB_c9lwW.jpg"
+    ],
+    "mainImage": "/projects/project-11/lNOG-ws2bwJRC-_J6Gqb-QMFBzIBqq7sGAvrYu8pM9Uz_uSqfuLPJ0cyH5L7S5UblNi3Owi5S3HUakUhFO2GsimVuZ8lhWCwnjkMwKS66xfeLa71hwDdCM6MNyS4s3VCDb69qvKA-II_b06PKf9bxvTE6acsAqXmc3DJJZ_VrIGcng0IWNeCY9Eegj2CG.jpg",
+    "location": "London, England",
+    "category": "MEP"
+  },
+  {
+    "id": "project-12",
+    "title": "One Za'abeel",
+    "description": "One Za'abeel\r\n\r\n\r\nOne Za'abeel is an iconic mixed-use development featuring office towers, a luxury hotel, retail, and residential spaces. BIM was extensively used for structural steel coordination, MEP systems, façade coordination, and construction documentation to ensure efficient project delivery.\r\n\r\nLOD: 350–400",
+    "images": [
+      "/projects/project-12/2XPCl0chRmfRUmAnuxaeDvXyiN9wBRrbX4fH02gxsMbDRmHuhZTQPh5klRXN3DMJLbJj7KadGR1VYwwJR2K1DN_cG0nHMWaoPz49CXdPR9SFMPh1XDQYGDc5EDS03PT0l0sLbXinAF7RuI156aG1T2p8nkPgicPB742ulWl-9IQD2IWFUJrijq33PIhav.jpg",
+      "/projects/project-12/C0-rlyJmc3tO1-miIojfSNq7hGskO80FF6Uy8EObWgL7-3JlU50mmUsOLJRveG4WXak-nvuzZz4yZbA-40Z8N--OAahwJPgsHWlVmlQSyyzrwkb0pdsRoEzQmSw3QUc-lPWQN8nCRTU43CC6U8TeNTnNYB3sg8DRTU9BSv40tJfawbbnsChZVtSK5HUQF.jpg",
+      "/projects/project-12/RYefXhNgH-zgLahHItCFqU1dY6wo3NAng58aS206XhMOsAIQmwXJPYiIlQitn6zuIvZKmoanRJY7vKB8grhpwbrr0Ox2PrEAm6AnigsjtoPFqOLpe4al_cARtnfqmj2589_Iwfa6RP6zjAj7xofBRWT3gYuOB9e_KRZSyNTltnZTz4HP_wNR4qCMH5cpd.jpg",
+      "/projects/project-12/v_EhqLeB57fLxsnFLjhAn1CNWnxH9zEWyi8LKQroYHysUIXUK9bWEX2on8s3p-_wZUrW6gHOuvke7-8mOrOkUyWx-W1aXGy80bKw76QBCq-jRCoiKX-mVOPEDek8unZypY4UZtwUQrLyC_hX0TC83Bh6EAhg_bfqgWJEfpnFEFoiNGqCYQMn7bKlg1eM9.jpg"
+    ],
+    "mainImage": "/projects/project-12/2XPCl0chRmfRUmAnuxaeDvXyiN9wBRrbX4fH02gxsMbDRmHuhZTQPh5klRXN3DMJLbJj7KadGR1VYwwJR2K1DN_cG0nHMWaoPz49CXdPR9SFMPh1XDQYGDc5EDS03PT0l0sLbXinAF7RuI156aG1T2p8nkPgicPB742ulWl-9IQD2IWFUJrijq33PIhav.jpg",
+    "location": "Dubai, UAE",
+    "category": "MEP"
+  },
+  {
+    "id": "project-13",
+    "title": "Lusail Plaza Towers",
+    "description": "Lusail Plaza Towers\r\n\r\n\r\nLusail Plaza Towers is a landmark commercial development where BIM supported structural modeling, MEP coordination, façade integration, and multidisciplinary collaboration. The coordinated BIM model improved construction sequencing and minimized installation conflicts.\r\n\r\nLOD: 350–400",
+    "images": [
+      "/projects/project-13/0xCbzMTDVZwyeNzufRHy7vm3xeeM8M7iV5mqbWzlxPNq09Qcqa-86_3lRZDvBJ8NNx90xHz-7TFIuniAFigQ0ma83m2oVYzqn71oTUmuLc24uxvc1eA_au-76YFSbIL0JvzRNITUVpATKwXhO68Opi4wYQbHrzhgL1qeMMvBqKSLFA8mrvG5W2tiNN92E.jpg",
+      "/projects/project-13/16geUwmBR72fAwZTMdl1L2qkAiVHTQOFPV3-g7eOaHX3QmfhLmbs4dyMOnDSesjsD8biZjyBg5Z_UZFd9YCiAFJjAT5UpBWAlSkVH4WKVFKBILrlFZiyUkdpESiY8QAwQgdYavJjKrHIT0hlJMebtvdblXigEdeiWUW2XAmT2AGoNmh67e408YazrMJsm.jpg",
+      "/projects/project-13/GAQ-AT-R9SizKul9HjCJiOVPz_uMxOECfw_g8syyv8moYVGCVkTy19WUTJBR6WmWhOocotwBpgk7vrhhWUyNGqMWmOud07EbtvIKPP2NQAy-p1ZixlTKk4DYtsaNy1FUj98N8cTxQ04s0mho6MRxPaHYUqt87Tv8kzBe9dZB_cz5s3mY1aoYjjrhD8LIL.jpg",
+      "/projects/project-13/Rbp83Rp1xUp8akE1F4inSq83hTXGEptE46Gu16Yw68UHaqyhP6NeschkYNP7JRNaOcd40_RDkxtDEoc30QO9AK88sLrSSEiiHNSDQZPFWStsp-5Xk1K6wWcis-Dm5I3Unt4X8ZZ5NRmwkrELa297TtcV-3mOs5mSBc-Qtzh9yyFoY6QQwk06hQY7GBYdq.jpg",
+      "/projects/project-13/STVajzi6BzaQZyTmV5I5nryHvfR4VPKOWZeNrGe6hvNpJr3SbJDMFInCQwnBk_fDFw-LrXV624B2IQwTsh5B64sYnUJNvr3oOtIjEnE_4dmiMd87rV8FPRY42WEWq19YX_iqaynMaAmAklbo5C5GBbuac7yTqQBYkgXUdBv3S6gkPsqfujSzAN0d-T0qg.jpg"
+    ],
+    "mainImage": "/projects/project-13/0xCbzMTDVZwyeNzufRHy7vm3xeeM8M7iV5mqbWzlxPNq09Qcqa-86_3lRZDvBJ8NNx90xHz-7TFIuniAFigQ0ma83m2oVYzqn71oTUmuLc24uxvc1eA_au-76YFSbIL0JvzRNITUVpATKwXhO68Opi4wYQbHrzhgL1qeMMvBqKSLFA8mrvG5W2tiNN92E.jpg",
+    "location": "Lusail City, Qatar",
+    "category": "MEP"
+  },
+  {
+    "id": "project-14",
+    "title": "Msheireb Downtown Doha",
+    "description": "Msheireb Downtown Doha\r\n\r\n\r\nMsheireb Downtown Doha is one of the world's largest sustainable downtown regeneration projects. BIM supported architectural, structural, MEP, and infrastructure coordination to improve design accuracy, sustainability, and construction efficiency.\r\n\r\nLOD: 350–400",
+    "images": [
+      "/projects/project-14/cP8a4XrKfCq_jpfJ7gDpRxHO9ZN9nOhNhb90gPprXkc_DZGLA5hHCF9Sf9FKHlW0Q8ikbHuaRLyKtMY8GCifqcSduGnH1_tg1XC4HKSntE3IahatyrybWYjZxUBfYx0pntuygwWbD3bKWsithLxvIikBt4e5J0HnIu_QV4y1S93nDTMZTthBUT5fX4cOt.jpg",
+      "/projects/project-14/CxAenrdulPZKmUiq8YJwHZAXqFSVCooit7sqDTOe2DPdOcFa6XTFEBrLB91C_Tj6eSP0z0gX_rPICKjSBOhqDAgYDOLvMRTpyZaQPjpWzjXGq4zdxQaHQc3g5c3OHSLJlquDtGv-rU0GTWdG73m7ct5vbvRwzV5xJ2Tr_tGVP76W3Nk7gt-BtoOkaVV6r.jpg",
+      "/projects/project-14/eEo1oWUw1Tb6HCHpQk7GPRF-0XH7-pdky67YoXGzs5IZaNPB995T93KAr8gVBsYCMUd7nacYuZyeYcDTReHNLxncT9KL1Bijdtjin_jg01FuH9XGEGzfwHEQnYX8e7ceg30VT39kGx6Aw5dIHv6gROV9TNM-ATumKtNhNvUDihhF8aYUOuD2in4CYpP1D.jpg",
+      "/projects/project-14/gF1Rwrs--ivUlo3PRjk2oxkSmhKOe7vUtrLQZLIQdP16Dx1VNdoRpn3anmt6QoWfaPJvcVBD56N4mOlZCSXl6kIKg7PX07G3CJfJdC3Vq-6n6NQBL1r7ZhA4o8o-iBMgjd4KhU5XgV6rD3B7nanWLbJIZV268sdRsGvJpBDH5y4NkMLo0cbQdDEJZem8z.jpg",
+      "/projects/project-14/NE_irx5E9nJp-pjQGJyIOwtkuCCdqfDtLeyP5nyJWdC9Ld0RLvj1oKLyE9mav5GXTHHVbJDrzW8ng2XkgbMGYXMZi0YV5sGKX_docwtIxMsON2Fue2TYWWpJkVLRTK-FGn5L8w5Vf_uzVNiYMXbUldAb8NGHxwI0DECSkiZ6Z29GCddOfzABnB-E0f-dy.jpg",
+      "/projects/project-14/RbqvbM2D1E_OqE-q6zNiY8QQXTHiPwp9oo-jlY2PIKwPGvek28WWUc0uqfxBRE5rI-XfQPbTQCHt8SJ1uByQb_7tCry1du12EBeRc03K87GW_0qCPtcUct0oVTkP8dJxHa2T4hckJvG0hFvk8HkeAAXwb3F6q7-YBoCdtzUl5MUssM70uDq1fkPjjiyQI.jpg"
+    ],
+    "mainImage": "/projects/project-14/cP8a4XrKfCq_jpfJ7gDpRxHO9ZN9nOhNhb90gPprXkc_DZGLA5hHCF9Sf9FKHlW0Q8ikbHuaRLyKtMY8GCifqcSduGnH1_tg1XC4HKSntE3IahatyrybWYjZxUBfYx0pntuygwWbD3bKWsithLxvIikBt4e5J0HnIu_QV4y1S93nDTMZTthBUT5fX4cOt.jpg",
+    "location": "Doha, Qatar",
+    "category": "MEP"
+  },
+  {
+    "id": "project-15",
+    "title": "Sadara Chemical Complex",
+    "description": "",
+    "images": [
+      "/projects/project-15/5-hw-HVjHdnUEWV4Wq_WhT-yGUQj7MMsNozbVgnucTKGpficCoC4YdC7z4SjZ6_ewY5h7w-vWl1oqt2iD1wVuUfhfbbID2GgIBPfopfZHV0XL0qCQrXvepOAZLPvJQQSCOnjrGiU6TAFaWoqWrZ8IpMlaj05mQz8MZ13gl_JwT6UQ3G5S4QP-mR4D7XfZ.jpg",
+      "/projects/project-15/BNtG_crWCABf-dxR5jmU-s4rio7bHeyaew8EPh0MJJksF9pr45pxv7J0MTEr2EbsvxOrV0AaG7_indA0Y6a9v1sm_xX2wmm35CU76dFx1TAhgJlDZYEsDBgjekqiJDnJ4KV_UZ-FbzrnUxAjZeOlXaPS2DI6BaI9GXYhPNN3K1o-I8i5t8OwoCS87KwYt.jpg",
+      "/projects/project-15/eObXWsjlkoKG21pdgKUaA-zoAYIDvkGNgZBVDD1-Q2KRI8jf2ZDahCa-t-3wce-8vP22RIKQ9j0NQDCNd62IwinSQ8i3uQgsAn4ArBpCK8hTpXAN05ROW7Qdq3-CGDLmFGDwvpsCSukX9EFpUkkjDuelSdhD1vkKjIkzFw7qZR1WgvR3_0qB0CFJL7QYB.jpg",
+      "/projects/project-15/jWgzoDXzuIYHd-XLPj1fnnbU5QTqihUQWjnF3qOqe0lW_esiOfg70q-uyxqCLBCj0jmqdvFEgM5mii8Wn1ANaqrj7xxRvz1Lw3PXVSlW2go4G_uns6YDGaIwjBCus0GEMxvOh7orfG32TnQg3xhPE4V7OqzoWBQcZyfC1Wgm_qlRr2nq2LGz4u-gZsnH6.jpg",
+      "/projects/project-15/z4Fdugwel1iFSWyWL0Txupdmkg52Aot9PclcudMjBnm0R4f_S2wClpGa0T2dXPsU6eUsEXDbgImph7zpyISJ31KH7BbiX8wMzr92UljxOxfFMOg0BERZ7upTmA8Z3II38PA-sVPYa5bWUt9sJa83qok1DAUt5n0yF24cSYdH4aRHYqz_sGLyCALsCehin.jpg"
+    ],
+    "mainImage": "/projects/project-15/5-hw-HVjHdnUEWV4Wq_WhT-yGUQj7MMsNozbVgnucTKGpficCoC4YdC7z4SjZ6_ewY5h7w-vWl1oqt2iD1wVuUfhfbbID2GgIBPfopfZHV0XL0qCQrXvepOAZLPvJQQSCOnjrGiU6TAFaWoqWrZ8IpMlaj05mQz8MZ13gl_JwT6UQ3G5S4QP-mR4D7XfZ.jpg",
+    "location": "Global",
+    "category": "Architectural"
+  },
+  {
+    "id": "project-16",
+    "title": "4. YASREF Refinery",
+    "description": "",
+    "images": [
+      "/projects/project-16/cQ-HAUhHd46Kdi3RVODWxiiZ5lUaemzUlFG0-7a5WaZ2uKghxHr--IzhmnAo4_PlWAyrtmK-q1D2hCmODe472dHrkJnoSfZ4gyD79-fgUIMCPvY3w1naaoLA5a4hvrteN_-B_nrjyAUNoH4E1IduyxQVfPl7lzivB73ecfZlCXsZe1b61b5s7r4OLwFD-.jpg",
+      "/projects/project-16/gpNwvGXijCsP9mxRguycy0VwmkEH4Zr04dipJN-RdF-z56Ilfw9nwSVRAhJC8jU3rBCoaNAQ2AUCOg1k1xs7_zyiGSi4tDNtK4tAIH2_0qSnJehN8Bh3hEPXE1hzYiIpAxZoPA7lIGYZ9IuHHZlxsIik7Q19RxTrpWJgO93mLlARzLlNZue0ZRtp5t8he.jpg",
+      "/projects/project-16/HMX6fDs1u9i2wBUt70_TdfVi2TRsKItjzb3RsZj12GdpPz5T1bIBdFC0Z0dcgem3BT_Iqfyx0KScOIoxAo-tO70O7-Hbea7ImKoGNEjYa78h6qpNF61Dyi_IfyUiJ-3g6rgPiUGohJzTwrPYlUDZZXRa7liAFIjKDSEVwaXos9_qVRtmJACaRpw-hObez.jpg",
+      "/projects/project-16/LVioVYi4YTwt5C9r5WqZUifraJvS6UEDUYApSosrTCxhvosb_TCSbGAsCPJvHOEYAc8WIoUg9G9wWGsnDXJsE7r6tA7QdBlJdkfJxiFPfKacrAO4I_h36MjVT6WsjiHSWnApp3JLb-EBFJcmJcavVnc7vub8t5ZUck9YsuEJGiRK58TajbBB-e7OBn8pq.jpg",
+      "/projects/project-16/pJkwmbb4H1GuHmS2TQ80l_SUNDzoE7u4b6uCeWJbSFfW_2Tcdh-erxXPkl9uf6Bh5T3UzzDMyL8n0vQvfoWn7tHK30q4-C-Hf-F1PCF71j4LBeVxSc-iFeRHbedK6UxwBQAdOkDKax83eHEbRPs_S9jSK7yVGqpg2SJVH-B3chfdhXNP4fRaDA_gzPFMp.jpg"
+    ],
+    "mainImage": "/projects/project-16/cQ-HAUhHd46Kdi3RVODWxiiZ5lUaemzUlFG0-7a5WaZ2uKghxHr--IzhmnAo4_PlWAyrtmK-q1D2hCmODe472dHrkJnoSfZ4gyD79-fgUIMCPvY3w1naaoLA5a4hvrteN_-B_nrjyAUNoH4E1IduyxQVfPl7lzivB73ecfZlCXsZe1b61b5s7r4OLwFD-.jpg",
+    "location": "Global",
+    "category": "Architectural"
+  },
+  {
+    "id": "project-17",
+    "title": "CopenHill Expansion",
+    "description": "Project Description:\r\nCopenHill is an award-winning waste-to-energy facility that combines sustainable energy production with public recreational spaces. BIM was utilized for structural steel coordination, process piping, mechanical equipment, MEP systems, and multidisciplinary clash detection to support efficient construction and long-term facility management.\r\n\r\nLOD: 350–400",
+    "images": [
+      "/projects/project-17/2DO4oOxTc5UhO4rq4LskNoen_io03XJJrQPmXd-u-8Dszv4Uqkf-DSH7cNNKmj3tWiUMfcgBPYAENGvHeKQJyIqObxuLEAUuKs7ehl8EEP2cZk6FnpgS9UgVE4BMNNGggRy1NvyqXF-etkfy46T_HoUDNX0t0aLbKPb3T-bK93p_UjDUtHPvDaDear03W.jpg",
+      "/projects/project-17/7SWVW7OjKUCp8M2XBASFud72553OkjHOqMdbn6JV86VS9YfTihz2UHzlLb_rlFxh1lHLqnijs-psFGlbTXpdBfSamlBnjf15lE0ZIJApL0xIfVKbcteVaYxDGfUM3VjqrAM96xuEJg8zpzdSm35RylZUDOqc3GdE0oBEWch0j2s4mZEa6Y3qgOCzscWvf.jpg",
+      "/projects/project-17/cFMfANOU0IgmO-xH60vBEa5QouzkzOLU56wpEVflh31PKuDDfZGU6cW2f96f0vzk5kOwtFFRL312UajWFeKlJVunT7tJ92PnnM31HVXwiTNOmHMuofU1nkK7KyL1GVnGz8U-19WvSjeFcfuIxUXVrARK8noB_nGEGBaoamxYEsPEjTB5r83dDW4tp9ywh.jpg",
+      "/projects/project-17/EG-ntlTHlCTc3Xnbi4TfqHDOf9oQDCAGcjtDB2wh27ugjNhAwAQTc8Nlh0bV-dkcu4T0FUW1hsBh6xCJUkABlfQL8uGxj2lSopgJFRGGo7XPTwZgoUSqmg0LdRUR6FRBaFttktCkc60PZgfauJ7C3ru85bamTE5efAeh40KQuYBn7JljFeXbb3F3yULfx.jpg",
+      "/projects/project-17/qPQhXnfzA3qsDC02ujzjw-HVIaQZYnALkhddd7ujfkuIl3ubBiTtfqEp5cgq9MB1-Xg9W8QDf1pZZZ6U_97uvOCIg9S15nIO6nmc9ziyYd_mBvWeDogqDU03ca0mrkjAONbcOTGzWUBcEoKUwIvEmsuxPVmxJDtQcmJsX3SxyArtprMlHInQ7DStVQoVW.jpg",
+      "/projects/project-17/wJdyoK6MI4Vrsv75KlSlk4xLwGShAhWkIuqaWAE9W8iAyF2SHeFvFARONopp_kFFb79rYkw-NMMDnrkuKcPm8SVbN_pLwwZzHhz4byqdzk8KTnD544cf5AiQdzha9bHNcNzX4tWuhdNKcAB20PTrObIvzrTjKHh24ZLP9VydLPeYeYUkgNENICLy-41UV.jpg"
+    ],
+    "mainImage": "/projects/project-17/2DO4oOxTc5UhO4rq4LskNoen_io03XJJrQPmXd-u-8Dszv4Uqkf-DSH7cNNKmj3tWiUMfcgBPYAENGvHeKQJyIqObxuLEAUuKs7ehl8EEP2cZk6FnpgS9UgVE4BMNNGggRy1NvyqXF-etkfy46T_HoUDNX0t0aLbKPb3T-bK93p_UjDUtHPvDaDear03W.jpg",
+    "location": "Copenhagen, Denmark",
+    "category": "MEP"
+  },
+  {
+    "id": "project-18",
+    "title": "Fehmarnbelt Tunnel",
+    "description": "Project Description:\r\nThe Fehmarnbelt Tunnel is one of the world's longest immersed road and rail tunnels. BIM and digital engineering are used extensively for structural concrete modeling, tunnel elements, utilities, and multidisciplinary coordination throughout design and construction.\r\n\r\nLOD: 350–400",
+    "images": [
+      "/projects/project-18/ga8ofG4VkuC_1UWY0h_YcT1YMDksgF12PTSqQUH8FabhFOZop8I22VZGutr1j8VKYdrx_UwCn9-cAJ_72S3hnitmQWxS8Hz2W-TdFQL44e656K4HlzgYhIVrfMgOoKKIzH9KzHOsYFSgYJsnmPBsK9WE4wPIBuUJmROzSgjwMdG5pT_WPeXd6BzwFClhy.jpg",
+      "/projects/project-18/IcU3KPrFmmXtwKttpOm927uRdcLnT8KkPbAItDaR5bslupinLx4Fsgpw5zjJp_CCOHDqena0ReY9cGovE2maE1GlaAyMCme1Vu-SLBfH4mrE8swIzg0C62KJ_lEGd7qHrPTzpfMimZsgJdME3n8vnhjcG9YYAFujQPE0St5anqoxIXfEzc-b1gm-mx1OQ.jpg",
+      "/projects/project-18/naLJFUWqPQS7KgVTS40RLasWaZF9cE_ruU1cLRaoo7weQ3KxfYhwtfBmnQEQ2i4tOwgAi3YwYLOZLynRNPrgBolFWTlx7NBbqouzhhT_jZXI1Ds5VriLvgPgfuTLj0aAYKyxTlyI6Hx-3uVzlmYq4vW4GWELP4KMNHLSf84A3YnozgyXg7UA8Pd6rAgTj.jpg",
+      "/projects/project-18/r5kVSIXvRjYjwHZXJWjDlo8HQms0wiwcq6isTstPjX_SLYBmpFpNU-OXPO8vSCyrZfVI2XEqsBOBeI7VifMn-P9KBZbMY7Dwr4yEcXr6HFniy9ZGluUUv7N_HyLVBtv6jcixnFoTTqS1D3epTHsc8qwEpE0jirgZgRxxSYsYToF2UhyC0HloYTDZ33qr1.jpg",
+      "/projects/project-18/U6jF7Hw7rnWKLxbPrCGbHGugSu1Ugw0SXLv2XNLVUu_0Bwk7sqBuKmoczfN9iiq5o20TuDJIe4M5N4LNq6QGCnoAZE-9hlLE_nLMKtzeUyyM3YnzL4leztJNqySARKJGlnGwmxrf03joi5fZozhFmDNKk5xVIMUZFVpkbnmr09nq-I0GbG-VBSMhUidHA.jpg"
+    ],
+    "mainImage": "/projects/project-18/ga8ofG4VkuC_1UWY0h_YcT1YMDksgF12PTSqQUH8FabhFOZop8I22VZGutr1j8VKYdrx_UwCn9-cAJ_72S3hnitmQWxS8Hz2W-TdFQL44e656K4HlzgYhIVrfMgOoKKIzH9KzHOsYFSgYJsnmPBsK9WE4wPIBuUJmROzSgjwMdG5pT_WPeXd6BzwFClhy.jpg",
+    "location": "Denmark – Germany",
+    "category": "Structural"
+  },
+  {
+    "id": "project-19",
+    "title": "Berlin Brandenburg Airport (Expansion Works)",
+    "description": "Project Type: Airport Infrastructure\r\n\r\nProject Description:\r\nThe airport expansion project involved BIM coordination for terminal facilities, structural systems, HVAC, electrical networks, baggage handling systems, and fire protection. BIM workflows improved construction planning and multidisciplinary coordination.\r\n\r\nLOD: 350–400",
+    "images": [
+      "/projects/project-19/-XEPi-Zfq9gZAGjyHYQLHfJ2luUrRh4MjF3wUJzZX_Myn1XNhN5QB3I8veUnWrMkr0iXVFhnJwU70dNZwaCu-j-ce_99YfyTSsTLjF_XkBOMHsXXmpoGV9fQK9leCMPiy8KidI8PvOJ5xza6VptBWWIv1HI7av7P1EuJjktHcokHcEVutAIfxFndbYAuU.jpg",
+      "/projects/project-19/DY_zg31Tv9DT76PEAQ_83bmt0nxtvk1FpbK9RwdIvZj9L2axY40H_SnuzUn1FsEOLSUsC0tFSbqx9qZEsdX0A9vukUsdXN9hGFSTY4CuQwCc0UvLmkibC7z0Uor2pn-V6JcKFwBN_BMqSx84MtXv2ueGlKaxuOkl6Cis0NtiQaVOMTEz7TXb9RwjSU-Dl.jpg",
+      "/projects/project-19/Tg8TW9mtM1DITFPDooTqJmPebBFLnfSq4oes4in2EoydyOw49BJ-dyQLnVK5V5QRlOrlHWA4szb9crcOSNL9zq5Dc2amt61yj2a1PvNNGShDGPlBEcxMoo_LQQmL6mWCkeTh6nuFmptGupqh7sYEF0B4Q2C9-MjcrSmlqebshY4BxVsQ5sb-Q8eedmym7.jpg",
+      "/projects/project-19/weJrf4C2z8aK1xpasadruIrjTL1eCoJ4wl11zwrY1koMRbhu2BgZkgaMpLpUMbEaTGETqIn9mwaagg14E1gzoR6qVUbT9gvQiLcHWz5MhuaAXW08PTho-ZNjsVo4ie3800snYC-VvuJnixoTXP5rt-1XU5svelH9hiBb13j4k5jZHFRF43CZnmhQzo0g5.jpg"
+    ],
+    "mainImage": "/projects/project-19/-XEPi-Zfq9gZAGjyHYQLHfJ2luUrRh4MjF3wUJzZX_Myn1XNhN5QB3I8veUnWrMkr0iXVFhnJwU70dNZwaCu-j-ce_99YfyTSsTLjF_XkBOMHsXXmpoGV9fQK9leCMPiy8KidI8PvOJ5xza6VptBWWIv1HI7av7P1EuJjktHcokHcEVutAIfxFndbYAuU.jpg",
+    "location": "Berlin, Germany",
+    "category": "MEP"
+  },
+  {
+    "id": "project-20",
+    "title": "The Circle at Zurich Airport",
+    "description": "Project Description:\r\nThe Circle is a mixed-use commercial complex featuring offices, hotels, retail, and healthcare facilities. BIM enabled architectural, structural, façade, and MEP coordination, improving design quality and reducing construction conflicts.\r\n\r\nLOD: 350–400",
+    "images": [
+      "/projects/project-20/6YeAXbmsWRHZGPnTdsNX2Gyw_cxKmRG1W9mB1_Aoe0Jqx3vBum5NLgoOP1RxjIJacaeQeX7-m4DX2-Y4Jk7UBOhwVRUmBYAZBioA2Bqb3SCCsYdGzURp-aLAA8aOLt4dohrd_8KcGljR8vSBemW7oPZVezYPrEgJocRpVV9yYoDY90VzLXQloQ1eNFhcO.jpg",
+      "/projects/project-20/ayoCh2eOa5OFLFDgX027SyGgSdm4kTPsBm7Rgbw2Tt_z2DMKc_XfQTXQXQODUCj6EpAUc4MUQz51xN0eDz4mBmW9_nzgs9GhZHFWMSDrluY__y1mMagMXBQur0PYbJOu_YurrBcAYuMfxz5PxE5WH6YgdgSuSgFblV7ohd1thE0b04RBgVOtAanDYrZTi.jpg",
+      "/projects/project-20/DaF63M3ALnDzFE9wJUrmfixHsUwP7t2xvIVUR7qqEotjr_ER8PAHLu5jt9I8mQnPvL_i5PP_NHuf7jcfwQTc4FaO5ROY3A7DogPHnkydHZA_BFZ3vms1-lzd_v2HU98ScqzY1Hd1z2-sG4pkMcuOhlWWpZsoA6XG1puN2aMC52YDwAAjW8_hKC_xRk4tB.jpg",
+      "/projects/project-20/obpduZbGHhQDI-qsm9RnsWg9QpD-AWXVZyEGK6PLH05jc1kBqyusS30N_wFFZZAUgFpBrKb01mfX8QIScixDSfijJrkBiNXi1anJgtkw4i9frUxd-w1KoRdIijcQlLRyU23mlp-MH_V14tTd-vpashZ6pjsH1qGleCa1bL6rhLkbd2JUacIqCSXnm2Pwn.jpg",
+      "/projects/project-20/PTcWsquP_Q2jgdZPkYVtDdsUEIsHyA5HiRi2qCk3Xf75CN7qfBLR4YCcoHLj0QvPaHu3DTPDD7K5xG80DIaPEBWeebR2nFoDwlYyob97EbA0krOwyzzaCLWBzBuhnqBvElvJ8RDxDEZsy0i53bU4zYWc7XfplE4pkxB_Li-3z6SbxuZyePN8X0pj9UetK.jpg",
+      "/projects/project-20/RTL-lAkl8a4wJnyWXRh3myjXC_Myru0a1pzLsYlbX7ytSw7ca6JDYF3e25_gNamfsAg6lKgUe374aBpHWR0JkioSXLpHbwFPD3Vk_BG_bt_IPrgnNkgMlg-peYTsifseSSzinUkvZl4JkuhYy3TxNMRFv6xqc0R_3uhtW68Jhr-4cRpn4V5js2hjXtYbq.jpg"
+    ],
+    "mainImage": "/projects/project-20/6YeAXbmsWRHZGPnTdsNX2Gyw_cxKmRG1W9mB1_Aoe0Jqx3vBum5NLgoOP1RxjIJacaeQeX7-m4DX2-Y4Jk7UBOhwVRUmBYAZBioA2Bqb3SCCsYdGzURp-aLAA8aOLt4dohrd_8KcGljR8vSBemW7oPZVezYPrEgJocRpVV9yYoDY90VzLXQloQ1eNFhcO.jpg",
+    "location": "Zurich, Switzerland",
+    "category": "MEP"
+  },
+  {
+    "id": "project-21",
+    "title": "Oslo Government Quarter Redevelopment",
+    "description": "Project Type: Government Complex\r\n\r\nProject Description:\r\nThe redevelopment of Oslo's Government Quarter uses BIM for structural design, security integration, MEP coordination, and construction planning across multiple government buildings, supporting efficient collaboration and project delivery.\r\n\r\nLOD: 350–400",
+    "images": [
+      "/projects/project-21/6qSJ5RBK3SVMyiWHOv3Wqz9Qxcat-V3s4oB55Cdxkyg1_UqNUlJmZ9HIDeMRTA127t_Q-lCMmtrOBeDuA0wj4yRueH8PtT6OY4NDn7_yvCpQqfGNDOmkmjfk-bBPMKlFaBMUnu9GEJYeVyutJpl2bcibp0d9aPnespnHtGrqLN3gze_t-k32aH5nS_UQo.jpg",
+      "/projects/project-21/hVDZiqNTDfev-PrscFMx-_k4G42bUfjoYxP5C1rTCgMjExk7srqgfQeYuDVaYzd2XJXDo6k97ZfBpp5lE5Md-HJtbHzHi6HCOpxpyQe4jxoywWOaMF0dhM8fiq-XZMAdlmCDeGOlN_1_xOvSQZiPHlhOw7q-HsGKAQk3XWEtSAqMgYnkBJdHu-BtmiNAg.jpg",
+      "/projects/project-21/s2nrwEGxCdn9W8CJOmyk6Ie4Zocw3TpfGJZWnWsonMBK-hDEu4g-y4WNruuWEwy3LuoD1WuEBGtStyaApgq-0K3rssmgJe1M-cHQxORd50dKbVxzFVJYTRqKbIwu2SsHMxFupdTUHXFTu0LCRr-XasVgQyKs4YP3QaUuiv8wdVa-wSKDnE55jg-7ody1q.jpg",
+      "/projects/project-21/_-J7W8dAKDpPkQYHj9EKycgkQxlSFnfNerc0fJc47miI5GcnkioLKFAi8RGuMpG_-D0yTFGmIuATecdkgaXNVQaZzGnD1cvjWrBXZk4AE0Y_GE7BEUSr1EW8JsEm3C4x9mEDfj6b_uMkxp9i6oYEdnUGnkefVHVrSy6sO6bzXRbVs99HH6XaVozz9pKR9.jpg"
+    ],
+    "mainImage": "/projects/project-21/6qSJ5RBK3SVMyiWHOv3Wqz9Qxcat-V3s4oB55Cdxkyg1_UqNUlJmZ9HIDeMRTA127t_Q-lCMmtrOBeDuA0wj4yRueH8PtT6OY4NDn7_yvCpQqfGNDOmkmjfk-bBPMKlFaBMUnu9GEJYeVyutJpl2bcibp0d9aPnespnHtGrqLN3gze_t-k32aH5nS_UQo.jpg",
+    "location": "Oslo, Norway",
+    "category": "MEP"
+  },
+  {
+    "id": "project-22",
+    "title": "One Nine Elms",
+    "description": "Project Description:\r\nOne Nine Elms is a landmark twin-tower development featuring luxury residences, a five-star hotel, office space, and retail facilities. The project utilized BIM for architectural modeling, façade coordination, structural integration, and MEP coordination. Digital workflows enabled multidisciplinary collaboration, clash detection, and efficient construction planning for this high-rise development.\r\n\r\nLOD: 350–400",
+    "images": [
+      "/projects/project-22/gNV-dZbH-ID7mHzX5pjHUOkgOWudXJrcszG_qwVQJfGg3onujZV0Ew-9IU2vHJwO_ZAdKWtSLQMxTu_Sq92jgqlyF0QvsAPDLDtUP8a9LS4uzGJSRkNGrWby5ZE8mutHN_AySFgQVqVwxWOHysr-TGrjUFOlwLzPg_ofWgrxZE66pIHWAgOWzB3yOYE0Q.jpg",
+      "/projects/project-22/IkWUPga0CCNVNtuzo2CjqSySKT1tft2frqW51-iCBLwbKcGDNMGJd1i95yLqqIkZkeyProNr35EiOrcO7NCaFUGbh0WMUY00qdLqXNkrca5hU4w3w8ImJInkRHCLpUBCBrAn8MvI5zXOLM3DcBwmIsWWd7ybl_rVpChyq4s7mkxVmHY-QNOMyFfpG1dgC.jpg",
+      "/projects/project-22/Lku5zh688_kFG5RU6e4qHxR6mN-R9bV4TDCjrY6oBUGLdeXH5sUcvQtTXSdD369zzT_Mz9khmyumpRi7YvXr9Y1YWCorOVni4J_mcB0boOn-b_L1VOI02mhmI6rhwfUr3WZQT6vQBUTD2qXaLeeqUnbIbjqHSo5SXX7zxw5qdTiuOvwaI-eWgYUr2_8PM.jpg",
+      "/projects/project-22/WIXSegv95HYl5VNzeCzUM8dwrVpMYZzVOyVFncUkkflvFTivn6PM9Ia70RkgWSzJHH1QZWQ0wRYMsjZoC0q713eFzqYhQ5CemYNcpppTGt99TMwnHG73tKUzBscARoz2qhOQOORKrfCJUsgPp4W3zXTlinf2dG-xilAQcsszCnJ0m81QabY_lmu2R0SP8.jpg"
+    ],
+    "mainImage": "/projects/project-22/gNV-dZbH-ID7mHzX5pjHUOkgOWudXJrcszG_qwVQJfGg3onujZV0Ew-9IU2vHJwO_ZAdKWtSLQMxTu_Sq92jgqlyF0QvsAPDLDtUP8a9LS4uzGJSRkNGrWby5ZE8mutHN_AySFgQVqVwxWOHysr-TGrjUFOlwLzPg_ofWgrxZE66pIHWAgOWzB3yOYE0Q.jpg",
+    "location": "London, England",
+    "category": "MEP"
+  },
+  {
+    "id": "project-23",
+    "title": "Royal Botanic Garden Expansion",
+    "description": "The Royal Botanic Garden Expansion is a large-scale landscape development focused on creating a sustainable and visually engaging public environment. The BIM scope included landscape architecture, site grading, hardscape design, irrigation systems, planting layouts, pedestrian pathways, water features, site lighting, and utility coordination. Using BIM workflows, the project team developed an integrated digital model to coordinate landscape, civil, and utility systems, perform clash detection, optimize site layouts, and support construction documentation. The coordinated BIM model improved design accuracy, reduced construction conflicts, and enhanced project efficiency while supporting long-term facility management and maintenance. The project was developed to LOD 350–400, with LOD 500 as-built documentation for asset management.",
+    "images": [
+      "/projects/project-23/D06574kw-bOgtzIv61Izib43um0IjMwZCgtC0AyYc6iGEOt79EBtRNQnNPoLdx9m_oWR9pGNlnuYcQklwaVsAeejzA40tlhhFkPCHtul67h3QfVxAWReHoowT6yPvq7OwphJ_7XMB-PqvJs3dwCitVaq2lgZScWrepJ_gzEV6RJvtc3a2jMvKGEUIzo9y.jpg",
+      "/projects/project-23/JKiblj5LM8knuxdMw_yUtx8tAb3FYTpPAHi1IyHD5kesTbNaNWRxGEKGZ1P6MnyhZnwI_ddUZN2MY9XFuqhGoB9CVKWqDHb9CQwDlrAegFrYvBWIjX0ZwYauqm6TFyeV33pwfVrfKk8ODqaHhtkyEitiJ6WSUe2rx_0bUbsj8EV8fc05qpk_cm722czA6.jpg",
+      "/projects/project-23/nYNn2nprHCXUBotlf1EjfDf0hJQVUuK-rvNcmYRYMwCSqOXAQYAMChcZmgd2PInANOoK4lkRpJLQiP_SBEnV9gfS3EPY9ldEFD9zxTs-7xXBdH4ybO1sKM_o6Mriaj1N-gWxEB6CVDmX8ReVBTwIdnvPUZ4fqMROZA362AprJhI0QA8ni4oZZh0yPqx9B.jpg",
+      "/projects/project-23/PpAxxp4lOTpp8AiU5wkSl3XZkKV1JCfAsi6FiWRu1Zvxn6VIQ2cO3EnZOquWnMNwXWKegM9z0twNUJFo-l1yLh7WEGCJuMepSetPLHmbk_sLYJK98XItRaDR-wuXSNoCmXwdumkdLPuVMxeBEZmta_UYcBISZFDus0JmXsPROH-PhrbH7-gvPxPTrwrcd.jpg",
+      "/projects/project-23/rlO3WQ0IPqJkdhCLl29JDdUS33-_LFftzQNrQ8tCmM-wDxndPXhCy_kb0sooOgT-vtL1g9MxDlG8TJhV1TvazMJWf3dq9IdRJmQHQJ0gLlRgVeWRG6-SjY1aEdHm733oJJs58XrsYdShjOdmWMNbQ_BTEyvDPx9r-5LKa3rTA7udmpAwumHzn7yVo6rwm.jpg",
+      "/projects/project-23/X0sOiQ2aS0p2nxYpeIT-C8rmurosSG-qAlkE5dBlzVacotmDUDtUu8jiJoCu2R_FW5p-n7IE0C17aW0LIwLe0mhCayfPWkB44ct2F_b1aGijybrl4eBrbjtGzxRcc3ZCZ91HK_QtFMKR1Rqr-LzFSz_WEKvChPkqzME30OCmdJB3amtiMHbmWtAN0MEwr.jpg",
+      "/projects/project-23/ZtL9WTRCCzJ2iCMUm4PFzSSfp4D_IT2_YpNT3ayB9FGLEVSFDY4OxeNAASUx8bkz-pqwZ7laLWcRhUayUoQspomdK1iDqune9jGeRCokEWzIJrBIKW_F86RKyKyHTtpYVQb3_Iw06KZiIuHleC-5T6aixK-C0PcNEiUXzQcF3r9Mf5D2THbJMjv7n5djV.jpg"
+    ],
+    "mainImage": "/projects/project-23/D06574kw-bOgtzIv61Izib43um0IjMwZCgtC0AyYc6iGEOt79EBtRNQnNPoLdx9m_oWR9pGNlnuYcQklwaVsAeejzA40tlhhFkPCHtul67h3QfVxAWReHoowT6yPvq7OwphJ_7XMB-PqvJs3dwCitVaq2lgZScWrepJ_gzEV6RJvtc3a2jMvKGEUIzo9y.jpg",
+    "location": "Riyadh, Saudi Arabia",
+    "category": "Landscape"
   }
 ]

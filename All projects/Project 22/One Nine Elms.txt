@@ -1,0 +1,6 @@
+Location: London, England
+
+Project Description:
+One Nine Elms is a landmark twin-tower development featuring luxury residences, a five-star hotel, office space, and retail facilities. The project utilized BIM for architectural modeling, façade coordination, structural integration, and MEP coordination. Digital workflows enabled multidisciplinary collaboration, clash detection, and efficient construction planning for this high-rise development.
+
+LOD: 350–400

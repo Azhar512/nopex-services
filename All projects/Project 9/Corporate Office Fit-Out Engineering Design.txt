@@ -1,0 +1,4 @@
+Project Name: Corporate Headquarters Office Fit-Out 
+Location: New York, NY, USA
+
+This project involved the engineering design and BIM coordination of a modern corporate office fit-out, including interior layouts, HVAC systems, electrical distribution, lighting design, plumbing systems, and architectural elements. The BIM workflow supported multidisciplinary coordination, space optimization, clash detection, and construction documentation. The integrated BIM model was developed to improve design accuracy, reduce installation conflicts, and support efficient project execution. The project was coordinated at LOD 350–400 standards for detailed design and construction support.

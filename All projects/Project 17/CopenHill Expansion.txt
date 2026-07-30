@@ -1,0 +1,6 @@
+Location: Copenhagen, Denmark
+
+Project Description:
+CopenHill is an award-winning waste-to-energy facility that combines sustainable energy production with public recreational spaces. BIM was utilized for structural steel coordination, process piping, mechanical equipment, MEP systems, and multidisciplinary clash detection to support efficient construction and long-term facility management.
+
+LOD: 350–400

@@ -1,11 +1,19 @@
-import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { ArrowRight, Tag } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import projectsData from "@/data/projects.json";
 
+const categories = ["All", "Architectural", "Structural", "MEP", "Landscape"];
+
 const Projects = () => {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const filteredProjects = selectedCategory === "All"
+    ? projectsData
+    : projectsData.filter(project => project.category === selectedCategory);
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Navbar />
@@ -31,13 +39,34 @@ const Projects = () => {
       {/* Dynamic Projects Grid */}
       <section className="py-20 bg-muted/30 flex-grow">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
+          
+          {/* Category Filter */}
+          <div className="flex flex-wrap justify-center gap-4 mb-12">
+            {categories.map((category) => (
+              <button
+                key={category}
+                onClick={() => setSelectedCategory(category)}
+                className={`px-6 py-2 rounded-full font-medium transition-colors ${
+                  selectedCategory === category
+                    ? "bg-[#1a4d4d] text-white"
+                    : "bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"
+                }`}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {projectsData.map((project, index) => (
+            <AnimatePresence mode="popLayout">
+              {filteredProjects.map((project, index) => (
               <motion.div
                 key={project.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.05 }}
+                layout
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.9 }}
+                transition={{ duration: 0.3 }}
               >
                 <Link to={`/projects/${project.id}`} className="block group">
                   <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 h-full flex flex-col border border-gray-100">
@@ -60,6 +89,12 @@ const Projects = () => {
                         <h3 className="text-xl font-bold mb-2 text-gray-900 group-hover:text-[#1a4d4d] transition-colors line-clamp-2">
                           {project.title}
                         </h3>
+                        {project.category && (
+                          <div className="inline-block px-3 py-1 mb-3 bg-[#e6f0c2] text-[#556b2f] text-xs font-semibold rounded-full flex items-center w-max">
+                            <Tag className="w-3 h-3 mr-1" />
+                            {project.category}
+                          </div>
+                        )}
                         {project.location && (
                           <p className="text-sm text-gray-500 mb-2 flex items-center">
                             <span className="inline-block w-3 h-3 bg-[#aecc53] rounded-full mr-2"></span>
@@ -75,6 +110,7 @@ const Projects = () => {
                 </Link>
               </motion.div>
             ))}
+            </AnimatePresence>
           </div>
         </div>
       </section>

@@ -1,0 +1,5 @@
+Hyperscale Data Center Campus – MEP & Structural BIM Coordination
+
+Location: Virginia, USA
+
+This project involved the development of a comprehensive BIM model for a large-scale hyperscale data center facility. The BIM scope included structural steel framing, concrete elements, foundations, HVAC cooling systems, electrical power distribution, cable tray systems, fire protection, and equipment coordination. The integrated BIM workflow supported multidisciplinary coordination, clash detection, constructability reviews, and installation planning for a mission-critical environment. The models were developed to LOD 350–400 standards to improve accuracy, minimize construction conflicts, and ensure efficient project delivery.

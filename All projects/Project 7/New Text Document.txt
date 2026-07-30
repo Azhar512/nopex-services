@@ -1,0 +1,5 @@
+Federal Government Courthouse – Structural BIM Detailing
+
+Project Type: Government Facility / Courthouse
+
+This project involved the development of a detailed Structural BIM model for a modern government courthouse facility. The BIM scope included structural steel framing, concrete elements, foundations, beams, columns, slabs, and connection detailing. The model supported design coordination, structural analysis, clash detection, and construction documentation while ensuring accurate integration with architectural and MEP systems. The structural model was developed to LOD 350–400 standards to improve constructability, reduce conflicts, and support efficient project delivery

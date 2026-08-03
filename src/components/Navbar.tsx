@@ -112,9 +112,7 @@ const Navbar = () => {
               to="/"
               className="flex items-center gap-3 group"
             >
-              <div className="text-3xl font-black tracking-tighter text-[#000000]">
-                NOPEX
-              </div>
+              <img src="/logo.png" alt="Nopex Logo" className="h-10" />
             </Link>
 
             {/* Desktop Navigation */}
@@ -324,11 +322,7 @@ const Navbar = () => {
             {/* Mobile Menu Header */}
             <div className="flex items-center justify-between p-4 border-b border-border">
               <Link to="/" className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
-                <img src="/logo.svg" alt="Nopex Logo" className="h-8 w-8" />
-                <div className="nopex-logo" style={{ fontSize: '1.2rem' }}>
-                  <span className="broken-n">N</span>
-                  <span className="logo-rest">OPEX</span>
-                </div>
+                <img src="/logo.png" alt="Nopex Logo" className="h-8" />
               </Link>
               <button
                 onClick={() => setMobileMenuOpen(false)}

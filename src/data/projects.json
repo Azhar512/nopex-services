@@ -16,7 +16,7 @@
   },
   {
     "id": "project-2",
-    "title": "Project 2",
+    "title": "Modern Luxury Single-Family Villa",
     "description": "Development of the Women and Families Hospital at Temple University Health System, featuring state-of-the-art maternal and infant care facilities. The project involved intensive BIM coordination for specialized healthcare MEP systems.",
     "images": [
       "/projects/project-2/32621018-0cbe-444a-8e9f-140bd86d050b.png",
@@ -30,7 +30,7 @@
   },
   {
     "id": "project-3",
-    "title": "Project 5",
+    "title": "K12 School",
     "description": "",
     "images": [
       "/projects/project-3/eLZ7INbJi88FEXKL4djp41OOLup_W9L6693TZzWcgVRrN0mKQmTlcJsgeIwN4T3S3wjdigR-5uTa1kkH3zcWlnzKWsg5id474WhHWDMx9hE1rlXwvZgb6bh2bagX9m42CYBYVnatXVbEIyKAI4et6sKgHCeOEju4RWqTjuA7S9IE8Oel7_pychW4Rcn0ulS0.jpg",
@@ -45,7 +45,7 @@
   },
   {
     "id": "project-4",
-    "title": "Project 6",
+    "title": "Industrial Warehouse ",
     "description": "",
     "images": [
       "/projects/project-4/9BgsHbxmwrqnKGwAhd4yI0cOKOQdgo5X3N1Ji2o9OYO8ARgxUbP_JNpq6DYRRx9u4gkoSJBWeYnBFGg4PW8M5YZqnSTJj1EgX9IB5SU65ryYc1A5lPtPsh_ue7oxIA2mmRuYlEVTNaMHlSfd8kcDVy8EMp7cimBIleEMdLEgjiQ-GJivNIEwpFi5z370kuTe.jpg",
@@ -60,7 +60,7 @@
   },
   {
     "id": "project-5",
-    "title": "Project 7",
+    "title": "Small Bank Branch",
     "description": "",
     "images": [
       "/projects/project-5/8EeUJbl4W2csCLjpvG-jMWgC9UwQutC3sTpQBWGoSyuh5TwWfcnJktLqvGT_gvYlr-EhHHnnIylVEu-UcCjZFup7WEu3hSndCDjaV4MSO67ZcXbnfYNWoNIy8QuIRNC2RKl4ocKLW-TA37wbmssvhEMlRE-gUvR4hKsSF536Necw4zIVDw_aFJEJzQ-0I8E6.jpg",
@@ -74,7 +74,7 @@
   },
   {
     "id": "project-6",
-    "title": "Project 10",
+    "title": "Children's Development Center",
     "description": "",
     "images": [
       "/projects/project-6/Floor_Plan.jpg",
@@ -96,7 +96,7 @@
   },
   {
     "id": "project-7",
-    "title": "Project 12",
+    "title": "Amazon Delivery Station Warehouse",
     "description": "",
     "images": [
       "/projects/project-7/Screenshot 2026-07-31 204352.png",
@@ -114,7 +114,7 @@
   },
   {
     "id": "project-8",
-    "title": "Project 13",
+    "title": "Multi-Level Parking",
     "description": "",
     "images": [
       "/projects/project-8/Screenshot 2026-07-31 235819.png",
@@ -128,6 +128,6 @@
     ],
     "mainImage": "/projects/project-8/Screenshot 2026-07-31 235819.png",
     "location": "Global",
-    "category": "Architectural"
+    "category": "Landscape"
   }
 ]

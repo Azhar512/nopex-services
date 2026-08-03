@@ -1,5 +1,0 @@
-Harbor Heights Multifamily Podium – Structural BIM Modeling & Coordination
-
-Location: Seattle, Washington, USA
-
-This project involved the development of a comprehensive Structural BIM model for a multi-story multifamily residential building with a concrete podium structure. The BIM workflow included structural framing, columns, beams, slabs, foundations, and coordination with architectural and MEP systems. The model was created to support design accuracy, clash detection, construction planning, and seamless coordination between project disciplines. Developed at LOD 350–400, the BIM model helped minimize construction conflicts and improve overall project efficiency.

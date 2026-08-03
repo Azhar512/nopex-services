@@ -1,5 +1,0 @@
-Metropolitan Wastewater Treatment Facility Expansion – Scan-to-BIM
-
-Location: Chicago, Illinois, USA
-
-This large-scale wastewater treatment facility expansion project involved converting laser scan data and point cloud information into an accurate BIM model of the existing facility. The scope included structural elements, mechanical equipment, process piping systems, electrical components, and utility coordination. The Scan-to-BIM workflow supported renovation planning, clash detection, facility upgrades, and long-term asset management. The BIM model was developed at LOD 300–400 standards to provide a reliable digital representation of the infrastructure facility.

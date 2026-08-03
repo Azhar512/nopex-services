@@ -1,7 +1,0 @@
-BPA Ross Complex Redevelopment – Technical Services Building (TSB)
-Location: Vancouver, Washington, USA
-
-A modern federal utility facility redevelopment project utilizing BIM coordination workflows for architectural, structural, and MEP disciplines. The project focused on multidisciplinary coordination, clash detection, system integration, and construction documentation to support efficient project delivery and improved facility performance.
-
-BIM Scope: Architectural BIM, Structural Coordination, MEP Coordination, Clash Detection, and Construction Documentation.
-LOD: 350–400 (Coordination Model) | 500 (As-Built Documentation)

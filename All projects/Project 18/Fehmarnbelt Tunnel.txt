@@ -1,7 +1,0 @@
-Location: Denmark – Germany
-
-
-Project Description:
-The Fehmarnbelt Tunnel is one of the world's longest immersed road and rail tunnels. BIM and digital engineering are used extensively for structural concrete modeling, tunnel elements, utilities, and multidisciplinary coordination throughout design and construction.
-
-LOD: 350–400

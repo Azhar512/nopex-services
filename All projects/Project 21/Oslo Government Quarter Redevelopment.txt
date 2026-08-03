@@ -1,7 +1,0 @@
-Location: Oslo, Norway
-Project Type: Government Complex
-
-Project Description:
-The redevelopment of Oslo's Government Quarter uses BIM for structural design, security integration, MEP coordination, and construction planning across multiple government buildings, supporting efficient collaboration and project delivery.
-
-LOD: 350–400

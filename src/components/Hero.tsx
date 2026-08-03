@@ -6,13 +6,18 @@ import heroImage from "@/assets/hero-bg.jpg";
 const Hero = () => {
   return (
     <section className="relative h-[80vh] min-h-[600px] max-h-[900px] flex items-center overflow-hidden mt-14">
-      {/* Background Image */}
+      {/* Background Video */}
       <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="Engineering Excellence"
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="w-full h-full object-cover"
-        />
+          poster={heroImage}
+        >
+          <source src="/video/Main_Video.mp4" type="video/mp4" />
+        </video>
         {/* Stark dark overlay for corporate feel */}
         <div className="absolute inset-0 bg-black/60" />
       </div>

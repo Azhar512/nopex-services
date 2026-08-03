@@ -1,4 +1,0 @@
-Amazon Distribution Center – Electrical BIM Design & Coordination
-Location: Dallas, Texas, USA
-
-This project involved the development of a detailed Electrical BIM model for a large-scale industrial distribution center. The scope included power distribution systems, lighting layouts, electrical equipment coordination, cable tray and conduit routing, and integration with architectural, structural, and MEP disciplines. Using BIM workflows, the project team performed clash detection, system coordination, and construction documentation to improve design accuracy, reduce installation conflicts, and support efficient project execution. The electrical model was developed to LOD 400 standards for detailed coordination and construction support.

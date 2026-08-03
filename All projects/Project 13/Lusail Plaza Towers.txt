@@ -1,6 +1,0 @@
-Lusail Plaza Towers
-Location: Lusail City, Qatar
-
-Lusail Plaza Towers is a landmark commercial development where BIM supported structural modeling, MEP coordination, façade integration, and multidisciplinary collaboration. The coordinated BIM model improved construction sequencing and minimized installation conflicts.
-
-LOD: 350–400

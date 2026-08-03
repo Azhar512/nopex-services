@@ -1,7 +1,0 @@
-HS2 Old Oak Common Station
-
-Location: London, England
-
-A major high-speed rail infrastructure project utilizing BIM for architectural, structural, civil, and MEP coordination. Digital engineering workflows supported design coordination, 4D planning, clash detection, and construction sequencing to improve project delivery and asset management.
-
-LOD: 350–400
